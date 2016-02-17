@@ -1,0 +1,162 @@
+extend main
+
+block head
+	title WebriQ - Partners
+
+block content
+	h1 Partners
+
+	section#features_main.gray-section.col-md-8
+		.container.partners.text-left
+			.row
+				.col-sm-6.wow.fadeInLeft.animated.navy
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-cube29
+					.col-xs-9.col-sm-12.details
+						h3 Unlimited WebriQpages
+						p Create, build, manage and publish an unlimited number of Pages. Take full advantage of our automation tools for new builds and content updates.
+
+				.col-sm-6.wow.fadeInLeft.animated.red
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-shopping204
+					.col-xs-9.col-sm-12.details
+						h3 Unlimited WebriQshops
+						p Create, build, manage and publish an unlimited number of Shops. Take full advantage of our cloud tools for new builds and content updates.
+			.row
+				.col-sm-6.wow.fadeInLeft.animated.teal
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-chat55
+					.col-xs-9.col-sm-12.details
+						h3 Teams
+						p Each Page and Shop can be co-managed with up to 5 team members, each team member contributing to the build based on defined user roles.
+
+				.col-sm-6.wow.fadeInLeft.animated.orange
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-window50
+					.col-xs-9.col-sm-12.details
+						h3 Custom Made Packages
+						p Create your own service packages based on customer needs and market demands.
+
+			.row
+				.col-sm-6.wow.fadeInLeft.animated.purple
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-headphones32
+					.col-xs-9.col-sm-12.details
+						h3 Support
+						p Build your own support infrastructure or use ours as a third party service provider.
+
+				.col-sm-6.wow.fadeInLeft.animated.red
+					.col-xs-3.col-sm-3.thumb
+						i.glyph-icon.flaticon-weekly15
+					.col-xs-9.col-sm-12.details
+						h3 Flexible Billing Plans
+						p Single monthly billing for all your Pages and Shops.
+
+	.form.col-md-4
+		#crmWebToEntityForm
+			meta(http-equiv='content-type', content='text/html;charset=UTF-8')
+			form(action='https://crm.zoho.com/crm/WebToLeadForm', name='WebToLeads493666000001258001', method='POST', onsubmit='javascript:document.charset="UTF-8"; return checkMandatory()', accept-charset='UTF-8')
+				// Do not remove this code.
+				input(class="form-control" type='text', style='display:none;', name='xnQsjsdp', value='6bf1e200f8e911b8a9c759bda361ffef16e08961adbc2d271505b03fa7a17503')
+				input#zc_gad(type='hidden', name='zc_gad', value='')
+				input(class="form-control" type='text', style='display:none;', name='xmIwtLD', value='db88ed8f7547f4926e808dca82347873db9f00abd2738fe61142c992136ec146')
+				input(class="form-control" type='text', style='display:none;', name='actionType', value='TGVhZHM=')
+				input(class="form-control" type='text', style='display:none;', name='returnURL', value='https://webfactories.biz')
+
+				#form
+					.form-group
+						h1 WebriQ Account Request
+					.form-group
+						label
+							| Full Name
+							span(style='color:red;') *
+						input(maxlength='80', name='Last Name', class="form-control" type='text')
+					.form-group
+						label
+							| Company Name
+
+						input(maxlength='100', name='Company', class="form-control" type='text')
+					.form-group
+						label
+							| Company Location
+
+						input(maxlength='30', name='Coun.form-groupy', class="form-control" type='text')
+					.form-group
+						label
+							| Size of the Company
+
+						input(maxlength='9', name='No of Employees', class="form-control" type='text')
+					.form-group
+						label
+							| Email Address
+
+						input(maxlength='100', name='Email', class="form-control" type='text')
+					.form-group
+						label
+							| Telephone Number
+
+						input(maxlength='30', name='Phone', class="form-control" type='text')
+					.form-group
+						label
+							| Website
+
+						input(maxlength='255', name='Website', class="form-control" type='text')
+					.form-group
+						label
+							| Why are you interested in our services
+							span(style='color:red;') *
+
+						textarea(maxlength='1000', name='Description', class='form-control')
+					.form-group
+						label
+							| What are your challenges as a web service provider
+							span(style='color:red;') *
+
+						input(maxlength='20', name='LEADCF2', class="form-control" type='text')
+					.form-group
+
+						input(type='submit', value='Submit' class='btn btn-primary')
+						input(type='reset', value='Reset' class='btn btn-primary')
+
+				script.
+					var mndFileds=new Array('Last Name','Description','LEADCF2');
+					var fldLangVal=new Array('Full Name','Why are you interested in our services','What are your challenges as a web service provider');
+					var name='';
+					var email='';
+					function checkMandatory() {
+					for(i=0;i<mndFileds.length;i++) {
+					var fieldObj=document.forms['WebToLeads493666000001258001'][mndFileds[i]];
+					if(fieldObj) {
+					if (((fieldObj.value).replace(/^\\s+|\s+$/g, '')).length==0) {
+					if(fieldObj.type =='file')
+					{
+					alert('Please select a file to upload');
+					fieldObj.focus();
+					return false;
+					}
+					alert(fldLangVal[i] +' cannot be empty');
+					fieldObj.focus();
+					return false;
+					}  else if(fieldObj.nodeName=='SELECT') {
+					if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+					alert(fldLangVal[i] +' cannot be none');
+					fieldObj.focus();
+					return false;
+					}
+					} else if(fieldObj.type =='checkbox'){
+					if(fieldObj.checked == false){
+					alert('Please accept  '+fldLangVal[i]);
+					fieldObj.focus();
+					return false;
+					}
+					}
+					try {
+					if(fieldObj.name == 'Last Name') {
+					name = fieldObj.value;
+					}
+					} catch (e) {}
+					}
+					}
+					}
+
+
