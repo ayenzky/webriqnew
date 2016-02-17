@@ -330,7 +330,7 @@ h1
 .services
   .row
     margin-bottom 50px
-  padding-top 60px
+  padding-top 25px
   h3
     font-size 18px
     font-weight 600
@@ -456,13 +456,15 @@ h1
   padding-top 35px
 
 .pricing-package
-  max-width 940px
   margin-left auto
   margin-right auto
+  .col-sm-4
+    padding-right 0px
+    padding-left 0px
 
 .pricing-plan
   padding-bottom 30px
-  margin 20px 5px 0 5px
+  margin 20px 0 0 0
   &.selected
     background #f4f4f4
   &.basic
@@ -917,12 +919,11 @@ fieldset[disabled] .btn-primary.active
     height 75px
     border-radius 50%
     margin-right 20px
-    padding 4px
-    border 1px solid #f2f2f2
   .media-body
     padding-top 10px
 
 .bubble
+  background #f6f6f6
   position relative
   height 120px
   padding 20px
@@ -934,7 +935,7 @@ fieldset[disabled] .btn-primary.active
     position absolute
     border-style solid
     border-width 15px 14px 0
-    border-color #FFFFFF transparent
+    border-color #f6f6f6 transparent
     display block
     width 0
     z-index 1
@@ -1008,6 +1009,13 @@ fieldset[disabled] .btn-primary.active
     padding-left 15px !important
 
 @media (max-width: 992px)
+  .features-block .col-sm-12 .bubble
+    background #f6f6f6
+  .features-block .col-sm-12
+    margin-bottom 55px
+    border-bottom 2px solid #eee
+  .comments-avatar
+    margin-top 0
   .featurette-heading
     margin-top 120px
   .carousel-image
@@ -1082,6 +1090,13 @@ fieldset[disabled] .btn-primary.active
     font-size 50px
 
 @media (max-width: 768px)
+  .pricing-package
+    .col-sm-4
+      padding-left 0px
+      padding-right 0px
+      .btn
+        padding-right 20px
+        padding-left 20px
   .carousel-caption,
   .carousel-caption.blank
     top 150px
@@ -1120,4 +1135,11 @@ fieldset[disabled] .btn-primary.active
   .contact .col-md-6
     padding-left 15px !important
 
-
+@media (max-width: 768px)
+    .pricing-package
+    .col-sm-4
+      padding-left 15px
+      padding-right 15px
+      .btn
+        padding-right 55px
+        padding-left 55px
