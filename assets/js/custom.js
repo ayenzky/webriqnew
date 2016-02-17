@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 $('.services p').expander({
-	slicePoint: 100,
+	slicePoint: 120,
 	expandText: 'more',
 	userCollapseText: 'less'
 })
