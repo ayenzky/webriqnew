@@ -45,14 +45,23 @@ h1
 .navy-line-2
   border-bottom 1px solid #eee
   position relative
-  top 30px
+  top 35px
   z-index -1
 
+.clients h1:after
+  content ""
+  display inline-block
+  height 4px
+  width 50px
+  bacground red
 .clients
-  margin-top 45px
+  padding 50px 0
   margin-bottom 65px
   img
     display inline-block
+    width 180px
+  img:hover
+    background #f6f6f6
 
 .comments
   h1
@@ -244,7 +253,6 @@ h1
     font-size 60px
     text-shadow none
     letter-spacing -1.5px
-    text-transform: uppercase
   h3
     font-weight 300
     line-height 34px
@@ -311,7 +319,7 @@ h1
     color inherit
 
 #features_header
-  padding: 60px 0 70px 0
+  padding: 30px 0 40px 0
   background-color #039be5
   h1
     margin 0
@@ -328,7 +336,7 @@ h1
 
 .services
   .row
-    margin-bottom 50px
+    margin-bottom 25px
   padding-top 25px
   h3
     font-size 18px
@@ -464,11 +472,12 @@ h1
 .pricing-plan
   padding-bottom 30px
   margin 20px 0 0 0
-  &.selected
+  &:hover, &.selected
     background #f4f4f4
   &.basic
     li
       color #757575
+
   li
     padding 8px 16px
     text-align center
@@ -487,6 +496,8 @@ h1
     span
       font-size 60px
       font-weight 300
+    .pricing-price:hover
+      background red
 
 li
   &.pricing-desc
@@ -528,7 +539,7 @@ li
   .about-us
     li
       margin 18px 0
-      max-width 320px
+      max-width 360px
     .fa
       font-size 24px
       margin-right 15px
@@ -645,8 +656,8 @@ fieldset[disabled] .btn-primary.active
 #contact
   .btn-primary
     &.btn-inverted
-      padding-right 75px
-      padding-left 75px
+      padding-right 55px
+      padding-left 55px
       &.newsletter
         padding-right 88px
         padding-left 88px
@@ -999,6 +1010,8 @@ fieldset[disabled] .btn-primary.active
 
 
 @media (max-width: 1024px)
+  .contact h1
+    line-height 55px
   .carousel-caption
     .centered
       width 80% !important
@@ -1142,6 +1155,9 @@ fieldset[disabled] .btn-primary.active
       .btn
         padding-right 55px
         padding-left 55px
+    .services
+      .row
+        margin-bottom 0px
 
 @media (max-width: 480px)
   #main-featured h1,
