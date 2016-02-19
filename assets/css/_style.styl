@@ -653,6 +653,15 @@ fieldset[disabled] .btn-primary.active
   border-bottom-left-radius 25px
   border-bottom-right-radius 25px
 
+.btn-inverse
+  background #fff
+  font-weight 600
+  color #03a9f4
+  padding-top 8px
+  padding-bottom 8px
+  border 2px solid #03a9f4
+
+
 #contact
   .btn-primary
     &.btn-inverted
@@ -663,6 +672,49 @@ fieldset[disabled] .btn-primary.active
         padding-left 88px
   .m-t-sm
     margin-bottom 15px
+
+.modal.formalize
+  border-radius 0px
+.modal.formalize .modal-dialog
+  max-width 480px
+.modal-header
+  background $blue
+  color #fff
+  padding 12px 35px 12px 25px
+.modal-header .close
+    margin-top 6px
+.modal-content
+  border-radius 0px
+.modal-body
+  padding 12px 35px 12px 65px
+
+
+.formalize
+  .form-control
+    border none
+    padding-left 0px
+    border-bottom 1px solid #e0e0e0
+    font-weight 600
+    margin-bottom 15px
+    box-shadow none
+    border-radius 0px
+  label
+    color #cfcfcf
+    font-weight 400
+    font-size 14px
+
+.formalize .mc-field-group:hover label,
+.formalize .mc-field-group:active label,
+.formalize .mc-field-group:focus label
+  color #2196F3
+
+.formalize .form-control:hover,
+.formalize .form-control:active,
+.formalize .form-control:focus
+  border-color #03a9f4
+  color #000
+
+
 
 .p-xxs
   padding 5px
@@ -1019,6 +1071,8 @@ fieldset[disabled] .btn-primary.active
   .contact .col-sm-7, .contact .col-md-6,
   .contact .footer-credits > div
     padding-left 15px !important
+  .gray-section
+    padding 0px 15px !important
 
 @media (max-width: 992px)
   .features-block .col-sm-12 .bubble
@@ -1081,9 +1135,14 @@ fieldset[disabled] .btn-primary.active
         padding 20px 10px
   .carousel-control
     display none
+  .contact .create-account.border-inverted
+    text-align center
+  .contact .create-account h3
+    padding-right 0
 
 
 @media (min-width: 768px)
+
   .navbar-wrapper
     margin-top 20px
     .container
@@ -1100,6 +1159,7 @@ fieldset[disabled] .btn-primary.active
       line-height 1.4
   .featurette-heading
     font-size 50px
+
 
 @media (max-width: 768px)
   .pricing-package
@@ -1146,6 +1206,7 @@ fieldset[disabled] .btn-primary.active
   .contact .col-lg-7,
   .contact .col-md-6
     padding-left 15px !important
+
 
 @media (max-width: 768px)
     .pricing-package

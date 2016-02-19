@@ -1,18 +1,18 @@
 section#contact.gray-section.contact
   .container
-    .row.m-b-lg.border-inverted
+    .row.m-b-lg.border-inverted.create-account
       .col-md-7
         .navy-line
         h1 Static is the new Dynamic!
         h3
           | Pages and Shops on a powerful automated Cloud Platform.
       .col-md-5.text-center
-        .navy-line
-        .navy-line
+        .navy-line.hidden-xs.hidden-sm
+        .navy-line.hidden-xs.hidden-sm
         .navy-line
         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='//app.webriq.com/auth/register', role='button') Create Free Account
     .row.border-inverted
-      .col-sm-6
+      .col-sm-8.col-md-6
         p.m-t-sm
           strong About us
         p.about-us-paragraph
@@ -27,7 +27,7 @@ section#contact.gray-section.contact
           li
             i.fa.fa-map-marker
             |  80 Robinsons Road #02-00 Singapore 068898
-      .col-sm-6.col-md-2
+      .col-sm-4.col-md-2
         p.m-t-sm
           strong Quicklink
         ul.list-unstyled.quicklinks
@@ -50,7 +50,7 @@ section#contact.gray-section.contact
             i.fa.fa-angle-right
             a(href='//app.webriq.com/auth/login') Login
 
-      .col-sm-6.col-md-4
+      .col-sm-12.col-md-4
         p.m-t-sm
           strong Follow us
         ul.list-inline.social-icon
@@ -71,9 +71,9 @@ section#contact.gray-section.contact
             | Join Our newsletter to
             br
             |  receive updates
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='//app.webriq.com/auth/register', role='button') Sign me up
+        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
     .row.footer-credits
       .col-md-12
         p
           | All rights reserved!  2016 WebriQ Pte Ltd &nbsp;
-          <a href='/terms'>Terms of use</a> | <a href='/cookies'>Cookies</a>
+          <a href='/terms'>Terms of Use</a> | <a href='/cookies'>Cookies</a>
