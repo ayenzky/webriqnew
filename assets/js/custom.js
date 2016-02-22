@@ -20,7 +20,7 @@ $(document).ready(function () {
     //     $('#navbar').removeClass('in');
     // });
 
-    $('body').bind('click', function(e) {
+    $('body, html, document').bind('click', function(e) {
     if($(e.target).closest('#navbar').length == 0) {
         // click happened outside of menu, hide any visible menu items
         $('#navbar').collapse('hide');
