@@ -11,6 +11,23 @@ $(document).ready(function () {
         offset: 80
     });
 
+
+    // Remove menu on click
+    $('#navbar').find('a').click(function(){
+        $('#navbar').collapse('hide');
+    });
+    // $('body:not("button")').click(function(){
+    //     $('#navbar').removeClass('in');
+    // });
+
+    $('body').bind('click', function(e) {
+    if($(e.target).closest('#navbar').length == 0) {
+        // click happened outside of menu, hide any visible menu items
+        $('#navbar').collapse('hide');
+
+        }
+    });
+
     // Page scrolling feature
     $('a.page-scroll').bind('click', function(event) {
         var link = $(this);
@@ -33,4 +50,4 @@ $(document).ready(function () {
 });
 
 // Activate WOW.js plugin for animation on scrol
-new WOW().init();
+// new WOW().init();
