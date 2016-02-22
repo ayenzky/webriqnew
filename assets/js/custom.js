@@ -20,12 +20,18 @@ $(document).ready(function () {
     //     $('#navbar').removeClass('in');
     // });
 
-    $('body, html, document').bind('click', function(e) {
-    if($(e.target).closest('#navbar').length == 0) {
-        // click happened outside of menu, hide any visible menu items
-        $('#navbar').collapse('hide');
+    // $('body, html, document').bind('click', function(e) {
+    // if($(e.target).closest('#navbar').length == 0) {
+    //     // click happened outside of menu, hide any visible menu items
+    //     $('#navbar').collapse('hide');
+    //     }
+    // });
 
-        }
+    // Modified
+    jQuery(document.body).on('click', function(ev){
+        if(jQuery(ev.target).closest('.navbar-collapse').length) return;
+
+        $('#navbar').collapse('hide');
     });
 
     // Page scrolling feature
