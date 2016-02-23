@@ -50,8 +50,33 @@ $(document).ready(function () {
 
 });
 
+// function get_ajax(){
+//     var request = new XMLHttpRequest();
+//     request.open('GET', 'js/object.json');
+//     request.setRequestHeader("Content-type", "application/json", true);
+//     request.onreadystatechange = function(){
+//         if(request.readyState === 4){
 
+//             var data = JSON.parse(request.responseText);
 
+//             console.log(data);
+
+//             var items = [];
+
+//             $.each(data, function (key, value){
+//                 items.push('<li>' + value.user + ' lives in ' + value.country + '</li>')
+//             });
+
+//             $('<ul/>', {
+//                 'class': 'content-list',
+//                 html: items.join('')
+//             }).appendTo('.blog');
+//         }
+//     }
+//     request.send(null);
+// }
+
+// get_ajax();
 // Fetching contentful API
 
 var request = new XMLHttpRequest();
@@ -60,52 +85,62 @@ var ctype = '2wKn6yEnZewu2SCCkus4as';
 var space = '3lob6yokb62o';
 var token = '7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e';
 
-request.open('GET', 'https://cdn.contentful.com/spaces/3lob6yokb62o/entries?access_token=7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e&content_type=2wKn6yEnZewu2SCCkus4as');
+request.open('GET', 'https://cdn.contentful.com/spaces/' + space + '/entries?access_token=' + token + '&content_type=' + ctype + '');
 
 request.onreadystatechange = function () {
   if (this.readyState === 4) {
-    // console.log('Status:', this.status);
-    // console.log('Headers:', this.getAllResponseHeaders());
-    // // console.log('Body:', this.responseText);
-    // console.log('Body:', this.responseText);
-    // $('body .content-list').append(this.responseText.items);
 
     var json = JSON.parse(this.responseText);
 
     console.log(json.items);
-    $(json.items).each(function(i,e){
-        console.log('Title:' + e.fields.title + 'Slug:' + e.fields.slug);
 
-
-
-        // $('.content-list li').html('<div class="title"> '+ e.fields.title +'</div><div class="body"> ' + e.fields.body + '</div>');
-    });
-  }
-};
+        var items  = [];
+        $.each(json.items, function(key, value){
+            // console.log('Title:' + e.fields.title + 'Slug:' + e.fields.slug);
+            var val  = value;
+            items.push('<li> <h3><a href="'+ val.slug +'">' + val.fields.title + ' </a></h3> <br/ > Create on: ' + val.fields.date + ' <div class="content">' + val.fields.body + '</div></li>')
+        });
+        $('<ul />', {
+            'class': 'content-list',
+            html: items.join('')
+        }).appendTo('.blog');
+    }
+}
 
 request.send();
 
-// var request = new XMLHttpRequest();
 
-// request.open('GET', 'https://cdn.contentful.com/spaces/3lob6yokb62o/content_types/2wKn6yEnZewu2SCCkus4as?access_token=7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e');
+// var obj1 = { user: "John", age: 28, country: "Philippines"}
+// var obj2 = { user: "Will", age: 22, country: "Philippines"}
+// var obj3 = { user: "Maine", age: 21, country: "Philippines"}
+// var obj4 = { u1: obj1, u2: obj2, u3: obj3 }
 
-// request.onreadystatechange = function () {
-//   if (this.readyState === 4) {
-//     console.log('Status:', this.status);
-//     console.log('Headers:', this.getAllResponseHeaders());
-//     console.log('Body:', this.responseText);
-//   }
-// };
+// $('.container').append("Name:" + obj4.u3.user +" Age: "+ obj4.u3.age + "Country:" + obj4.u3.country);
+// obj3.country = "Italy";
+// $('.container').append('<hr>');
+// $('.container').append("Name:" + obj4.u3.user +" Age: "+ obj4.u3.age + "Country:" + obj4.u3.country);
+// $('.container').append('<hr>');
+// $('.container').append(obj4.u1.user + " is from " + obj4.u1.country);
 
-// request.send();
+// var meats = ['beef', 'chicken', 'fish'];
+// var fruits = ['mango', 'orange', 'banana'];
+
+// var obj4 = { arr1: meats, arr2: fruits }
+// $('.container').append('<hr>');
+// $('.container').append(obj4.arr1[2] +" and "+ obj4.arr2[2] + " for our dinner")
 
 
- $('.services p').expander({
+
+
+
+
+$('.services p').expander({
         slicePoint: 120,
         expandText: 'more',
         userCollapseText: 'less'
-    });
+});
 // Activate WOW.js plugin for animation on scrol
 // new WOW().init();
 
-_slaask.init('16402c826e9a9641d9208244ac0ecd69');
+_slaask.init('95426c2790f8f6fed51b9caab536ed57');
+
