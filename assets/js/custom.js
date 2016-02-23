@@ -1,10 +1,5 @@
 $(document).ready(function () {
 
-    $('.services p').expander({
-    	slicePoint: 120,
-    	expandText: 'more',
-    	userCollapseText: 'less'
-    });
     // Highlight the top nav as scrolling
     $('body').scrollspy({
         target: '.navbar-fixed-top',
@@ -55,5 +50,62 @@ $(document).ready(function () {
 
 });
 
+
+
+// Fetching contentful API
+
+var request = new XMLHttpRequest();
+
+var ctype = '2wKn6yEnZewu2SCCkus4as';
+var space = '3lob6yokb62o';
+var token = '7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e';
+
+request.open('GET', 'https://cdn.contentful.com/spaces/3lob6yokb62o/entries?access_token=7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e&content_type=2wKn6yEnZewu2SCCkus4as');
+
+request.onreadystatechange = function () {
+  if (this.readyState === 4) {
+    // console.log('Status:', this.status);
+    // console.log('Headers:', this.getAllResponseHeaders());
+    // // console.log('Body:', this.responseText);
+    // console.log('Body:', this.responseText);
+    // $('body .content-list').append(this.responseText.items);
+
+    var json = JSON.parse(this.responseText);
+
+    console.log(json.items);
+    $(json.items).each(function(i,e){
+        console.log('Title:' + e.fields.title + 'Slug:' + e.fields.slug);
+
+
+
+        // $('.content-list li').html('<div class="title"> '+ e.fields.title +'</div><div class="body"> ' + e.fields.body + '</div>');
+    });
+  }
+};
+
+request.send();
+
+// var request = new XMLHttpRequest();
+
+// request.open('GET', 'https://cdn.contentful.com/spaces/3lob6yokb62o/content_types/2wKn6yEnZewu2SCCkus4as?access_token=7398d96f6bc9393b2ed62a453da46946695daaed56305f553e831694916c520e');
+
+// request.onreadystatechange = function () {
+//   if (this.readyState === 4) {
+//     console.log('Status:', this.status);
+//     console.log('Headers:', this.getAllResponseHeaders());
+//     console.log('Body:', this.responseText);
+//   }
+// };
+
+// request.send();
+
+
+ $('.services p').expander({
+        slicePoint: 120,
+        expandText: 'more',
+        userCollapseText: 'less'
+    });
 // Activate WOW.js plugin for animation on scrol
 // new WOW().init();
+
+_slaask.init('e60cb9669bcbe1f162daa967ed45e1ab');
