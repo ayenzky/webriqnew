@@ -108,4 +108,4 @@ request.send();
 // Activate WOW.js plugin for animation on scrol
 // new WOW().init();
 
-_slaask.init('e60cb9669bcbe1f162daa967ed45e1ab');
+_slaask.init('16402c826e9a9641d9208244ac0ecd69');
