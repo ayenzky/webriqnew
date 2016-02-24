@@ -7,14 +7,21 @@ $(document).ready(function () {
     });
 
     // Remove menu on click
-    $('#navbar').find('a').click(function(){
-        $('#navbar').collapse('hide');
-    });
+    // $('#navbar').find('a').click(function(){
+    //     $('#navbar').collapse('hide');
+    // });
 
     // Modified Version
-    $(document).on('click','.navbar-collapse.in',function(e) {
+    $(document).on('click', '.navbar-collapse.in', function(e) {
         if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
             $(this).collapse('hide');
+        }
+    });
+
+    $(document).bind('click', function(e) {
+    if($(e.target).closest('#navbar').length == 0) {
+            // click happened outside of menu, hide any visible menu items
+            $('#navbar').collapse('hide');
         }
     });
 
@@ -28,7 +35,6 @@ $(document).ready(function () {
     });
 
     // Herbycookies Here
-
     $(document).herbyCookie({
         policyText: "Lear more",
         text: "Cookies help us deliver our services. By using our services, you agree to our use of cookies.",
