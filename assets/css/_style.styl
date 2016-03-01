@@ -48,6 +48,25 @@ h1
   top 35px
   z-index -1
 
+.featured-header
+  padding 220px 0
+  background #424242 url('../img/main-slider-img.jpg')
+  color #fff
+
+.featured-header h1
+  font-size 60px
+  font-weight 700
+
+.featured-header h3
+  font-weight 300
+  line-height 38px
+
+.featured-header p
+  margin-top 45px
+  a
+    font-size 18px
+    padding 14px 55px
+
 .clients h1:after
   content ""
   display inline-block
@@ -335,18 +354,24 @@ h1
   margin-bottom: 30px
 
 .services
-  .row
-    margin-bottom 25px
+  .row > div
+    margin-top 35px
   padding-top 25px
+  padding-right 40px
+  padding-left 40px
   h3
     font-size 18px
     font-weight 600
+    line-height 24px
     color #424242
   .col-sm-4
     p
       padding-right 25px
     .read-more a
       color $gray
+.services.top
+  margin-top -150px
+  background-color #fff
 
 #features_main .partners
   .glyph-icon:before
@@ -589,6 +614,7 @@ li
   h1
     font-size 50px !important
     color: #fff
+
 
 .footer-newsletter
   margin-top 48px
@@ -1062,8 +1088,14 @@ fieldset[disabled] .btn-primary.active
 
 
 @media (max-width: 1024px)
+  .services
+    margin-top 0px !important
+    padding-left 15px
+    padding-right 15px
+
   .contact h1
-    line-height 55px
+    font-size 38px
+
   .carousel-caption
     .centered
       width 80% !important
@@ -1073,6 +1105,11 @@ fieldset[disabled] .btn-primary.active
     padding-left 15px !important
   .contact.gray-section
     padding 0px 15px !important
+
+  .links .col-md-4
+    text-align center
+  .links .col-md-4 .footer-newsletter
+    max-width 100% !important
 
 @media (max-width: 992px)
   .features-block .col-sm-12 .bubble
@@ -1140,6 +1177,12 @@ fieldset[disabled] .btn-primary.active
   .contact .create-account h3
     padding-right 0
 
+  .links.row > div
+    padding-top 15px
+    padding-bottom 15px
+
+  .links.row > div:first-child
+    border-bottom 1px solid #4fc3f7
 
 @media (min-width: 768px)
 
@@ -1220,7 +1263,45 @@ fieldset[disabled] .btn-primary.active
       .row
         margin-bottom 0px
 
+@media (max-width: 640px)
+  .contact .col-md-2 p
+    text-align center
+  .contact .quicklinks
+    margin 0 auto 0 20%
+    width 90%
+  .contact .quicklinks li
+    display inline-block
+    width 48%
+
+  .links.row > div
+    padding-bottom 25px !important
+    border-bottom 1px solid #4fc3f7
+
+  .links.row > div:last-child
+    border-bottom none
+
 @media (max-width: 480px)
+
+  .featured-header
+    padding 150px 0
+  .featured-header h1
+    font-size 38px
+  .featured-header p a
+    font-size 16px
+  .clients h1
+    font-size 34px
+  .pricing-plan li
+    font-size 13px
+  .partners h3,
+  .services h3
+    font-size 16px
+  #contact .btn-primary.btn-inverted.newsletter
+    padding-right 55px
+    padding-left 55px
+  .contact h3
+    font-size 18px
+  li.pricing-title.basic
+    font-size 18px
   #main-featured h1,
   .contact h1
     font-size 34px !important
@@ -1231,6 +1312,24 @@ fieldset[disabled] .btn-primary.active
   #contact .btn-primary.btn-inverted
     padding-right 25px
     padding-left 25px
+
+  .contact .quicklinks
+    margin 0 auto 0 14%
+    width 100%
+  .contact .quicklinks li
+    display inline-block
+    width 48%
+
+  .contact .about-us-paragraph
+    padding-right 15px
+
+@media (max-width: 380px)
+  .navbar-brand img
+    max-width 150px
+  .navbar-default .navbar-toggle
+    top 10px
+  .contact .quicklinks
+    margin 0 auto
 
 
 .slaask-widget .slaask-whitelabel
