@@ -49,10 +49,14 @@
         }
 
 
+
+        // Clos herbyBtn when Click
+
+        $('.herbyBtn').click(function(){
+            $('body').find('.herbyCookieConsent').addClass("herbyOut").remove();
+        })
+
         // Close functions
-        $(".herbyBtn").click(function(){
-            closeHerby();
-        });
         if(settings.scroll == true) {
             $(window).scroll(closeHerby);
         }
