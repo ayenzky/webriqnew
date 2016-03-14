@@ -50,10 +50,13 @@
 
 
         // Close functions
-        $(".herbyBtn").click(closeHerby);
+        $(".herbyBtn").click(function(){
+            closeHerby();
+        });
         if(settings.scroll == true) {
             $(window).scroll(closeHerby);
         }
+
 
         function closeHerby() {
             // Set localStorage
