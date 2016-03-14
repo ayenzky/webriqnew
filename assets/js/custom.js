@@ -34,13 +34,13 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
-    // Herbycookies Here
-    $(document).herbyCookie({
-        policyText: "Lear more",
-        text: "Cookies help us deliver our services. By using our services, you agree to our use of cookies.",
-        link: "/cookies",
-        expiryDays: 180
-    });
+    // // Herbycookies Here
+    // $(document).herbyCookie({
+    //     policyText: "Lear more",
+    //     text: "Cookies help us deliver our services. By using our services, you agree to our use of cookies.",
+    //     link: "/cookies",
+    //     expiryDays: 180
+    // });
 
 
 });
@@ -49,6 +49,15 @@ $('.services p').expander({
         slicePoint: 110,
         expandText: 'more',
         userCollapseText: 'less'
+});
+
+// Activating Cookies
+
+
+// Install Cookies
+document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
+  'Got it', 'learn more', '/cookies');
 });
 
 
