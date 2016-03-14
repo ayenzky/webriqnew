@@ -51,6 +51,11 @@ $('.services p').expander({
         userCollapseText: 'less'
 });
 
+// Clos herbyBtn when Click
+
+$('.herbyBtn').click(function(){
+    $('body').find('.herbyCookieConsent.herbyIn').remove();
+})
 
 // Activate WOW.js plugin for animation on scrol
 new WOW().init();
