@@ -52,10 +52,9 @@
 
         // Clos herbyBtn when Click
 
-        $('.herbyBtn').click(function(e){
-            e.preventDefault();
-            // closeHerby();
-            $('body').find('.herbyCookieConsent').addClass("herbyOut").remove();
+        $('.herbyBtn').click(function(){
+            closeHerby();
+            // $('body').find('.herbyCookieConsent').addClass("herbyOut").remove();
         })
 
         // Close functions
