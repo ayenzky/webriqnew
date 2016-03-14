@@ -24,7 +24,7 @@
         }, options );
 
         // Html
-        var herbyHtml = "<div class='herbyCookieConsent herbyIn'><p>"+settings.text+" "+"<a alt='"+settings.policyText+"' href='"+settings.link+"' target='_blank'>"+settings.policyText+"</a>.</p><a alt='"+settings.btnText+"' class='herbyBtn'>"+settings.btnText+"</a></div>";
+        var herbyHtml = "<div class='herbyCookieConsent herbyIn'><p>"+settings.text+" "+"<a alt='"+settings.policyText+"' href='"+settings.link+"' target='_blank'>"+settings.policyText+"</a>.</p><a href='#' alt='"+settings.btnText+"' class='herbyBtn'>"+settings.btnText+"</a></div>";
 
         // Different style set up
         if(settings.style == "light"){
@@ -52,9 +52,10 @@
 
         // Clos herbyBtn when Click
 
-        $('.herbyBtn').click(function(){
+        $('.herbyBtn').click(function(e){
+            e.preventDefault();
             closeHerby();
-            $('body').find('.herbyCookieConsent').addClass("herbyOut").remove();
+            // $('body').find('.herbyCookieConsent').addClass("herbyOut").remove();
         })
 
         // Close functions
