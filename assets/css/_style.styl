@@ -1177,6 +1177,9 @@ fieldset[disabled] .btn-primary.active
   .links.row > div:first-child
     border-bottom 1px solid #4fc3f7
 
+  .btn
+    padding: 10px 35px
+
 @media (min-width: 768px)
 
   .navbar-wrapper
@@ -1243,6 +1246,10 @@ fieldset[disabled] .btn-primary.active
   .contact .col-md-6
     padding-left 15px !important
 
+  .btn
+    font-size 14px
+    padding 10px 15px
+
 
 @media (max-width: 768px)
     .pricing-package
@@ -1272,6 +1279,10 @@ fieldset[disabled] .btn-primary.active
 
   .links.row > div:last-child
     border-bottom none
+
+  .btn
+    padding 10px 15px
+    font-size 12px
 
 @media (max-width: 480px)
 
@@ -1359,3 +1370,76 @@ fieldset[disabled] .btn-primary.active
   padding 5px 8px 6px 8px !important
   float none !important
 
+.pricing
+  .pricing-tab
+    margin-bottom 35px
+    li
+      a
+        font-size 22px
+        padding-right 35px
+        padding-left 35px
+  table
+    border none
+    th
+      border none !important
+      background #29b6f6
+      h3
+        color: #fff
+    .pro
+      background $blue
+    .limitless
+      background #1dc5a3
+    th:first-child
+      padding-left 15px !important
+
+    td:first-child
+      width 30%
+    td
+      border none
+      border-color #f3f3f3 !important
+      padding 12px 15px !important
+      color #424242
+      font-size 15px
+      width 23%
+
+      a.btn-plus-feature
+        color #45d4ff !important
+        float right
+        cursor pointer
+        padding 0px !important
+        text-align center !important
+        position relative
+        right -15px
+      .fa
+        font-size 12px
+        color #aaa
+
+      .plus-icon
+        border 1px solid #1dc5a3
+        text-align center
+        padding 2px 2px 3px 5px
+        display inline-block
+        width 25px
+        height 25px
+        line-height 16px
+        border-radius 50% !important
+        .fa
+          color #1dc5a3
+
+    .td-pro
+      background #f4f4f4 !important
+    .td-pro .fa,
+    .td-limiteless .fa
+      color #29b6f6
+
+.popover.right
+    color #009688 !important
+    border 1px solid #1dc5a3
+    padding 8px 15px !important
+    display table !important
+    box-shadow 0px 0px
+    border-radius 0px
+.popover.right>.arrow
+    border-right-color #1dc5a3
+.text-white
+  color #fff
