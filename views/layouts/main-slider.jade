@@ -1,6 +1,15 @@
-#main-featured
-  .container
-    .row
-      .col-md-12
-        .text-left
-          h1 Partner With Us
+if _path == "/pricing.html"
+	#main-featured
+		.container
+			.row
+				.col-md-12
+					.text-left
+					h1 Pricing
+
+else if _path != "/partners"
+	#main-featured
+		.container
+			.row
+				.col-md-12
+					.text-left
+					h1 Partner With Us

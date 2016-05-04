@@ -1,0 +1,18 @@
+extend main
+
+block head
+	title WebriQ - Contact Us
+
+block content
+	form(action="", netlify)
+		input(type='hidden', name='Subject', value="Contact Us")
+		label(for='firstName') First Name
+		input(type='text', class='form-control', name='firstName')
+		label(for='lastName') Last Name
+		input(type='text', class='form-control', name='lastName')
+		label(for='services') Select Services Type:
+		select(class='form-control' name='services')
+			option Pro
+			option Limitless
+		br
+		input(type='submit', class='btn btn-primary btn-rounded', value='Submit Request')

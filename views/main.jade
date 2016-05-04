@@ -36,6 +36,9 @@ html
 
       include layouts/mailchimp
 
+      if _path === "/pricing.html"
+        include layouts/modal
+
     != js()
 
     script(src="/js/jquery-2.1.1.js")
