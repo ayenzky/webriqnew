@@ -1,0 +1,26 @@
+#contactUs.modal.fade.formalize(tabindex='-1', role='dialog')
+	.modal-dialog
+		.modal-content
+			.modal-header
+				button.close(type='button', data-dismiss='modal', aria-label='Close')
+					span(aria-hidden='true') ×
+				h3.modal-title <i class="fa fa-envelope"></i> &nbsp; Contact us
+			.modal-body
+				form(action="", netlify)
+					h3 Please fill-in the form below.
+					br
+					input(type='hidden', name='Subject', value="Contact Us")
+					label(for='fullName') Complete Name
+					input(type='text', class='form-control required', name='fullName', placeholder='eg. John Doe')
+					label(for='email') Email
+					input(type='text', class='form-control required', name='email', placeholder='eg. john@doe.com')
+					label(for='contactNumber') Contact Number
+					input(type='text', class='form-control required', name='contactNumber', placeholder='eg. 123456789')
+					label(for='services') Select Services Type:
+					select(class='form-control required' name='services')
+						option Pro
+						option Limitless
+					br
+					input(type='submit', class='btn btn-primary btn-rounded', value='Submit Request')
+					br
+					br
