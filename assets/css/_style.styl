@@ -70,6 +70,8 @@ h1
   a
     font-size 18px
     padding 14px 55px
+.featured-header a.demo-btn
+    margin-left 30px
 
 .clients h1:after
   content ""
@@ -540,7 +542,7 @@ li
     padding-right 85px
     margin-bottom 35px
   h1
-    font-size 48px
+    font-size 36px
   .about-us
     li
       margin 18px 0
@@ -673,6 +675,8 @@ fieldset[disabled] .btn-primary.active
     &.btn-inverted
       padding-right 55px
       padding-left 55px
+      width 260px
+      max-width 100%
       &.newsletter
         padding-right 88px
         padding-left 88px
@@ -1402,6 +1406,17 @@ fieldset[disabled] .btn-primary.active
   .pricing .table .btn
     padding 10px 15px
     font-size 12px
+
+@media (max-width: 540px)
+  .featured-header a.demo-btn
+    margin-left:15px
+
+@media (max-width: 500px)
+  .featured-header p a
+    display:block !important
+    margin:0 15px  !important
+  .featured-header a.demo-btn
+    margin-top:15px !important
 
 @media (max-width: 480px)
 
