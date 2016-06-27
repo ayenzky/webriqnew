@@ -2,7 +2,7 @@
   "name": "-webri-q",
   "description": "WebriQ is an easiest way to create free website or webshop",
   "dependencies": {
-    "autoprefixer-stylus": "0.8.x",
+    "autoprefixer-stylus": "^0.9.3",
     "axis": "0.5.x",
     "coffee-script": "^1.0.0",
     "css-pipeline": "0.3.x",
