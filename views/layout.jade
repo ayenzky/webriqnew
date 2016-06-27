@@ -27,6 +27,7 @@ html
       ga('create', 'UA-76864776-1', 'auto');
       ga('send', 'pageview');
 
+
     != css()
 
 
@@ -64,3 +65,8 @@ html
     script(src="https://cdn.slaask.com/chat.js")
     script(src="/js/cookies.js")
     script(src="/js/custom.js")
+    script(src="/js/amplitude.js")
+    script(type='text/javascript').
+      (function() {
+        amplitude.logEvent('EVENT_IDENTIFIER_HERE');
+      })();
