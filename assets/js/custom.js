@@ -51,7 +51,19 @@ $('.services p').expander({
         userCollapseText: 'less'
 });
 
-// Activating Cookies
+// Popup
+$('[data-toggle="popover"]').popover();
+
+$('body').on('click', function(e) {
+    $('.btn-plus-feature').each(function() {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length ===
+            0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+});
 
 
 // Install Cookies
@@ -65,4 +77,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
 new WOW().init();
 
 _slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+
+// _slaask.init('95426c2790f8f6fed51b9caab536ed57');
 

@@ -50,22 +50,28 @@ h1
 
 .featured-header
   padding 220px 0
-  background #424242 url('../img/main-slider-img.jpg') top right
+  background #424242 url('../img/main-slider-img.jpg') top center
   color #fff
+  background-size cover
 
 .featured-header h1
-  font-size 60px
+  font-size 50px
   font-weight 700
+  text-transform uppercase
 
 .featured-header h3
-  font-weight 300
+  font-weight 700
   line-height 38px
+  font-size 32px
+  text-transform uppercase
 
 .featured-header p
   margin-top 45px
   a
     font-size 18px
     padding 14px 55px
+.featured-header a.demo-btn
+    margin-left 30px
 
 .clients h1:after
   content ""
@@ -389,7 +395,8 @@ h1
 #shops_main
   #shops
     color #fff
-  background #424242 url('../img/main-slider-img-v2.jpg')
+  background #424242 url('../img/main-slider-img-v2.jpg') center
+  background-size cover
   h3
     color #fff
   p
@@ -445,43 +452,22 @@ h1
     margin auto
 
 .social-icon
+  li
+    padding-right 3px !important
+    padding-left 3px !important
   a
-    background #fff
     text-align center
-    font-size 18px
-    line-height 40px
-    color #fff
-    height 44px
-    width 44px
     display block
-    border-radius 50px
-    border 2px solid transparent
-    .fa-facebook
-      color #368af2
-    .fa-twitter
-      color #40bff5
-    .fa-google-plus
-      color #eb5e4c
-    .fa-pinterest
-      color #e03037
-    .fa-file-text-o
-      color #78909C
-    .fa-rss
-      color #faa33d
-    &:hover
-      background transparent
-      border 2px solid #fff
-      .fa
-        color #fff
 
 .img-small
   height 88px
   width 88px
 
 #packages
-  background url('../img/pricing_background.jpg')
+  /*background url('../img/pricing_background.jpg')*/
   padding-bottom 58px
   padding-top 35px
+  border-top 1px solid #eaeaea
 
 .pricing-package
   margin-left auto
@@ -556,7 +542,7 @@ li
     padding-right 85px
     margin-bottom 35px
   h1
-    font-size 48px
+    font-size 36px
   .about-us
     li
       margin 18px 0
@@ -689,6 +675,8 @@ fieldset[disabled] .btn-primary.active
     &.btn-inverted
       padding-right 55px
       padding-left 55px
+      width 260px
+      max-width 100%
       &.newsletter
         padding-right 88px
         padding-left 88px
@@ -699,6 +687,8 @@ fieldset[disabled] .btn-primary.active
   border-radius 0px
 .modal.formalize .modal-dialog
   max-width 480px
+  margin-right auto
+  margin-left auto
 .modal-header
   background $blue
   color #fff
@@ -1068,6 +1058,127 @@ fieldset[disabled] .btn-primary.active
     color #a5b5bd
 
 
+#slaask-button
+  bottom 55px
+
+.slaask-widget .slaask-whitelabel
+  display none
+.slaask-button .slaask-button-image
+  border-color #039be5 !important
+
+
+.slaask-messages .odd .conversation-text
+  margin-right: 30px
+  @media (max-width: 460px)
+    margin-right: 0
+
+
+#cookieChoiceInfo
+  background #222 !important
+  padding-top 15px !important
+  padding-bottom 15px !important
+  text-align center
+  line-height 26px
+
+#cookieChoiceInfo span
+  color #fff !important
+  width auto !important
+  float none !important
+
+#cookieChoiceInfo #cookieChoiceDismiss
+  background #d32d27
+  color #fff !important
+  margin-top 5px !important
+  margin-left 15px !important
+  padding 5px 8px 6px 8px !important
+  float none !important
+
+.pricing
+  .pricing-tab
+    margin-bottom 35px
+    li
+      a
+        font-size 22px
+        padding-right 35px
+        padding-left 35px
+  table
+    border none
+    th
+      border none !important
+      background #29b6f6
+      h3
+        color: #fff
+    .pro
+      background $blue
+    th:first-child
+      padding-left 15px !important
+
+    td:first-child
+      width 30%
+    td
+      border none
+      border-color #f3f3f3 !important
+      padding 12px 15px !important
+      color #424242
+      font-size 15px
+      width 23%
+
+      a.btn-plus-feature
+        color #45d4ff !important
+        float right
+        cursor pointer
+        padding 0px !important
+        text-align center !important
+        position relative
+        right -15px
+
+      .fa.fa-times
+        color #EF9A9A
+
+      .plus-icon
+        border 1px solid #1dc5a3
+        text-align center
+        padding 2px 2px 3px 5px
+        display inline-block
+        width 25px
+        height 25px
+        line-height 16px
+        border-radius 50% !important
+        .fa
+          color #1dc5a3
+
+    .td-pro
+      background #f4f4f4 !important
+    .td-basic .fa,
+    .td-pro .fa,
+    .td-limiteless .fa
+      color #1dc5a3
+
+.popover.right
+    color #009688 !important
+    border 1px solid #1dc5a3
+    padding 8px 15px !important
+    display table !important
+    box-shadow 0px 0px
+    border-radius 0px
+.popover.right>.arrow
+    border-right-color #1dc5a3
+.text-white
+  color #fff
+
+.pricing
+  .nav-tabs,
+  .tab-content
+    background #fff
+.pricing
+  .nav-tabs
+    text-align center
+  .nav-tabs>li
+    float none !important
+    display inline-block !important
+
+
+
 @media (min-width: 1440px)
   .header-back
     &.one
@@ -1077,7 +1188,7 @@ fieldset[disabled] .btn-primary.active
       background url('../img/header_two.jpg') 50% 0 no-repeat
       background-size 100% !important
   #packages
-    background url('../img/pricing_background.jpg') no-repeat center
+    background url(.'../img/pricing_background.jpg') no-repeat center
     background-size 100%
     padding-bottom 58px
     padding-top 35px
@@ -1177,6 +1288,9 @@ fieldset[disabled] .btn-primary.active
   .links.row > div:first-child
     border-bottom 1px solid #4fc3f7
 
+  .pricing .table .btn
+    padding: 10px 35px
+
 @media (min-width: 768px)
 
   .navbar-wrapper
@@ -1198,6 +1312,8 @@ fieldset[disabled] .btn-primary.active
 
 
 @media (max-width: 768px)
+  .navbar-brand>img
+    width 140px
   .pricing-package
     .col-sm-4
       padding-left 0px
@@ -1215,10 +1331,16 @@ fieldset[disabled] .btn-primary.active
       border none
     .icon-bar
       background #fff
+  .navbar-nav
+    & > li
+      & > a
+        padding 20px 8px
   .navbar-collapse.collapse.in
     background #fff
     .navbar-nav > li a
       color #757575 !important
+      padding 20px 10px
+
     .navbar-nav > .active > a,
     .navbar-nav > .active > a:hover
       color $blue !important
@@ -1242,6 +1364,14 @@ fieldset[disabled] .btn-primary.active
   .contact .col-lg-7,
   .contact .col-md-6
     padding-left 15px !important
+
+  .pricing .table .btn
+    font-size 14px
+    padding 10px 15px
+  .pricing
+    table
+      td
+        font-size 13px !important
 
 
 @media (max-width: 768px)
@@ -1272,6 +1402,21 @@ fieldset[disabled] .btn-primary.active
 
   .links.row > div:last-child
     border-bottom none
+
+  .pricing .table .btn
+    padding 10px 15px
+    font-size 12px
+
+@media (max-width: 540px)
+  .featured-header a.demo-btn
+    margin-left:15px
+
+@media (max-width: 500px)
+  .featured-header p a
+    display:block !important
+    margin:0 15px  !important
+  .featured-header a.demo-btn
+    margin-top:15px !important
 
 @media (max-width: 480px)
 
@@ -1323,32 +1468,3 @@ fieldset[disabled] .btn-primary.active
     top 10px
   .contact .quicklinks
     margin 0 auto
-
-#slaask-button
-  bottom 55px
-
-.slaask-widget .slaask-whitelabel
-  display none
-.slaask-button .slaask-button-image
-  border-color #039be5 !important
-
-#cookieChoiceInfo
-  background #222 !important
-  padding-top 15px !important
-  padding-bottom 15px !important
-  text-align center
-  line-height 26px
-
-#cookieChoiceInfo span
-  color #fff !important
-  width auto !important
-  float none !important
-
-#cookieChoiceInfo #cookieChoiceDismiss
-  background #d32d27
-  color #fff !important
-  margin-top 5px !important
-  margin-left 15px !important
-  padding 5px 8px 6px 8px !important
-  float none !important
-
