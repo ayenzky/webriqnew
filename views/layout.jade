@@ -4,7 +4,9 @@ html
   head
     meta(charset='utf8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
-    meta(name='description', content='What WebriQ  will be for the processor industry, will WebriQ CMS be for the web content management industry!')
+    meta(name='description', content='Web Content Management System for Static WebPages and WebShops')
+    meta(name="google-site-verification", content="u5iCoezcwE8SATKNxgF7Fen2afZJWUK_Fd5_SuqyDtc")
+    meta(name='keywords', content='CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages')
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(href="img/favicon.ico", rel="icon" type="image/x-icon")
     block head
@@ -17,6 +19,15 @@ html
     <!-- link(rel="stylesheet", href="css/bootstrap.min.css") -->
     link(rel="stylesheet", href="css/animate.css")
     link(rel="stylesheet", href="css/flaticon.css")
+    script(type='text/javascript').
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-76864776-1', 'auto');
+      ga('send', 'pageview');
+
 
     != css()
 
@@ -55,11 +66,8 @@ html
     script(src="https://cdn.slaask.com/chat.js")
     script(src="/js/cookies.js")
     script(src="/js/custom.js")
+    script(src="/js/amplitude.js")
     script(type='text/javascript').
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-76864776-1', 'auto');
-      ga('send', 'pageview');
+      (function() {
+        amplitude.logEvent('EVENT_IDENTIFIER_HERE');
+      })();

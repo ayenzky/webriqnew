@@ -50,22 +50,28 @@ h1
 
 .featured-header
   padding 220px 0
-  background #424242 url('../img/main-slider-img.jpg') top right
+  background #424242 url('../img/main-slider-img.jpg') top center
   color #fff
+  background-size cover
 
 .featured-header h1
-  font-size 60px
+  font-size 50px
   font-weight 700
+  text-transform uppercase
 
 .featured-header h3
-  font-weight 300
+  font-weight 700
   line-height 38px
+  font-size 32px
+  text-transform uppercase
 
 .featured-header p
   margin-top 45px
   a
     font-size 18px
     padding 14px 55px
+.featured-header a.demo-btn
+    margin-left 30px
 
 .clients h1:after
   content ""
@@ -389,7 +395,8 @@ h1
 #shops_main
   #shops
     color #fff
-  background #424242 url('../img/main-slider-img-v2.jpg')
+  background #424242 url('../img/main-slider-img-v2.jpg') center
+  background-size cover
   h3
     color #fff
   p
@@ -535,7 +542,7 @@ li
     padding-right 85px
     margin-bottom 35px
   h1
-    font-size 48px
+    font-size 36px
   .about-us
     li
       margin 18px 0
@@ -668,6 +675,8 @@ fieldset[disabled] .btn-primary.active
     &.btn-inverted
       padding-right 55px
       padding-left 55px
+      width 260px
+      max-width 100%
       &.newsletter
         padding-right 88px
         padding-left 88px
@@ -1179,7 +1188,7 @@ fieldset[disabled] .btn-primary.active
       background url('../img/header_two.jpg') 50% 0 no-repeat
       background-size 100% !important
   #packages
-    background url('../img/pricing_background.jpg') no-repeat center
+    background url(.'../img/pricing_background.jpg') no-repeat center
     background-size 100%
     padding-bottom 58px
     padding-top 35px
@@ -1397,6 +1406,17 @@ fieldset[disabled] .btn-primary.active
   .pricing .table .btn
     padding 10px 15px
     font-size 12px
+
+@media (max-width: 540px)
+  .featured-header a.demo-btn
+    margin-left:15px
+
+@media (max-width: 500px)
+  .featured-header p a
+    display:block !important
+    margin:0 15px  !important
+  .featured-header a.demo-btn
+    margin-top:15px !important
 
 @media (max-width: 480px)
 
