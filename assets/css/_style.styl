@@ -392,6 +392,58 @@ h1
     font-weight 600
     color #424242
 
+.why-webriq
+  padding-bottom:2em
+  background-color:#f5f5f5
+
+  .row.header div
+    background-color:#03a9f4;
+    color:#fff;
+
+    h3
+      margin-top:15px
+      margin-bottom:15px
+      font-weight:700
+
+  .contents .row
+    margin-bottom:1em
+    .fa.fa-code
+      color:#cdb1ff
+    .fa.fa-connectdevelop
+      color:#00bfa5
+    .fa.fa-git
+      color:#ff8a80
+    .fa.fa-lock
+      color:#757575
+
+
+.certified .row.colored-icon
+
+  > div
+    margin-top:2em
+  .details
+    padding-left:5em
+
+  .title
+    sup
+      top:0px
+      display: inline-block
+      width: 45px
+      height: 45px
+      font-size: 24px
+      font-weight: 600
+      text-align: center
+      line-height: 45px
+      border-radius: 45px
+      background-color: #f5f5f5
+      margin-top: -5px
+      margin-right:10px
+      float: left
+      color: #000
+    h3
+      a
+        color:#555
+
 #shops_main
   #shops
     color #fff
@@ -561,6 +613,11 @@ li
       .fa
         color #b7e2f7
         margin-right 8px
+      ul
+        list-style:none
+        padding-left:15px
+        li
+          margin-top:10px
   h3
     font-size 24px
     font-weight 300
@@ -596,6 +653,10 @@ li
   h1
     font-size 50px !important
     color: #fff
+
+#main-featured.get-certified
+  background: url("../img/get-background.jpg") center right
+
 
 
 .footer-newsletter
@@ -1199,6 +1260,7 @@ fieldset[disabled] .btn-primary.active
 
   .contact h1
     font-size 38px
+    line-height:1.1
 
   .carousel-caption
     .centered
@@ -1214,6 +1276,14 @@ fieldset[disabled] .btn-primary.active
     text-align center
   .links .col-md-4 .footer-newsletter
     max-width 100% !important
+
+@media (max-width: 991px)
+  .why-webriq .header > div
+    float:left
+    width:100%
+
+  #features_main.get-certified
+    clear:both
 
 @media (max-width: 992px)
   .features-block .col-sm-12 .bubble

@@ -5,11 +5,13 @@ html
     meta(charset='utf8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
     meta(name='description', content='Web Content Management System for Static WebPages and WebShops')
+    meta(name="google-site-verification", content="u5iCoezcwE8SATKNxgF7Fen2afZJWUK_Fd5_SuqyDtc")
+    meta(name='p:domain_verify', content='0c0a2cf119ba8803a6ad350b6892ae7a')
     meta(name='keywords', content='CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages')
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(href="img/favicon.ico", rel="icon" type="image/x-icon")
     block head
-        title My Site
+        title WebriQ | Content Management System for Static Pages
 
 
     <!-- Latest compiled and minified CSS -->
@@ -26,6 +28,7 @@ html
 
       ga('create', 'UA-76864776-1', 'auto');
       ga('send', 'pageview');
+
 
     != css()
 
@@ -64,3 +67,8 @@ html
     script(src="https://cdn.slaask.com/chat.js")
     script(src="/js/cookies.js")
     script(src="/js/custom.js")
+    script(src="/js/amplitude.js")
+    script(type='text/javascript').
+      (function() {
+        amplitude.logEvent('EVENT_IDENTIFIER_HERE');
+      })();
