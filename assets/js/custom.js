@@ -66,6 +66,9 @@ $('body').on('click', function(e) {
 });
 
 
+_slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+
+
 // Install Cookies
 document.addEventListener('DOMContentLoaded', function(event) {
     cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
@@ -76,7 +79,22 @@ document.addEventListener('DOMContentLoaded', function(event) {
 // Activate WOW.js plugin for animation on scrol
 new WOW().init();
 
-_slaask.init('a2185cf7997e55eb9484fc90fe78066a');
 
 // _slaask.init('95426c2790f8f6fed51b9caab536ed57');
 
+function masonry(element){
+    var container = $(element).isotope({
+      itemSelector: ".entries",
+      layoutMode: 'masonry'
+    });
+    container.imagesLoaded().progress(function(){
+        container.isotope('layout');
+    });
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= $(document).height() - $(window).height() - 300) {
+          container.imagesLoaded().progress(function(){
+          container.isotope('layout');
+          });
+        }
+    });
+}
