@@ -92,6 +92,4 @@ section#contact.gray-section.contact
         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
     .row.footer-credits
       .col-md-12
-        p
-          | All rights reserved!  2016 WebriQ Pte Ltd &nbsp;
-          <a href='/terms'>Terms of Use</a> | <a href='/cookies'>Cookies</a>
+        p!= records.site.sitedata[0].footer
