@@ -4,7 +4,7 @@ author: me
 banner: /img/uploads/citadel.jpg
 shortdesc: Test
 cmsUserSlug: ""
-date: 2016-09-02T00:00:00+08:00
+date: 2016-09-01T16:00:00.000Z
 categories: ""
 ---
 
