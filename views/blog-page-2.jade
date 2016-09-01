@@ -2,7 +2,7 @@ extends blog-layout
 
 block content
   div.blog-post.col-md-8
-    each post in posts.orderBy('date', 'desc').slice(0, 10)
+    each post in posts.orderBy('date', 'desc').slice(10, 20)
       div.entries.col-md-12
         .entry
           .entry-header
@@ -17,14 +17,15 @@ block content
               a.btn.btn-primary.btn-rounded.btn-xs(href= post.permalink) Continue Reading
     nav
       ul.pager
-        li.previous.disabled
-          a(href='#')
+        li.previous
+          a(href='/blog')
             span(aria-hidden='true') ←
             |  Newer
-        li.next
-          a(href='/blog-page-2')
+        li.next.disabled
+          a(href='#')
             | Older
             span(aria-hidden='true') →
+
   div.col-md-4.sidebar-right
     div.entries.col-md-12
       div.entry-header
