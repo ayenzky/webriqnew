@@ -7,7 +7,6 @@ records      = require 'roots-records'
 collections  = require 'roots-collections'
 excerpt      = require 'html-excerpt'
 moment       = require 'moment'
-path         = require 'path'
 roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
 
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
@@ -31,8 +30,8 @@ module.exports =
     css_pipeline(files: 'assets/css/*.styl'),
     roots_webriq_sitemap (
       url: "https://www.webriq.com",
-      folder: path.join(__dirname),
-      directory: ["!admin", "!node_modules", "!layouts"],
+      folder: "public",
+      directory: ["!admin", "!layouts"],
       file: "**/*.html"
     )
   ]
