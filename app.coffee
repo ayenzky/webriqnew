@@ -8,6 +8,7 @@ collections  = require 'roots-collections'
 excerpt      = require 'html-excerpt'
 moment       = require 'moment'
 roots_webriq_sitemap = require 'webriq-roots-sitemap-v2'
+roots_rss_generator = require 'webriq-roots-rss-generator'
 
 monthNames = [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
 
@@ -34,6 +35,16 @@ module.exports =
       directory: ["!admin", "!layouts"],
       file: "**/*.html"
     )
+    roots_rss_generator(
+      folder: "posts"
+      output: "feed.xml"
+      maxcount: 15
+      settings:
+        title: "WebriQ | CMS for Static Pages and Shops"
+        feed_url: "https://www.webriq.com/feed.xml"
+        description: "CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages"
+        site_url: "https://www.webriq.com"
+      )
   ]
 
   stylus:
