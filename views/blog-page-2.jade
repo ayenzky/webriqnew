@@ -1,0 +1,44 @@
+extends blog-layout
+
+block content
+  div.blog-post.col-md-8
+    each post in posts.orderBy('date', 'desc').slice(10, 20)
+      div.entries.col-md-12
+        .entry
+          .entry-header
+            a.imagefeatured(href=post.permalink)
+              img.img-responsive(src= post.banner)
+          .entry-body
+
+            h1= post.title
+            p.date!= "<i class='fa fa-bookmark-o'></i> <i>By</i> <b>" + post.author + "</b> | <i class='fa fa-clock-o'></i> <i> Created on </i> <b> " + dateFormat(post.date, 'LL') + "</b>"
+            p!= post.shortdesc
+            footer
+              a.btn.btn-primary.btn-rounded.btn-xs(href= post.permalink) Continue Reading
+    nav
+      ul.pager
+        li.previous
+          a(href='/blog')
+            span(aria-hidden='true') ←
+            |  Newer
+        li.next.disabled
+          a(href='#')
+            | Older
+            span(aria-hidden='true') →
+
+  div.col-md-4.sidebar-right
+    div.entries.col-md-12
+      div.entry-header
+        h3.glyph
+          div.glyph-icon.flaticon-menu41
+          | More Posts
+      div.entry-body
+        each postList in posts.orderBy('date', 'desc').slice(0, 8)
+          div.entry
+            .clearfix
+              .col-md-5
+                a.imagefeatured(href=postList.permalink)
+                  img.img-responsive(src=postList.banner)
+              .col-md-7
+                a(href=postList.permalink)
+                 h4= postList.title

@@ -4,6 +4,9 @@ body
   color #212121
   font-family: $opensans !important
 
+body.page-blog
+  background-color: darken(white, 4%)
+
 span
   &.navy
     color #039be5
@@ -392,6 +395,58 @@ h1
     font-weight 600
     color #424242
 
+.why-webriq
+  padding-bottom:2em
+  background-color:#f5f5f5
+
+  .row.header div
+    background-color:#03a9f4;
+    color:#fff;
+
+    h3
+      margin-top:15px
+      margin-bottom:15px
+      font-weight:700
+
+  .contents .row
+    margin-bottom:1em
+    .fa.fa-code
+      color:#cdb1ff
+    .fa.fa-connectdevelop
+      color:#00bfa5
+    .fa.fa-git
+      color:#ff8a80
+    .fa.fa-lock
+      color:#757575
+
+
+.certified .row.colored-icon
+
+  > div
+    margin-top:2em
+  .details
+    padding-left:5em
+
+  .title
+    sup
+      top:0px
+      display: inline-block
+      width: 45px
+      height: 45px
+      font-size: 24px
+      font-weight: 600
+      text-align: center
+      line-height: 45px
+      border-radius: 45px
+      background-color: #f5f5f5
+      margin-top: -5px
+      margin-right:10px
+      float: left
+      color: #000
+    h3
+      a
+        color:#555
+
 #shops_main
   #shops
     color #fff
@@ -561,6 +616,11 @@ li
       .fa
         color #b7e2f7
         margin-right 8px
+      ul
+        list-style:none
+        padding-left:15px
+        li
+          margin-top:10px
   h3
     font-size 24px
     font-weight 300
@@ -590,12 +650,21 @@ li
 #crmWebToEntityForm
   padding 15px
 
+
+.page-blog #main-featured
+  background: url("../img/general-bg.jpg") center right
+  padding-top: 120px
+
 #main-featured
   background url('../img/help-background.jpg') center right
   padding-top 120px
   h1
     font-size 50px !important
     color: #fff
+
+#main-featured.get-certified
+  background: url("../img/get-background.jpg") center right
+
 
 
 .footer-newsletter
@@ -631,6 +700,10 @@ li
 .open .dropdown-toggle.btn-primary
   background-color #ff5252
   border-color #ff5252
+
+.create-btn
+  background-color #ff5252 !important
+  border-color #ff5252 !important
 
 .btn-primary:active,
 .btn-primary.active,
@@ -1199,6 +1272,7 @@ fieldset[disabled] .btn-primary.active
 
   .contact h1
     font-size 38px
+    line-height:1.1
 
   .carousel-caption
     .centered
@@ -1214,6 +1288,14 @@ fieldset[disabled] .btn-primary.active
     text-align center
   .links .col-md-4 .footer-newsletter
     max-width 100% !important
+
+@media (max-width: 991px)
+  .why-webriq .header > div
+    float:left
+    width:100%
+
+  #features_main.get-certified
+    clear:both
 
 @media (max-width: 992px)
   .features-block .col-sm-12 .bubble
@@ -1452,11 +1534,11 @@ fieldset[disabled] .btn-primary.active
     padding-left 25px
 
   .contact .quicklinks
-    margin 0 auto 0 14%
+    margin 0 auto
     width 100%
   .contact .quicklinks li
-    display inline-block
-    width 48%
+    display block
+    width 100%
 
   .contact .about-us-paragraph
     padding-right 15px
@@ -1468,3 +1550,153 @@ fieldset[disabled] .btn-primary.active
     top 10px
   .contact .quicklinks
     margin 0 auto
+
+.slaask-widget
+  z-index: 9999999999 !important
+
+#slaask-button
+  bottom 55px
+
+.slaask-widget .slaask-whitelabel
+  display none
+.slaask-button .slaask-button-image
+  border-color #039be5 !important
+
+.slaask-messages .odd .conversation-text
+  margin-right: 30px
+  @media (max-width: 460px)
+    margin-right: 0
+
+#cookieChoiceInfo
+  background #222 !important
+  padding-top 15px !important
+  padding-bottom 15px !important
+  text-align center
+  line-height 26px
+
+#cookieChoiceInfo span
+  color #fff !important
+  width auto !important
+  float none !important
+
+#cookieChoiceInfo #cookieChoiceDismiss
+  background #d32d27
+  color #fff !important
+  margin-top 5px !important
+  margin-left 15px !important
+  padding 5px 8px 6px 8px !important
+  float none !important
+
+
+.entries
+  margin-bottom 25px
+  padding-right 0px
+  padding-left 0px
+  @media screen and (max-width: 768px)
+    padding-right 0px
+
+.entries
+  .entry
+    h3
+      color #333
+      font-weight 700
+    .entry-header
+      img
+        min-width 100%
+    .entry-body
+      background #fff
+      line-height 28px
+      padding 1em 2.75em 1em 2.75em
+      -webkit-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+      -moz-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+      box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+      p.date
+        margin 0.5em 0 0 0
+        padding-bottom 0.5em
+        color #cfcfcf
+        b
+          color #757575
+          font-style normal
+          font-weight 400
+    footer
+      margin-top 3em
+      margin-bottom 2em
+      @media screen and (max-width: 380px)
+        .btn
+          padding-right 25px
+          padding-left 25px
+          display block
+.box.post
+    background #fff
+    line-height 28px
+    padding 2.75em 3.5em 2.75em 3.5em
+    -webkit-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+    -moz-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+    box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+  img
+    max-width:100%
+    height:auto
+    clear:both
+  p img
+    max-width 100%
+    border 1px solid #ddd !important
+    padding 3px
+  .title
+    font-size 3em
+    font-weight 600
+  .info
+    color #cfcfcf
+    b
+      color #757575
+      font-weight 400
+  .image
+    min-height 400px
+    background-position center
+    background-repeat no-repeat
+    background-size 100%
+  .image.featured
+    // margin -2.75em -2em 2.75em -2em
+    margin 1.5em 0em 2.75em 0em
+    min-width 100%
+    max-width 100%
+    border 1px solid #ddd !important
+    padding 5px
+    min-height auto !important
+
+.sidebar-right
+  .entries
+    background #fff
+    -webkit-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+    -moz-box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+    box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
+  .entry-header
+    background #03a9f4
+    padding 12px 35px 12px 25px
+    h3
+      color #fff !important
+      font-weight 600
+      margin-top 5px
+      margin-bottom 10px
+      .glyph-icon
+        margin-right 15px
+        margin-left 5px
+        float left
+        color #fff
+      .glyph-icon:before
+        font-size 24px !important
+  .entry-body
+    padding 25px 15px
+    h4
+      font-weight 300
+      line-height 24px
+      margin-top 0px
+      @media screen and (max-width: 768px)
+        font-size 24px
+        line-height 28px
+        margin 15px auto
+        margin-bottom 35px
+
+    .entry
+      margin-bottom 25px
+      a
+        color $font-color

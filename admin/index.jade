@@ -1,0 +1,64 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Content Manager
+
+    link(rel="stylesheet", href="https://cms.webriq.com/assets/cms.css")
+    link(rel="stylesheet", href="/css/style.css")
+
+    script!= "CMS_ENV = \"" + (process.env.CMS_ENV || "development") + "\";"
+
+    base(href="/admin/")
+  body
+    script(type="text/x-handlebars" data-template-name='cms/preview/posts').
+      <div id="main-wrapper">
+        <div class="container">
+          <!--Content-->
+          <article class="box post">
+            {{#if entry.banner }}
+            {{cms-preview field='banner'}}
+            {{/if}}
+            <header>
+              <h2>{{ entry.title }}</h2>
+              <p>{{ entry.shortdesc}}</p>
+            </header>
+            {{cms-preview field='body'}}
+          </article>
+        </div>
+      </div>
+
+    script(type="text/x-handlebars" data-template-name='cms/preview/sitedata').
+      <div id="main-wrapper">
+        <div class="main-container">
+            <h1>Website Information</h1>
+            <hr>
+          {{#cms-preview field="sitedata" as |sitedatas| }}
+            <h4>Favicon</h4>
+            <p>{{{cms-preview field="icon" from=sitedatas}}}</p>
+            <h4>Logo</h4>
+            <p>{{{cms-preview field="logo" from=sitedatas}}}</p>
+            <h4>Website Name</h4>
+            <p>{{sitedatas.sitename}}</p>
+            <h4>Meta Description</h4>
+            <p>{{sitedatas.sitename}}</p>
+            <h4>Meta Keywords</h4>
+            <p>{{sitedatas.metakeyword}}</p>
+            <h4>Copyright Text</h4>
+            <p>{{{cms-preview field="footer" from=sitedatas}}}</p>
+
+          {{/cms-preview}}
+        </div>
+      </div>
+
+    script(src="//cms.webriq.com/assets/vendor.js")
+    script(src="//cms.webriq.com/assets/cms.js")
+
+    //- script(src='https://app.netlify.com/authentication.js')
+    //- script.
+    //-   netlify.authenticate({provider:"github"}, function(err, data) {
+    //-   if (err) { return console.log("Error authenticating: %s", err.message); }
+    //-   console.log("Authenticated with Github: %o", data);
+    //-   })
+

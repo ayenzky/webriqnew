@@ -9,10 +9,10 @@ section#contact.gray-section.contact
       .col-md-5.text-center
         .navy-line.hidden-xs.hidden-sm
         <br>
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='http://app.webriq.com/auth/register', role='button') Create Free Account
+        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn(href='http://app.webriq.com/auth/register', role='button') Create Free Account
         <br>
         <br>
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='http://app.webriq.com/auth/register', role='button') Demo
+        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='http://app.webriq.com/help/page/demo/howto', role='button') Demo
     .row.border-inverted.links
       .col-sm-12.col-md-6
         p.m-t-sm
@@ -50,10 +50,20 @@ section#contact.gray-section.contact
             a(href='/partners' class='page-scroll') Partners
           li
             i.fa.fa-angle-right
-            a(href='//www.blog.webriq.com/' class='page-scroll') Blog
+            a(href='/blog' class='page-scroll') Blog
           li
             i.fa.fa-angle-right
             a(href='http://app.webriq.com/help/page/demo/howto' class='page-scroll') Demo
+          li
+            i.fa.fa-angle-right
+            a(href='http://app.webriq.com/help/page' class='page-scroll') Developers
+            ul
+              li
+                i.fa.fa-angle-right
+                a(href='/get-certified' class='page-scroll') Get Certified
+              li
+                i.fa.fa-angle-right
+                a(href='http://boilerplate.webriq.com/' class='page-scroll') Boilerplate
           li
             i.fa.fa-angle-right
             a(href='http://app.webriq.com/auth/login' class='page-scroll') Login
@@ -82,6 +92,4 @@ section#contact.gray-section.contact
         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
     .row.footer-credits
       .col-md-12
-        p
-          | All rights reserved!  2016 WebriQ Pte Ltd &nbsp;
-          <a href='/terms'>Terms of Use</a> | <a href='/cookies'>Cookies</a>
+        p!= records.site.sitedata[0].footer
