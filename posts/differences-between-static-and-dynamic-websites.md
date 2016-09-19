@@ -8,7 +8,7 @@ date: 2016-09-18T16:00:00.000Z
 categories: ""
 ---
 
-##  **What is a Static Site Generator?**
+##  **What is a Static Site Website?**
 
 A Static Site Generator is a compromise between using a hand-coded static site and a full CMS, while retaining the benefits of both. In essence, you generate a static HTML-only website using CMS-likeconcepts such as templates. The content can be extracted from a database but, more typically, Markdown files are used. These files are also the basis of the CMS system, enabling you to update any content on the fly.
 
