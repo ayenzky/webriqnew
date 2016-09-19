@@ -10,7 +10,7 @@ categories: ""
 
 ##  **What is a Static Site Generator?**
 
-A Static Site Generator (SSG) is a compromise between using a hand-coded static site and a full CMS, while retaining the benefits of both. In essence, you generate a static HTML-only website using CMS-likeconcepts such as templates. The content can be extracted from a database but, more typically, Markdown files are used. These files are also the basis of the CMS system, enabling you to update any content on the fly.
+A Static Site Generator is a compromise between using a hand-coded static site and a full CMS, while retaining the benefits of both. In essence, you generate a static HTML-only website using CMS-likeconcepts such as templates. The content can be extracted from a database but, more typically, Markdown files are used. These files are also the basis of the CMS system, enabling you to update any content on the fly.
 
 The site generation can occur on your development machine or staging server. The resulting HTML files are then deployed to a live webserver. Users will never know the difference.
 
