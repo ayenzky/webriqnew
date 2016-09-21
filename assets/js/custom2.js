@@ -42,8 +42,21 @@ $(document).ready(function () {
     //     expiryDays: 180
     // });
 
+    setTimeout(function(){
+      window.location.href = "//app.webriq.com/sites/create";
+    }, setRandomInterval() )
 
 });
+
+
+function setRandomInterval(){
+    var counter;
+    var total;
+    counter = Math.floor((Math.random()*(10-5+1)+ 5) );    
+    total = counter + "000";
+    return total;
+}
+
 
 $('.services p').expander({
         slicePoint: 110,
