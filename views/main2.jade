@@ -1,0 +1,67 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='A content management system for static pages and shops. Super fast, reliable, cost-effective and secure web content management system.')
+    meta(name="google-site-verification", content="u5iCoezcwE8SATKNxgF7Fen2afZJWUK_Fd5_SuqyDtc")
+    meta(name='p:domain_verify', content='0c0a2cf119ba8803a6ad350b6892ae7a')
+    meta(name='keywords', content='CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages')
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="img/favicon.ico", rel="icon" type="image/x-icon")
+    block head
+        title WebriQ | CMS for Static Pages and Shops
+
+
+    <!-- Latest compiled and minified CSS -->
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css", ntegrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7", crossorigin="anonymous")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+    <!-- link(rel="stylesheet", href="css/bootstrap.min.css") -->
+    link(rel="stylesheet", href="css/animate.css")
+    link(rel="stylesheet", href="css/flaticon.css")
+    script(type='text/javascript').
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-76864776-1', 'auto');
+      ga('send', 'pageview');
+
+    != css()
+
+
+  body#page-top
+
+      include layouts/main-header
+
+      include layouts/main-slider
+
+      if _path =="/cms-static-websites.html"        
+        #main2
+          block content
+      else
+        .container#main
+          .row
+            .col-md-12
+              block content
+
+      include layouts/main-footer
+
+      include layouts/mailchimp
+
+      if _path === "/pricing.html"
+        include layouts/modal
+
+    != js()
+
+    script(src="/js/jquery-2.1.1.js")
+    script(src="/js/pace.min.js")
+    script(src="/js/bootstrap.min.js")
+    script(src="/js/classie.js")
+    script(src="/js/cbpAnimatedHeader.js")
+    script(src="/js/wow.min.js")
+    script(src="/js/jquery.expander.min.js")
+    script(src="https://cdn.slaask.com/chat.js")
+    script(src="/js/custom2.js")
