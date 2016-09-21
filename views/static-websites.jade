@@ -1,0 +1,58 @@
+extend main2
+
+block head
+	title WebriQ - Static Websites
+
+block content 
+
+	.container
+		section#features_main.col-md-12.free-cms-sec
+			.row
+				.col-sm-12.header-ttle
+					h2 WebriQpages
+					h3 CMS System for Static Websites
+
+				.col-sm-12.webriq-pages-sec1
+					.col-md-4.col-sm-12.img-left
+						img.desc-desk(src='img/webriqpage-img1.jpg', style='display:none;')
+						img.desc-moble(src='img/webfact-mobile2.png')
+
+					.col-md-8.col-sm-12.det-right.services 
+						.row.det-right1
+							.col-md-6.col-sm-6.col-xs-6
+								.col-md-12
+									i.fa.fa-rocket(aria-hidden='true')
+									h1 Superfast through CDN
+									p Websites are served through a Content Delivery Network instead of a single server. That means much lower latency, much faster downloads and a 100% uptime. If one of our servers goes down, another server takes over instantaneously.
+							.col-md-6.col-sm-6.col-xs-6
+								.col-md-12
+									i.fa.fa-database(aria-hidden='true')
+									h1 No database, no servers
+									p Your websites have no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past.
+
+						.row.det-right2
+							.col-md-6.col-sm-6.col-xs-6
+								.col-md-12
+									i.fa.fa-lock(aria-hidden='true')
+									h1 SSL security							
+									p SSL is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
+							.col-md-6.col-sm-6.col-xs-6
+								.col-md-12
+									i.fa.fa-github(aria-hidden='true')
+									h1 Git workflow
+									p Whether it is the code or the content of your website, you are always in full control on all elements of your website. At any time updates on code and content can be made, as well as rolling back to previously published versions.
+
+
+	section#site-wizard-sect.site-wiz-sec
+		.container
+			.col-sm-12.header-ttle2
+				h2 
+					span WebriQ 
+					| site creation wizard
+				h3 Start creating your first static website now!
+				.btn-sitewizard
+					a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn(href='https://app.webriq.com/auth/register', role='button') Create Free Account
+				.img-wizard
+					img.desc-moble(src='img/site-creation-animate2.gif')
+				
+
