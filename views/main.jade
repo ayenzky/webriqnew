@@ -38,10 +38,14 @@ html
 
       include layouts/main-slider
 
-      .container#main
-        .row
-          .col-md-12
-            block content
+      if _path =="/cms-static-websites.html"        
+        #main2
+          block content
+      else
+        .container#main
+          .row
+            .col-md-12
+              block content
 
       include layouts/main-footer
 

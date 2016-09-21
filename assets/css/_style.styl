@@ -665,6 +665,129 @@ li
 #main-featured.get-certified
   background: url("../img/get-background.jpg") center right
 
+#main-featured.cms-static-website-sec
+  background: url("../img/cms-header-bg.jpg") center
+
+#main-featured.cms-static-website-sec
+  padding:150px 0px 180px !important;
+  position:relative;
+
+#main-featured.cms-static-website-sec .det-cms-header h1
+  margin:0px !important;
+
+#main-featured.cms-static-website-sec .det-cms-header h3
+  padding:0px 0px 20px !important;
+  color:#fff;
+  font-weight:100;
+
+#main-featured.cms-static-website-sec .det-cms-header a
+  padding:15px 50px !important;
+
+.mouse-icon
+  border: 2px solid #fff;
+  border-radius: 16px;
+  display: block;
+  height: 50px;
+  margin: 90px auto 50px;
+  position: absolute;
+  width: 30px;
+  z-index: 10;
+  left:0;
+  right:0;
+  opacity:.2;
+
+.mouse-icon:hover 
+  opacity:.6;
+  transition:.5s;
+
+.mouse-icon .scroll p
+  font-size:0;
+
+.mouse-icon .scroll 
+  background: #fff none repeat scroll 0 0;
+  border-radius: 10px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 4px;
+  width: 4px;
+
+.free-cms-sec
+  .header-ttle
+    text-align center
+    padding 60px 0px 10px
+    h2
+      font-size 40px
+      color #4c484d
+    h3
+      font-size 22px
+      font-weight 100
+      &:after
+        content ''
+        display block
+        border-bottom solid 1px #24bbed
+        width 50px
+        margin 50px auto 60px
+  .webriq-pages-sec1
+    padding 15px 0px 50px
+    .fa
+      padding 22px 27px
+      font-size 55px
+      border solid 1px #45d4ff
+      border-radius 50%
+      color #45d4ff
+    .det-right
+      h1
+        font-size 24px
+        padding-top 10px
+        font-weight 400
+        color #515151
+      .det-right2
+        padding 30px 0px
+        .fa-lock
+          padding 24px 35px
+          font-size 55px
+          border solid 1px #45d4ff
+          border-radius 50%
+          color #45d4ff
+      p
+        font-size 16px
+        font-weight 100
+        color #7b7b7b
+        line-height 1.4em
+      a
+        font-size 16px
+        font-weight 100
+        color #45d4ff
+        line-height 1.4em
+
+#site-wizard-sect
+  background #fff url(../img/footer-bg-ste-wizard.jpg) no-repeat
+  padding 60px 0px 40px
+  .header-ttle2
+    text-align center
+    h2
+      font-size 45px
+      color #fff
+      font-weight 100
+      text-shadow 0px 1px 2px #111
+      span
+        font-size 45px
+        color #fff
+        font-weight bold
+    h3
+      font-size 20px
+      color #fff
+      font-weight 100
+    a
+      font-size 16px
+      color #fff
+      padding 15px 50px
+
+.btn-sitewizard
+  margin 50px 0px
+
 
 
 .footer-newsletter
@@ -1700,3 +1823,39 @@ fieldset[disabled] .btn-primary.active
       margin-bottom 25px
       a
         color $font-color
+
+
+@media only screen and (max-width:768px)
+  .free-cms-sec
+    .img-left
+      .desc-desk
+        display block !important
+      .desc-moble
+        display none !important
+    .det-right
+      padding 50px 0px
+      .col-md-6
+        .col-md-12
+          text-align center
+  #site-wizard-sect
+    padding 40px 0px 20px !important
+
+@media only screen and (max-width:640px)
+  .free-cms-sec
+    .img-left
+      .desc-desk
+        display block !important
+      .desc-moble
+        display none !important
+    .det-right
+      padding 50px 0px
+      .col-md-6
+        .col-md-6
+          text-align center
+  #site-wizard-sect
+    padding 40px 0px 20px !important
+
+@media only screen and (max-width:480px)
+   .det-right .col-xs-6
+      min-width 100%
+      text-align center
