@@ -1,7 +1,7 @@
 ---
 title: Web Design and development Trends for 2017
 author: Philippe Bodart
-banner: /img/uploads/images6.jpg
+banner: /img/uploads/untitled11.jpg
 shortdesc: What are the major web design and web development trends for the coming year 2017
 cmsUserSlug: web-design-and-development-trends-2017
 date: 2016-09-24T00:00:00+08:00
