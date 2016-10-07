@@ -1,45 +1,297 @@
 extends layout
 
 block head
-  title WebriQ | CMS for Static Pages and Shops
+	title WebriQ | CMS for Static Pages and Shops
 
 block content
+	section#features_performance.gray-section
+		.container.performance.text-left
+			.row
+				.col-md-7.space-auto
+					h1#performance.text-center.heading-1 Speed, Performance And Cost
+					h4.text-center.light-text Lighting fast speeds. On average the Time to First Byte is 10 times less than with a fully optimised Dynamic site. And the most cost-effective way of delivering high-performance websites.
+			br
+			.row.m-t-xl
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
+					.col-sm-12.col-md-2
+						img(src="img/cdn.jpg")
+					.col-sm-12.col-md-10
+						h3.heading-3 Global CDN
+						p Our highest performing Content Delivery Network (CDN) is based on next-gen tech which allows us to provide one of the fastest..
+							a(href="#", class="more")
+								[more]
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
+					.col-sm-12.col-md-2
+						img(src="img/atomicdeploys.jpg")
+					.col-sm-12.col-md-10
+						h3.heading-3 Automatic Deploys
+						p A key part of Continuous Deployment and Integration is the capability to deploy your website or APP quickly, safely..
+							a(href="#", class="more")
+								[more]
+			.row
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
+					.col-sm-12.col-md-2
+						img(src="img/highavailability.jpg")
+					.col-sm-12.col-md-10
+						h3.heading-3 High Availability
+						p The CDN is setup so that slow or failing nodes are seamlessly removed. Top to bottom, the infrastructure is redundant, to make..
+							a(href="#", class="more")
+								[more]
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
+					.col-sm-12.col-md-2
+						img(src="img/cache.jpg")
+					.col-sm-12.col-md-10
+						h3.heading-3 Instant Cache Invalidation
+						p The tslow cache invalidation is the main reason that many developers choose to stick with traditional CMS driven dynamic sites..
+							a(href="#", class="more")
+								[more]
 
-    //- section#features_main.gray-section
-    //-   .container.services.text-left.top
-    //-     .row
-    //-       h1#pages.text-center WebriQpages
-    //-       br
-    //-       .col-sm-4.col-md-4.teal
+	section#features_security.gray-section
+		.container.security.text-left
+			.row
+				.col-md-8.space-auto
+					h1#security.text-center.heading-1.text-white Built-in Security And Reliability
+					h4.text-center.light-text.text-white Performance and speed without Security is meaningless. SSL, HHTP2 and password protection are standard for any website.
+	section#features_security_body.gray-section
+		.container.builtin_security
+			.col-sm-4.col-md-4.left
+				.row.m-b-xl
+					.col-md-3
+						img(src="img/ssl.png")
+					.col-md-9
+						h3.heading-3 One-Click SSL
+						p We generate, deploy and manage unique SSL certificates for each site with just one click.
+				.row.m-b-xl
+					.col-md-3
+						img(src="img/http2.png")
+					.col-md-9
+						h3.heading-3 HTTP2
+						p Full support for the next generation web protocol, built for better performance and more efficient asset loading.
+			.col-sm-4.col-md-4.middle
+				.row
+					.col-md-12.text-center
+						img(src="img/tablet.png")
 
-    //-         i.glyph-icon.flaticon-alarm31
+			.col-sm-4.col-md-4.right
+				.row.m-b-xl
+					.col-md-3
+						img(src="img/secure.png")
+					.col-md-9
+						h3.heading-3 Secure Build Environment
+						p Build environments live only for the duration of the build. Combined with a build cache, we ensure... more
+				.row.m-b-xl
+					.col-md-3
+						img(src="img/nodatabase.png")
+					.col-md-9
+						h3.heading-3 No Databases, No Servers
+						p Your websites have no movable parts, no database to connect to or scripts that need to be executed... more
 
-    //-         h3 Superfast
-    //-         p Websites are served through a Content Delivery Network instead of a single server. That means much lower latency, much faster downloads and a 100% uptime. If one of our servers goes down, another server takes over instantaneously.
 
-    //-       .col-sm-4.col-md-4.red
-    //-         i.glyph-icon.flaticon-window50
-    //-         h3 Simplicity
-    //-         p No need to optimize websites for faster database queries or faster downloads. Once built, always built. Changes in the Template Design and the Content will automatically trigger a new build. The entire process takes no more then 20 seconds.
 
-    //-       .col-sm-4.col-md-4.yellow
-    //-         i.glyph-icon.flaticon-shopping204
-    //-         h3 Cost
-    //-         p It is cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes. If not money, it will save a lot of headaches.
+	section#features_automation.gray-section
+		.container.automation.text-left
+			.row
+				.col-md-10.space-auto
+					h1#automation.text-center.heading-1 Automation For Ease
+					h4.text-center.light-text We have you completely covered when it comes to automating the entire workflow. The separation of front-end and back-end opens up a lot of possibilities, but has it's challenges.
+			.row.m-t-xl
+				.col-md-4
+					.lead-item.text-center
+						.lead-image
+							img(src="img/gitintegration.jpg")
+						.lead-content
+							.lead-title
+								h3.heading-3 Git Integration
+							p We pair with Git . With GitHub private repos we let you pull, change and push all code and content to manage your site.
+				.col-md-4
+					.lead-item.text-center
+						.lead-image
+							img(src="img/webhook.jpg")
+						.lead-content
+							.lead-title
+								h3.heading-3 Outbound Webhooks & Integrations
+							p Set up any number of outbound webhooks. Receive email or Slack notifications for new form submissions, new deploy ..[more]
+				.col-md-4
+					.lead-item.text-center
+						.lead-image
+							img(src="img/versioning.jpg")
+						.lead-content
+							.lead-title
+								h3.heading-3 Versionning & Rollbacks
+							p Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you'd like is just ..[more]
 
-    //-     .row
-    //-       .col-sm-4.col-md-4.gray
-    //-         i.glyph-icon.flaticon-lock64
-    //-         h3 Security
-    //-         p Your websites have no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past.
+	section#features_tools.gray-section
+		.container.tools.text-left
+			.row
+				h1#tools.text-center.heading-1.semi-bold More Tools To Help You Along
+				h4.text-center.light-text More exciting tools to help you along as site owner, content editor or developer.
+			.row.m-t-xl
+				#toolsTab
+					.resp-tabs-container.tools
+						div
+							.col-md-5
+								h3.heading-3 Continuous Deployment of Content
+								p In the same way as new code is deployed, so is content. Through a UI friendly Markdown editor with preview mode, you can edit, manage and publish any new or existing content. Content updates are pushed to your Github private repo for immediate deployment on your website.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/tools-contineous-deploy.png")
+						div
+							.col-md-5
+								h3.heading-3 Collaboration for Members
+								p As an account owner you can invite multiple other contributors to your application, be it developers, content writers or content editors.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/collaboration-for-members.png")
+						div
+							.col-md-5
+								h3.heading-3 Redirect, Rewrite, & Proxy Rules
+								p Use different rules to control how requests are handled. Proxy part of your traffic to your own backend, redirect old pages, or rewrite a page entirely. Or do them all.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/redirect-rewrite-and-proxy-rules.png")
+						div
+							.col-md-5
+								h3.heading-3 Multiple Environments Support
+								p Support multiple environments (i.e. preview, staging, production) with a simple argument. Each environment can track a branch, providing isolated environments for previewing, staging or production.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/multiple-environment-support.png")
+						div
+							.col-md-5
+								h3.heading-3 Form Submission Hooks
+								p We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/form-submission-hook.png")
+						div
+							.col-md-5
+								h3.heading-3 Google Analytics
+								p As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
+								br
+								p
+									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+							.col-md-7.text-right
+								img(src="img/google-analytics.png")
+					ul.resp-tabs-list.tools
+						li
+							span
+								img(src="img/deployment.png")
+							|	Continuous Deployment of Content
+						li
+							span
+								img(src="img/collaboration.png")
+							|	Collaboration for Members
+						li
+							span
+								img(src="img/proxyrules.png")
+							|	Redirect, Rewrite, & Proxy Rules
+						li
+							span
+								img(src="img/support.png")
+							|	Multiple Environments Support
+						li
+							span
+								img(src="img/form.png")
+							|	Form Submission Hooks
+						li
+							span
+								img(src="img/analytics.png")
+							|	Google Analytics
 
-    //-       .col-sm-4.col-md-4.navy
-    //-         i.glyph-icon.flaticon-cube29
-    //-         h3 Kick-ass UI/UX Designs
-    //-         p Since there is no need to set up and develop complex database structures for your website, all time can be spent on User Experience designs and User Interface designs. That means repeat visits and visitor spending more time on your website.
 
-    //-       .col-sm-4.col-md-4.purple
-    //-         ii.glyph-icon.flaticon-portfolio23
-    //-         h3 Full Control
-    //-         p Whether it is the code or the content of your website, you are always in full control on all elements of your website. At any time updates on code and content can be made, as well as rolling back to previously published versions.
+
+	section#features_languages
+		.container.languages.text-left.gray-section
+			.row
+				h3#pages.light-text.text-center Beyond five different world languages, we speak also your language
+				br
+				.col-md-11
+					ul#different_languages
+						li
+							a(href="#")
+								img(src="img/brand_logos/nodejslogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/html5logo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/css3logo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/jslogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/githublogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/npmlogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/coffescriptlogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/puglogo.jpg")
+						li
+							a(href="#")
+								img(src="img/brand_logos/markdownlogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/styluslogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/slacklogo.png")
+						li
+							a(href="#")
+								img(src="img/brand_logos/trello.png")
+
+
+
+
+	//- section#features_main.gray-section
+	//- 	.container.services.text-left.top
+	//- 		.row
+	//- 			h1#pages.text-center WebriQpages
+	//- 			br
+	//- 			.col-sm-4.col-md-4.teal
+
+	//- 				i.glyph-icon.flaticon-alarm31
+
+	//- 				h3 Superfast
+	//- 				p Websites are served through a Content Delivery Network instead of a single server. That means much lower latency, much faster downloads and a 100% uptime. If one of our servers goes down, another server takes over instantaneously.
+
+	//- 			.col-sm-4.col-md-4.red
+	//- 				i.glyph-icon.flaticon-window50
+	//- 				h3 Simplicity
+	//- 				p No need to optimize websites for faster database queries or faster downloads. Once built, always built. Changes in the Template Design and the Content will automatically trigger a new build. The entire process takes no more then 20 seconds.
+
+	//- 			.col-sm-4.col-md-4.yellow
+	//- 				i.glyph-icon.flaticon-shopping204
+	//- 				h3 Cost
+	//- 				p It is cheaper to build, to maintain and to scale if needed. It all happens automatically. No need to procure more bandwidth or larger hosting service than you need, and no need to cover for occasional traffic spikes. If not money, it will save a lot of headaches.
+
+	//- 		.row
+	//- 			.col-sm-4.col-md-4.gray
+	//- 				i.glyph-icon.flaticon-lock64
+	//- 				h3 Security
+	//- 				p Your websites have no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past.
+
+	//- 			.col-sm-4.col-md-4.navy
+	//- 				i.glyph-icon.flaticon-cube29
+	//- 				h3 Kick-ass UI/UX Designs
+	//- 				p Since there is no need to set up and develop complex database structures for your website, all time can be spent on User Experience designs and User Interface designs. That means repeat visits and visitor spending more time on your website.
+
+	//- 			.col-sm-4.col-md-4.purple
+	//- 				ii.glyph-icon.flaticon-portfolio23
+	//- 				h3 Full Control
+	//- 				p Whether it is the code or the content of your website, you are always in full control on all elements of your website. At any time updates on code and content can be made, as well as rolling back to previously published versions.
 

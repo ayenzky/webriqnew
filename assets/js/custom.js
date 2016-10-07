@@ -1,10 +1,10 @@
 $(document).ready(function () {
 
     // Highlight the top nav as scrolling
-    $('body').scrollspy({
-        target: '.navbar-fixed-top',
-        offset: 80
-    });
+    // $('body').scrollspy({
+    //     target: '.navbar-fixed-top',
+    //     offset: 80
+    // });
 
     // Remove menu on click
     // $('#navbar').find('a').click(function(){
@@ -26,13 +26,13 @@ $(document).ready(function () {
     });
 
     // Page scrolling feature
-    $('a.page-scroll').bind('click', function(event) {
-        var link = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $(link.attr('href')).offset().top - 70
-        }, 500);
-        event.preventDefault();
-    });
+    // $('a.page-scroll').bind('click', function(event) {
+    //     var link = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $(link.attr('href')).offset().top - 70
+    //     }, 500);
+    //     event.preventDefault();
+    // });
 
     // // Herbycookies Here
     // $(document).herbyCookie({
@@ -42,6 +42,38 @@ $(document).ready(function () {
     //     expiryDays: 180
     // });
 
+    $("nav").on("open.navigation", function() {
+        $("#nav-icon1").addClass('open');
+        $(".nav.navbar-nav").removeClass('show-down');
+        $(".nav.navbar-nav").addClass('show-up');
+
+    }).on("close.navigation", function() {
+        $("#nav-icon1").removeClass('open');
+        $(".nav.navbar-nav").removeClass('show-up');
+        $(".nav.navbar-nav").addClass('show-down');
+    });
+
+    $("nav").navigation();
+
+    // $(".bg").interactive_bg();
+
+    var movementStrength = 25;
+    var height = movementStrength / $(window).height();
+    var width = movementStrength / $(window).width();
+    $("#featured").mousemove(function(e){
+              var pageX = e.pageX - ($(window).width() / 2);
+              var pageY = e.pageY - ($(window).height() / 2);
+              var newvalueX = width * pageX * -1 - 25;
+              var newvalueY = height * pageY * -1 - 50;
+              $('#featured').css("background-position", newvalueX+"px     "+newvalueY+"px");
+    });
+
+    $('#toolsTab').easyResponsiveTabs({
+        type: 'default', //Types: default, vertical, accordion
+        width: 'auto', //auto or any width like 600px
+        fit: true, // 100% fit in a container
+        tabidentify: 'tools'
+    });
 
 });
 
@@ -98,3 +130,25 @@ function masonry(element){
         }
     });
 }
+
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+    }
+
+    function show(id, value) {
+        document.getElementById(id).style.display = value ? 'block' : 'none';
+    }
+
+    onReady(function () {
+        show('page', true);
+        show('loading', false);
+    });
+
+TweenMax.staggerFrom( '#react, #css3, #html5, #js, #pug, #git, #github, #netlify', 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
