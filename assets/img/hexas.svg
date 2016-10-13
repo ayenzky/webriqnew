@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="hexas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="548px" height="351px" viewBox="0 0 548 351" enable-background="new 0 0 548 351" xml:space="preserve">
+	<g id="hexagon">
+		<polygon fill="#FFFFFF" points="358.069,84.474 315.154,109.25 272.24,84.474 272.24,34.92 315.154,10.144 358.069,34.92">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.02;0.15;0.02" dur="4s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.08" fill="#FFFFFF" points="314.736,159.807 271.821,184.583 228.907,159.807 228.907,110.253 271.821,85.477 314.736,110.253">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.08;0.32;0.08" dur="6s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.02" fill="#FFFFFF" points="403.231,159.807 360.316,184.583 317.402,159.807 317.402,110.253 360.316,85.477 403.231,110.253">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.02;0.12;0.02" dur="6s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.05" fill="#FFFFFF" points="358.736,234.807 315.821,259.584 272.907,234.807 272.907,185.254 315.821,160.477 358.736,185.254">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.05;0.20;0.05" dur="7s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.12" fill="#FFFFFF" points="271.486,236.307 228.571,261.084 185.657,236.307 185.657,186.754 228.571,161.977 271.486,186.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.12;0.20;0.12" dur="5s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.12" fill="#FFFFFF" points="448.468,236.307 405.553,261.084 362.639,236.307 362.639,186.754 405.553,161.977 448.468,186.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.12;0.05;0.12" dur="7s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.16" fill="#FFFFFF" points="97.07,236.307 54.155,261.084 11.241,236.307 11.241,186.754 54.155,161.977 97.07,186.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.16;0.05;0.16" dur="4s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.1" fill="#FFFFFF" points="184.986,236.307 142.071,261.084 99.157,236.307 99.157,186.754 142.071,161.977 184.986,186.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.01;0.5;0.01" dur="7s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.04" fill="#FFFFFF" points="315.736,311.807 272.821,336.584 229.907,311.807 229.907,262.254 272.821,237.477 315.736,262.254">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.04;0.10;0.04" dur="8s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.08" fill="#FFFFFF" points="228.486,312.307 185.571,337.084 142.657,312.307 142.657,262.754 185.571,237.977 228.486,262.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.08;0.02;0.08" dur="6s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.1" fill="#FFFFFF" points="140.986,312.307 98.071,337.084 55.157,312.307 55.157,262.754 98.071,237.977 140.986,262.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.02;0.15;0.02" dur="5s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.14" fill="#FFFFFF" points="227.402,160.474 184.487,185.25 141.573,160.474 141.573,110.92 184.487,86.144 227.402,110.92">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.14;0.18;0.14" dur="6s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.12" fill="#FFFFFF" points="536.973,236.307 494.058,261.084 451.144,236.307 451.144,186.754 494.058,161.977 536.973,186.754">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.02;0.15;0.02" dur="3s"
+				repeatCount="indefinite"/>
+		</polygon>
+		<polygon opacity="0.14" fill="#FFFFFF" points="492.889,160.474 449.974,185.25 407.06,160.474 407.06,110.92 449.974,86.144 492.889,110.92">
+			<animate id="anim1"
+				attributeName="opacity"
+				values="0.14;0.22;0.14" dur="4s"
+				repeatCount="indefinite"/>
+		</polygon>
+	</g>
+	</svg>

@@ -4,7 +4,7 @@ block head
 	title WebriQ | CMS for Static Pages and Shops
 
 block content
-	section#features_performance.gray-section
+	section#features_performance.gray-section.section
 		.container.performance.text-left
 			.row
 				.col-md-7.space-auto
@@ -46,24 +46,24 @@ block content
 							a(href="#", class="more")
 								[more]
 
-	section#features_security.gray-section
+	section#features_security.gray-section.section
 		.container.security.text-left
 			.row
 				.col-md-8.space-auto
 					h1#security.text-center.heading-1.text-white Built-in Security And Reliability
 					h4.text-center.light-text.text-white Performance and speed without Security is meaningless. SSL, HHTP2 and password protection are standard for any website.
-	section#features_security_body.gray-section
+	section#features_security_body.gray-section.section
 		.container.builtin_security
 			.col-sm-4.col-md-4.left
 				.row.m-b-xl
 					.col-md-3
-						img(src="img/ssl.png")
+						img(src="img/one_click_ssl.svg")
 					.col-md-9
 						h3.heading-3 One-Click SSL
 						p We generate, deploy and manage unique SSL certificates for each site with just one click.
 				.row.m-b-xl
 					.col-md-3
-						img(src="img/http2.png")
+						img(src="img/http.svg")
 					.col-md-9
 						h3.heading-3 HTTP2
 						p Full support for the next generation web protocol, built for better performance and more efficient asset loading.
@@ -75,20 +75,18 @@ block content
 			.col-sm-4.col-md-4.right
 				.row.m-b-xl
 					.col-md-3
-						img(src="img/secure.png")
+						img(src="img/secure_build_environment.svg")
 					.col-md-9
 						h3.heading-3 Secure Build Environment
 						p Build environments live only for the duration of the build. Combined with a build cache, we ensure... more
 				.row.m-b-xl
 					.col-md-3
-						img(src="img/nodatabase.png")
+						img(src="img/no_databases_no_servers.svg")
 					.col-md-9
 						h3.heading-3 No Databases, No Servers
 						p Your websites have no movable parts, no database to connect to or scripts that need to be executed... more
 
-
-
-	section#features_automation.gray-section
+	section#features_automation.gray-section.section
 		.container.automation.text-left
 			.row
 				.col-md-10.space-auto
@@ -110,7 +108,7 @@ block content
 						.lead-content
 							.lead-title
 								h3.heading-3 Outbound Webhooks & Integrations
-							p Set up any number of outbound webhooks. Receive email or Slack notifications for new form submissions, new deploy ..[more]
+							p Set up any number of outbound webhooks. Receive email or Slack notifications for new form submissions, new deploys or build failures.
 				.col-md-4
 					.lead-item.text-center
 						.lead-image
@@ -118,9 +116,9 @@ block content
 						.lead-content
 							.lead-title
 								h3.heading-3 Versionning & Rollbacks
-							p Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you'd like is just ..[more]
+							p Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you’d like is just a matter of clicking the version you want live again.
 
-	section#features_tools.gray-section
+	section#features_tools.gray-section.section
 		.container.tools.text-left
 			.row
 				h1#tools.text-center.heading-1.semi-bold More Tools To Help You Along
@@ -133,8 +131,15 @@ block content
 								h3.heading-3 Continuous Deployment of Content
 								p In the same way as new code is deployed, so is content. Through a UI friendly Markdown editor with preview mode, you can edit, manage and publish any new or existing content. Content updates are pushed to your Github private repo for immediate deployment on your website.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
 								img(src="img/tools-contineous-deploy.png")
 						div
@@ -142,8 +147,15 @@ block content
 								h3.heading-3 Collaboration for Members
 								p As an account owner you can invite multiple other contributors to your application, be it developers, content writers or content editors.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
 								img(src="img/collaboration-for-members.png")
 						div
@@ -151,8 +163,15 @@ block content
 								h3.heading-3 Redirect, Rewrite, & Proxy Rules
 								p Use different rules to control how requests are handled. Proxy part of your traffic to your own backend, redirect old pages, or rewrite a page entirely. Or do them all.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
 								img(src="img/redirect-rewrite-and-proxy-rules.png")
 						div
@@ -160,8 +179,15 @@ block content
 								h3.heading-3 Multiple Environments Support
 								p Support multiple environments (i.e. preview, staging, production) with a simple argument. Each environment can track a branch, providing isolated environments for previewing, staging or production.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
 								img(src="img/multiple-environment-support.png")
 						div
@@ -169,19 +195,33 @@ block content
 								h3.heading-3 Form Submission Hooks
 								p We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
-								img(src="img/form-submission-hook.png")
+								img(src="img/form-submission.svg")
 						div
 							.col-md-5
 								h3.heading-3 Google Analytics
 								p As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
 								br
-								p
-									a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
+								.svg-wrapper
+									svg#Layer_1(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='266.999px', height='58.333px', viewbox='0 0 266.999 58.333', style='enable-background:new 0 0 266.999 58.333;', xml:space='preserve')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M27.332,56.335c-13.807,0-25-11.193-25-25v-4c0-13.807,11.193-25,25-25h105.667')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M132.998,2.335h106.333')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M264.332,31.335c0,13.807-11.192,25-25,25')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,2.335c13.808,0,25,11.193,25,25v4')
+										path.st0(fill='#FFFFFF', stroke='#C5C5C5', stroke-width='3', stroke-miterlimit='10', d='M239.332,56.335H133.665H27.332')
+									p
+										a(href="" class="btn btn-lg btn-primary btn-rounded") Free Account
 							.col-md-7.text-right
-								img(src="img/google-analytics.png")
+								img(src="img/google-analytics.svg")
 					ul.resp-tabs-list.tools
 						li
 							span
@@ -210,7 +250,7 @@ block content
 
 
 
-	section#features_languages
+	section#features_languages.section
 		.container.languages.text-left.gray-section
 			.row
 				h3#pages.light-text.text-center Beyond five different world languages, we speak also your language
@@ -240,7 +280,7 @@ block content
 								img(src="img/brand_logos/coffescriptlogo.png")
 						li
 							a(href="#")
-								img(src="img/brand_logos/puglogo.jpg")
+								img(src="img/brand_logos/puglogo.png")
 						li
 							a(href="#")
 								img(src="img/brand_logos/markdownlogo.png")
