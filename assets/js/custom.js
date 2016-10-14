@@ -100,7 +100,12 @@ $('body').on('click', function(e) {
 });
 
 
-_slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+setTimeout(function(){
+
+	_slaask.init('a2185cf7997e55eb9484fc90fe78066a');
+
+}, 120000);
+
 
 
 // Install Cookies
@@ -197,6 +202,7 @@ $('.section').on('classChange', function(e){
 	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0, x:200}, {opacity: 1, x: 0}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right .m-b-xl', 1, {opacity:0, x:-200}, {opacity: 1, x: 0}, 0.2);
 	TweenMax.staggerTo('#features_automation.in-view .col-md-4', 1, {opacity:1}, 0.2);
+	TweenMax.staggerTo('#features_tools.in-view .resp-tab-content .text-right',1, {opacity:1}, 0,2);
 
 	TweenMax.staggerFromTo('.in-view #different_languages li', 2, {
 		scale:0.2,

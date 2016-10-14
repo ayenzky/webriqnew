@@ -1,0 +1,236 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600';
+@import 'media.css';
+@import 'animate.css';
+@import 'navbar.css';
+
+body, p, h1, h2, h3, h4, h5, td, li, td {
+	font-family: "Open sans", sans-serif
+}
+.slider-background {
+	background-color: #035EBB;
+}
+.slider {
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 100%;
+	height: 750px;
+	margin-bottom: 50px;
+	position: relative;
+	text-align: center;
+	padding-top: 150px;
+}
+.slider .hexa {
+	position: absolute;
+	max-width: 100%;
+	z-index: 1;
+}
+.slider .hexa.right {
+	bottom: 35px;
+	right: 0px;
+}
+.slider .hexa.left {
+	bottom: 55px;
+	left: 15px;
+	width: 350px;
+	max-width: 60%;
+}
+.slider .lang {
+	width: 100%;
+	position: absolute;
+	bottom: 65px;
+	text-align: center;
+	z-index: 2;
+}
+
+#hexas_gsap {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+}
+
+#svg_logo, #svg_menu,
+#free_account, #free_demo {
+	position: absolute;
+}
+#free_demo_link:hover .demo_account_text {
+	background: #ffffff !important;
+	border-color: #ffffff;
+	color: #333;
+}
+#svg_logo {
+	margin-left: -10px;
+}
+#svg_menu  {
+	max-width: 59px;
+	margin-top: -17px;
+    stroke-width: 4px;
+}
+#svg_logo path, #svg_menu path,
+#free_account path, #free_demo path {
+	stroke-width: 1.5px;
+	stroke: #48c1f9;
+}
+#svg_menu path {
+	stroke-width: 2px !important;
+}
+
+.stroke_white,
+#free_demo path {
+	stroke: #aedcf2 !important;
+}
+#free_account_link {
+	color: #fff;
+	position: relative;
+	text-decoration: none;
+	font-family: "Open sans";
+	display: inline-block;
+	text-align: center
+}
+
+.hided {
+	opacity: 0;
+}
+.showed {
+    opacity: 1;
+}
+.drawsvg {
+    -webkit-transition: opacity 1.25s ease-in-out;
+    -moz-transition: opacity 1.25s ease-in-out;
+    -ms-transition: opacity 1.25s ease-in-out;
+    -o-transition: opacity 1.25s ease-in-out;
+    transition: opacity 1.25s ease-in-out;
+}
+.drawsvg_line {
+	position: absolute;
+    max-width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.slider_buttons {
+	display: inline-block !important;
+	padding: 12px 55px;
+	width: 260px;
+	border-radius: 25px;
+    border-color: #039be5;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    z-index: 9;
+}
+.free_account_text {
+	background: #039be5;
+	border: 2px solid #039be5;
+}
+.demo_account_text.showed {
+	border: 2px solid #fff;
+}
+.demo_account_text {
+	background: transparent;
+}
+.slider-separator {
+	position: relative;
+	margin-top: 5px;
+}
+.slider-separator .svg_separators {
+	margin: 0px auto 5px auto;
+}
+.slider .slider-heading {
+	position: relative;
+	font-weight: 400;
+    font-size: 60px;
+    color: #fff;
+}
+
+.slider .slider-subheading {
+	position: relative;
+	font-weight: 300;
+    color: #fff;
+}
+.slider .slider-heading svg {
+	margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 12px;
+}
+.slider .slider-subheading svg {
+	margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 8px;
+}
+.slider .slider-heading svg path {
+	stroke-width: 2px;
+}
+.slider .slider-subheading .sub-heading-text {
+	padding-top: 10px;
+}
+.slider .slider-buttons {
+	margin-top: 45px;
+}
+
+.slider .slider-buttons #free_demo_link{
+	background-color: transparent;
+	position: relative;
+	display: inline-block;
+}
+.slider .slider-buttons #free_demo_link path{
+	background-color: transparent;
+}
+
+#demo_account_text .btn-primary.btn-inverted {
+    border-color: #fff;
+}
+
+
+
+.nav-line-white {
+    position: relative;
+    width: 250px;
+    margin: 10px auto;
+}
+.nav-line-white .text-or {
+    font-style: italic;
+    color: #fff;
+    font-weight: 300;
+}
+.nav-line-white .text-or::before {
+    content: "";
+    border-top: 1px solid #fff;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    padding: 0 50px;
+}
+.nav-line-white .text-or::after {
+    content: "";
+    border-top: 1px solid #cdcdcd;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding: 0 50px;
+}
+.nav-line-white .text-or::before {
+    border-color: #039be5;
+}
+.nav-line-white .text-or::after {
+    border-color: #81d4fa;
+}
+
+
+.navbar-brand {
+    position: relative !important;
+}
+
+#svg_horizontal_line {
+	position: absolute;
+    left: 0;
+    top: 45px;
+    max-width: 100%;
+}
+#svg_horizontal_line path {
+	stroke: #fff;
+	stroke-width: 2px;
+}

@@ -1,20 +1,120 @@
-section#contact.gray-section.contact
+//- section#contact.gray-section.contact
+//-   .container
+//-     .row.m-b-lg.border-inverted.create-account
+//-       .col-md-7
+//-         .navy-line
+//-         h1 Modern Front-End Developers Tools
+//-         h3
+//-           | for Content Editors and Developers
+//-       .col-md-5.text-center
+//-         .navy-line.hidden-xs.hidden-sm
+//-         <br>
+//-         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn(href='http://app.webriq.com/auth/register', role='button') Free Account
+//-         <br>
+//-         <br>
+//-         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='http://app.webriq.com/help/page/demo/howto', role='button') Demo
+//-     .row.border-inverted.links
+//-       .col-sm-12.col-md-6
+//-         p.m-t-sm
+//-           strong About us
+//-         p.about-us-paragraph
+//-           | A diverse group of people coming from four continents with backgrounds in sales management, web design, open source web development, cloud based content management platforms and digital marketing.
+//-         ul.list-unstyled.about-us
+//-           li
+//-             i.fa.fa-envelope-o
+//-             |  Email: <a href="mailto:info@webriq.com">info@webriq.com</a>
+//-           li
+//-             i.fa.fa-mobile
+//-             |  <a href="tel:12032856929">+1 203 285 6929</a> / <a href="tel:442081449347">+44 208 144 9347 (UK)</a>
+//-           li
+//-             i.fa.fa-map-marker
+//-             |  80 Robinsons Road #02-00 Singapore 068898
+//-       .col-sm-6.col-md-2
+//-         p.m-t-sm
+//-           strong Quicklinks
+//-         ul.list-unstyled.quicklinks
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/' class='page-scroll') Home
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/#features_main' class='page-scroll') Pages
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/#shops_main' class='page-scroll') Shops
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/#packages' class='page-scroll') Prices
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/partners' class='page-scroll') Partners
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='/blog' class='page-scroll') Blog
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='http://app.webriq.com/help/page/demo/howto' class='page-scroll') Demo
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='http://app.webriq.com/help/page' class='page-scroll') Developers
+//-             ul
+//-               li
+//-                 i.fa.fa-angle-right
+//-                 a(href='/get-certified' class='page-scroll') Get Certified
+//-               li
+//-                 i.fa.fa-angle-right
+//-                 a(href='http://boilerplate.webriq.com/' class='page-scroll') Boilerplate
+//-           li
+//-             i.fa.fa-angle-right
+//-             a(href='http://app.webriq.com/auth/login' class='page-scroll') Login
+
+//-       .col-sm-6.col-md-4
+//-         p.m-t-sm
+//-           strong Follow us
+//-         ul.list-inline.social-icon
+//-           li
+//-             a(href='https://webriq.slack.com/', target='_blank')
+//-               img(src='/img/slack.png')
+//-           li
+//-             a(href='https://twitter.com/WebriQ', target='_blank')
+//-               img(src='/img/twitter.png')
+//-           li
+//-             a(href='https://telegram.me/webriqbot', target='_blank')
+//-               img(src='/img/telegram.png')
+//-           li
+//-             a(href='https://www.messenger.com/t/WebriQHQ', target='_blank')
+//-               img(src='/img/messenger.png')
+//-         p.footer-newsletter
+//-           strong
+//-             | Join our newsletter to
+//-             br
+//-             |  receive updates
+//-         a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
+//-     .row.footer-credits
+//-       .col-md-12
+//-         p!= records.site.sitedata[0].footer
+section#free-account.free-account.section
   .container
     .row.m-b-lg.border-inverted.create-account
-      .col-md-7
-        .navy-line
+      .col-sm-12.col-md-8.text-center
         h1 Modern Front-End Developers Tools
-        h3
+        h4
           | for Content Editors and Developers
-      .col-md-5.text-center
-        .navy-line.hidden-xs.hidden-sm
+      .col-md-12.text-center.space-15
         <br>
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn(href='http://app.webriq.com/auth/register', role='button') Free Account
-        <br>
-        <br>
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted(href='http://app.webriq.com/help/page/demo/howto', role='button') Demo
-    .row.border-inverted.links
-      .col-sm-12.col-md-6
+        a.btn.btn-lg.btn-primary.btn-rounded.create-btn(href='http://app.webriq.com/auth/register', role='button') Free Account
+        .nav-line-white
+          span.text-or or
+        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.demo-btn(href='http://app.webriq.com/help/page/demo/howto', role='button') Demo
+      //- .col-md-12.text-center.space-15
+      //-   p Have any question?
+      //-   br
+      //-   p.contact-info Email: <a href="mailt:info@webriq.com">info@webriq.com</a>  +1 203 285 6929 / +44 208 144 9347 (UK) <br>80 Robinsons Road #02-00 Singapore 068898
+
+section#contact.gray-section.contact.section
+  .container
+    .row
+      .col-sm-12.col-md-5
         p.m-t-sm
           strong About us
         p.about-us-paragraph
@@ -29,22 +129,22 @@ section#contact.gray-section.contact
           li
             i.fa.fa-map-marker
             |  80 Robinsons Road #02-00 Singapore 068898
-      .col-sm-6.col-md-2
+      .col-sm-6.col-md-4
         p.m-t-sm
           strong Quicklinks
         ul.list-unstyled.quicklinks
           li
             i.fa.fa-angle-right
-            a(href='/' class='page-scroll') Home
+            a(href='#page-top' class='page-scroll') Home
           li
             i.fa.fa-angle-right
-            a(href='/#features_main' class='page-scroll') Pages
+            a(href='#pages' class='page-scroll') Pages
           li
             i.fa.fa-angle-right
-            a(href='/#shops_main' class='page-scroll') Shops
+            a(href='#shops' class='page-scroll') Shops
           li
             i.fa.fa-angle-right
-            a(href='/#packages' class='page-scroll') Prices
+            a(href='#package' class='page-scroll') Prices
           li
             i.fa.fa-angle-right
             a(href='/partners' class='page-scroll') Partners
@@ -68,28 +168,55 @@ section#contact.gray-section.contact
             i.fa.fa-angle-right
             a(href='http://app.webriq.com/auth/login' class='page-scroll') Login
 
-      .col-sm-6.col-md-4
+      .col-sm-6.col-md-3
         p.m-t-sm
-          strong Follow us
-        ul.list-inline.social-icon
-          li
-            a(href='https://webriq.slack.com/', target='_blank')
-              img(src='/img/slack.png')
-          li
-            a(href='https://twitter.com/WebriQ', target='_blank')
-              img(src='/img/twitter.png')
-          li
-            a(href='https://telegram.me/webriqbot', target='_blank')
-              img(src='/img/telegram.png')
-          li
-            a(href='https://www.messenger.com/t/WebriQHQ', target='_blank')
-              img(src='/img/messenger.png')
-        p.footer-newsletter
-          strong
-            | Join our newsletter to
-            br
-            |  receive updates
-        a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
+          strong Keep in touch
+        // Begin MailChimp Signup Form
+        #mc_embed_signup
+          form#mc-embedded-subscribe-form.validate(action='//webfactories.us10.list-manage.com/subscribe/post?u=d60988bc77e93d3ea0ddf6358&id=af21e4df39', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+            #mc_embed_signup_scroll
+              .mc-field-group
+                label(for='mce-EMAIL')
+                  | Email
+                  span. *
+                  br
+                input#mce-EMAIL.required.email.form-control(type='email', value='', name='EMAIL', placeholder='eg: john.doe@gmail.com')
+              br
+              #mce-responses.clear
+                #mce-error-response.response(style='display:none')
+                #mce-success-response.response(style='display:none')
+              // real people should not fill this in and expect good things - do not remove this or risk form bot signups
+              div(style='position: absolute; left: -5000px;', aria-hidden='true')
+                input(type='text', name='b_d60988bc77e93d3ea0ddf6358_af21e4df39', tabindex='-1', value='')
+
+              .clear
+                input#mc-embedded-subscribe(type='submit', value='SEND', name='subscribe')
+              br
+          // End mc_embed_signup
+      .col-sm-6.col-md-3
+          ul.list-inline.social-icon
+            li
+              a(href='https://webriq.slack.com/', target='_blank')
+                img(src='/img/slack.png')
+            li
+              a(href='https://twitter.com/WebriQ', target='_blank')
+                img(src='/img/twitter.png')
+            li
+              a(href='https://telegram.me/webriqbot', target='_blank')
+                img(src='/img/telegram.png')
+            li
+              a(href='https://www.messenger.com/t/WebriQHQ', target='_blank')
+                img(src='/img/messenger.png')
+          //- p.footer-newsletter
+          //-   strong
+          //-     | Join our newsletter to
+          //-     br
+          //-     |  receive updates
+          //- a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.newsletter(href='#', role='button', data-toggle='modal', data-target='#myModal') Sign me up
+section#footer
+  .container
     .row.footer-credits
       .col-md-12
         p!= records.site.sitedata[0].footer
+
+
