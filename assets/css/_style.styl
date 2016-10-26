@@ -2,7 +2,7 @@
 
 body
   color #212121
-  font-family: $opensans !important
+  font-family: $roboto !important
   line-height:1.6
 
 body.page-blog
@@ -53,29 +53,31 @@ h1
   z-index -1
 
 .featured-header
-  padding 150px 0
-  background #ffffff url("../img/homebg.jpg") top center no-repeat
-  color #fff
+  background-color #11b9f8
+  // padding 150px 0
+  // background #ffffff url("../img/homebg.jpg") top center no-repeat
+  // color #fff
   z-index 0
-  height 100%
+  // height 100%
   position relative
   // background-size calc(100% + 50px)
-  &::before
-    content  ""
-    left 0px
-    width 530px
-    height 350px
-    position absolute
-    bottom 10%
-    background url(../img/hexas.svg) no-repeat center center
-  &::after
-    content  ""
-    right 0px
-    width 530px
-    height 350px
-    position absolute
-    bottom 10%
-    background url(../img/hexas.svg) no-repeat center center
+  // &::before
+  //   content  ""
+  //   left 0px
+  //   width 530px
+  //   height 350px
+  //   position absolute
+  //   bottom 10%
+  //   background url(../img/hexas.svg) no-repeat center center
+  //   z-index 1
+  // &::after
+  //   content  ""
+  //   right 0px
+  //   width 530px
+  //   height 350px
+  //   position absolute
+  //   bottom 10%
+  //   background url(../img/hexas.svg) no-repeat center center
 
 // .featured-header .container
 //   position absolute
@@ -519,7 +521,7 @@ h1
   padding 20px 0
 
 .gray-section
-  padding: 50px 15px
+  padding: 50px 0px
 
 .white-section
   background #fff
@@ -539,6 +541,26 @@ h1
   a
     text-align center
     display block
+    #slack,
+    #twitter,
+    #telegram,
+    #messenger
+       circle:first-child
+          opacity:1
+
+    #slack:hover,
+    #twitter:hover,
+    #telegram:hover,
+    #messenger:hover
+      circle:first-child
+        animation: shadow 0.5s linear infinite alternate
+        -webkit-animation: shadow 0.5s linear infinite alternate
+        opacity:0
+
+@-webkit-keyframes shadow{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
 
 .img-small
   height 88px
@@ -636,7 +658,7 @@ li
       margin 18px 0
       max-width 360px
     .fa
-      font-size 24px
+      font-size 0px
       margin-right 15px
       width 25px
       height 30px
@@ -1576,11 +1598,11 @@ fieldset[disabled] .btn-primary.active
     &.navbar-scroll
       .navbar-brand
         margin-top 6px
-    .navbar-brand
-      border-radius 5px
-      font-size 12px
-      padding 0 10px
-      height auto
+    // .navbar-brand
+    //   border-radius 5px
+    //   font-size 12px
+    //   padding 0 10px
+    //   height auto
 
   .navbar-default
     border-color #fff
@@ -1653,7 +1675,7 @@ fieldset[disabled] .btn-primary.active
 
 @media (max-width: 768px)
   .navbar-brand>img
-    width 140px
+    // width 140px
   .pricing-package
     .col-sm-4
       padding-left 0px
@@ -1761,9 +1783,9 @@ fieldset[disabled] .btn-primary.active
 
 @media (max-width: 480px)
 
-  .featured-header
-    padding 150px 0
-  .featured-header h1
+  // .featured-header
+  //   padding 150px 0
+  .featured-header h1.slider-heading
     font-size 38px
   .featured-header p a
     font-size 16px
@@ -1804,7 +1826,7 @@ fieldset[disabled] .btn-primary.active
 
 @media (max-width: 380px)
   .navbar-brand img
-    max-width 150px
+    // max-width 150px
   .navbar-default .navbar-toggle
     top 10px
   .contact .quicklinks
@@ -1965,10 +1987,13 @@ fieldset[disabled] .btn-primary.active
 
 /* Icon 1 */
 
-.gray-section#features_security_body .m-b-xl,
+.gray-section#features_security_body .m-b-xl
 .gray-section #different_languages li,
 #features_automation .col-md-4,
-#features_tools .resp-tab-content .text-right
+#features_tools .resp-tab-content .text-right,
+#features_performance .row .m-b-xl img,
+#features_security_body .container .right #phone,
+#features_security_body .container .right img
   opacity 0
 
 .fs-navigation-lock
@@ -2009,67 +2034,251 @@ fieldset[disabled] .btn-primary.active
     padding:0px 50px
 
 #features_automation
-  background-color #f5f5f5
+  background #7c7f89 url(../img/automationbg.jpg) no-repeat center center
+  background-size cover
   .row
     .lead-item
-      box-shadow 0px 0px 13px 0px rgba(176, 176, 176, 0.27)
-      -webkit-box-shadow 0px 0px 13px 0px rgba(176, 176, 176, 0.27)
-      -moz-box-shadow 0px 0px 13px 0px rgba(176, 176, 176, 0.27)
-      min-height 400px
       padding 30px 25px
-      background-color #fff
       .lead-image
         width 145px
-        height auto
-        margin auto
+        height 145px
+        margin 0 auto 20px auto
+    .hr-line
+      border-color #ffffff
+    h1.heading-1
+      color #e3e3e3
+    h3.heading-3
+      color #ffffff
+    h4, p
+      color #d0d0d0
 
 
+
+#features_performance
+  background-color #18191f
+  &.in-view
+    background: #18191f url(../img/speedbg.jpg) no-repeat center 5px
+    background-size cover
+    opacity:1
+    transition: 0.5s ease-in-out
+    -webkit-transition: 0.5s ease-in-out
+  h1.heading-1
+    color #03a9f4
+  h4, p
+    color #707172
 
 #features_security
 
   background-color #03a9f4
 
 #features_security_body
-  padding-top:100px
-  background: #0288d1 url(../img/transparentbg.png) no-repeat center 45px
+  background: #d3d8de url(../img/builtinbg.jpg) no-repeat center top
+  background-size cover
   overflow hidden
   .container
-    *
-      color #fff
-    .middle
-      position relative
-      padding 0px
-      .row
-        .text-center
-          position absolute
-          top 125px
-          right 0px
-          left 0px
-          padding 0px
+    .row
+      .hr-line
+        border-color #1d1e23
+      h1.heading-1
+        color #1c1d22
+      h3.heading-3
+        color #000000
+      h4, p
+        color #5f5f5f
+      #modern-tech
+        position relative
+        max-width 560px
+        .modern-tech-show
+          width 100%
+          position  absolute
+          top  -12px
+          img
+            margin: -1px 8px 0 8px
+            max-width: 94.5%
 
-#features_languages .container
-  border-top 1px solid #f0f0f0
+
+
+#features_tools
+  background: #02b1ff url(../img/toolsbg.jpg) no-repeat center top
+  background-size cover
+  blockqoute
+    padding: 10px 15px
+    margin: 0 0 20px
+    border-left: 1px solid #fff
+    display:block
+    p
+      color:#f9f9f9
+      font-weight:300
+  .hr-line
+    border-color #8acaff
+  h3.heading-3
+    color #fafafa
+    margin-top 100px
+  #toolsTab
+    .tab-lead-content
+      position:relative
+      overflow:hidden
+      .tab-lead-image
+        position:absolute
+        top:19%
+    .resp-tab-item, .resp-accordion
+      .image-tools
+        width:156px
+        height:156px
+        text-align:center
+        &.hvr-ripple-out::before
+          border-radius  100px
+          border-color #4fc3f7
+      &.resp-tab-active .image-tools
+        border 1px solid #4fc3f7
+        border-radius  100px
+
+
+#iphonesvg
+  .st0
+    fill: transparent;
+    -webkit-animation: time 3s linear 9s forwards;
+    animation: time 3s linear 9s forwards;
+  .st1
+    fill:none;
+    stroke:#494949;
+    stroke-width:2;
+    stroke-miterlimit:10;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 4s linear forwards;
+    animation: dash 4s linear forwards;
+  .st2
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash_3 4s linear forwards;
+    animation: dash_3 4s linear forwards;
+  .st3
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    -webkit-animation: dash_4 5s linear 8s forwards;
+    animation: dash_4 5s linear 8s forwards;
+  .st4
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    -webkit-animation: dash_5 4s linear 7s forwards;
+    animation: dash_5 4s linear 7s forwards;
+  .st5
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    -webkit-animation: dash_6 4s linear 10s forwards;
+    animation: dash_6 4s linear 10s forwards;
+  .st6
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    -webkit-animation: dash_7 4s linear 4s forwards;
+    animation: dash_7 4s linear 4s forwards;
+  .st22
+    fill:none;
+    stroke:#494949;
+    stroke-miterlimit:10;
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    -webkit-animation: dash_2 4s linear 5s forwards;
+    animation: dash_2 4s linear 5s forwards;
+
+@-webkit-keyframes dash{
+
+  0%{stroke-dashoffset: 2000;}
+  50%{stroke-dashoffset: 1000;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes dash_2{
+
+  0%{stroke-dashoffset: 2000;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+  @-webkit-keyframes dash_3{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes dash_4{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes dash_5{
+
+  0%{stroke-dashoffset: 50;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes dash_7{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+
+
+@-webkit-keyframes dash_6{
+
+  0%{stroke-dashoffset: 200;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes time{
+
+  0%{fill:transparent;}
+  100%{fill:#494949;}
+
+}
+
+
+
+
+#features_languages
+  .container
+    h2.heading-2
+      color #607d8b
+      strong
+        color #07abf4
+        font-weight 300
+        border-bottom 2px solid #07abf4
 
 .free-account
-  background #fff url('../img/footerbg.jpg') no-repeat center center
+  background-color #0fb7f8
+  padding-top 110px
+  padding-bottom 50px
+  background-position center -100px
+  .container
+    h1.heading-1
+      margin-bottom 0px
 
-.free-account, #featured
-  .col-md-8:first-child
-    float:none
-    margin:0px auto
-    h1
-      font-weight:400
-      font-size:60px
-      color:#fff
-      margin-bottom: 20px
-    h4
-      font-weight 300
-      color #fff
-      margin 0px
-  p
-    font-size 18px
-    font-weight 600
-    color #fff
+
+#featured
   .contact-info
     font-weight 400
     a
@@ -2086,10 +2295,11 @@ fieldset[disabled] .btn-primary.active
 
 
 #footer
-  padding-top 30px
-  padding-bottom 50px
+  padding-top 15px
+  padding-bottom 20px
   .footer-credits
     p
+      font-size 13px
       a
         color #757575
 
@@ -2102,7 +2312,14 @@ ul#different_languages
     display:inline-block
     img
       -webkit-filter: grayscale(100%) /* Chrome, Safari, Opera */
-      filter: grayscale(200%)
+      filter: grayscale(100%)
+      opacity:0.3
+      transition:0.3s ease-in-out
+      -webkit-transition:0.3s ease-in-out
+    &:hover img
+      -webkit-filter: grayscale(0%)
+      filter: grayscale(0%)
+      opacity:1
 
 #toolsTab .resp-tab-content .btn
   border-color: #c7c7c7
@@ -2113,18 +2330,31 @@ ul#different_languages
 h3, h4 ,h5
   line-height:1.8
 
+.hr-line
+  border-top:1px solid #03a9f4
+  display:block
+  margin-top:25px
+  margin-bottom:25px
 
 .semi-bold
-  font-weight 600 !important
+  font-weight 500 !important
 
 .heading-1
-  font-size 37px
+  font-size 54px
   font-weight 400
 
 .heading-3
-  font-size 21px
   font-weight 400
   margin-top 10px
+  line-height 1.1
+
+.heading-2
+  font-weight 300
+  font-size 34px
+  line-height 1.2
+
+.thin-text
+  font-weight 100 !important
 
 .light-text
   font-weight 300 !important
@@ -2212,9 +2442,13 @@ nav.nav_offscreen.js-navigation
   position: absolute
   top: 0px
   font-size: 0px
-  background: none
+  background-image: none
+  background-color: transparent
+  border: none
   width: 100%
   outline: none
+  opacity:0
+
 
 nav.nav_offscreen .nav
   display:none
@@ -2486,7 +2720,7 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 
   .resp-tabs-list.tools
     li
-      width auto
+      width 15%
       margin 5px
       padding 5px
       span
@@ -2498,9 +2732,10 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 @media only screen and (max-width:980px)
  .resp-tabs-list.tools
    li
-    width:50%
-    margin:0px
-    padding:0px 15px
+    width 30%
+    margin 10px
+    padding 0px 15px
+    text-align left
 
 
 @media only screen and (max-width:800px)

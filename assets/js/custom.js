@@ -60,12 +60,12 @@ $(document).ready(function () {
 	var movementStrength = 25;
 	var height = movementStrength / $(window).height();
 	var width = movementStrength / $(window).width();
-	$("#featured").mousemove(function(e){
+	$(".slider").mousemove(function(e){
 			  var pageX = e.pageX - ($(window).width() / 2);
 			  var pageY = e.pageY - ($(window).height() / 2);
 			  var newvalueX = width * pageX * -1 - 25;
 			  var newvalueY = height * pageY * -1 - 50;
-			  $('#featured').css("background-position", newvalueX+"px     "+newvalueY+"px");
+			  $('.slider').css("background-position", newvalueX+"px     "+newvalueY+"px");
 	});
 
 	$('#toolsTab').easyResponsiveTabs({
@@ -199,10 +199,16 @@ $(window).on('scroll', function() {
 
 $('.section').on('classChange', function(e){
 
-	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0, x:200}, {opacity: 1, x: 0}, 0.2);
-	TweenMax.staggerFromTo('#features_security_body.in-view .right .m-b-xl', 1, {opacity:0, x:-200}, {opacity: 1, x: 0}, 0.2);
+	TweenMax.staggerFromTo('#features_performance.in-view .row .m-b-xl img', 1, {opacity:0, ease:Linear.easeInOut,}, {opacity: 1, ease:Linear.easeInOut}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0}, {opacity: 1}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech', 2, {opacity: 0},{opacity:1}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .iphonesvg', 2, {opacity: 1, delay:1},{opacity:0, delay:7}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .modern', 2, {opacity: 0}, {opacity: 1, delay:7}, 0.2);
+
 	TweenMax.staggerTo('#features_automation.in-view .col-md-4', 1, {opacity:1}, 0.2);
 	TweenMax.staggerTo('#features_tools.in-view .resp-tab-content .text-right',1, {opacity:1}, 0,2);
+
+
 
 	TweenMax.staggerFromTo('.in-view #different_languages li', 2, {
 		scale:0.2,
@@ -215,10 +221,57 @@ $('.section').on('classChange', function(e){
 	$(this).off(e);
 })
 
-var svg = new Walkway({
-  selector: '#Layer_1',
-  duration: '5000'
-}).draw();
+// var svg = new Walkway({
+//   selector: '#Layer_1',
+//   duration: '5000'
+// }).draw();
+
+
+
+
+var b = $('body');
+
+var sliderScene = b.find('svg.drawsvg').drawsvg({
+	duration: 1800,
+	stagger: 100,
+	callback: function(){
+		$("svg.drawsvg").css('opacity', '0');
+		$(b).find('.hided').each(function(){
+			$(this).removeClass('hided');
+			$(this).addClass('showed');
+		});
+		TweenMax.to(".demo-buttons p", 0.75, {y: "0px", delay: 1.4, opacity: 1})
+		TweenMax.to(".demo-buttons a", 0.75, {y: "0px", delay: 1.5, opacity: 1})
+		$(b).find('.slider, #free-account').css({"background-image": "url('../img/globe.png')"})
+	}
+});
+
+sliderScene.drawsvg('animate')
+
+TweenMax.staggerFrom(".lang .first_batch", 0.4,{
+	scale: 2.2,
+	opacity:0,
+	delay: 2.2,
+	ease:Power2.easeInOut,
+	force3D:true},
+	.5)
+
+TweenMax.staggerFrom(".lang .second_batch", 0.4,{
+	scale: 2.5,
+	opacity:0,
+	delay: 2.3,
+	ease:Power2.easeInOut,
+	force3D:true},
+	.3)
+
+TweenMax.staggerFrom(".lang .third_batch", 0.5,{
+	scale: 2,
+	opacity:0,
+	delay: 2.4,
+	ease:Power2.easeInOut,
+	force3D:true},
+	.5)
+
 
 
 TweenMax.staggerFrom( '#react, #css3, #html5, #js, #pug, #git, #github, #netlify', 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);

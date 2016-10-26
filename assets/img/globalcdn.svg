@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+
+	.st1{
+
+		stroke-dasharray: 1000;
+		stroke-dashoffset: 1000;
+		-webkit-animation: dash 4s linear 1s forwards;
+		animation: dash 4s linear 1s forwards;
+	}
+
+	.st11{
+		stroke-dasharray: 2000;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash_2 4s linear forwards;
+		animation: dash_2 4s linear forwards;
+	}
+
+	.st7{
+    -webkit-transform:scale(0);
+		transform:scale(0);
+		transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-animation: circ 1s ease-in-out 1.4s forwards;
+		animation: circ 1s ease-in-out 1.4s forwards;
+	}
+
+	@-webkit-keyframes circ {
+    0% {-webkit-transform:scale(0.3);}
+    50% {-webkit-transform:scale(1.5);}
+   	100% {-webkit-transform:scale(1);}
+	}
+
+
+	@-webkit-keyframes dash{
+	  	from{stroke-dashoffset: 1000;}
+	  	to{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes dash_2{
+	  	from{stroke-dashoffset: 2000;}
+	  	to{stroke-dashoffset: 0;}
+  }
+
+
+	.st0{display:none;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1, .st11{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{display:inline;fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{display:inline;}
+	.st4{display:inline;fill:#03A9F4;}
+	.st5{fill:#03A9F4;}
+	.st6{display:none;}
+	.st7{fill:#03A9F4;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st8{display:inline;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+
+</style>
+<g id="global-cdn">
+	<path class="st11" d="M111.382,35.87c13.645,28.519,1.584,62.704-26.934,76.348c-28.524,13.645-62.706,1.585-76.351-26.938
+		C-5.545,56.76,6.515,22.579,35.037,8.935C63.556-4.71,97.735,7.35,111.382,35.87z"/>
+	<path class="st1" d="M8.222,85.543c-8.117-17.026,8.426-41.823,36.993-55.44c28.562-13.617,58.242-10.859,66.359,6.167"/>
+	<path class="st1" d="M84.118,112.377c17.016-8.142,19.732-37.825,6.074-66.37C76.538,17.462,51.72,0.95,34.707,9.091"/>
+	<path class="st1" d="M84.774,112.063c-17.016,8.138-41.834-8.375-55.488-36.918c-13.657-28.543-10.94-58.227,6.077-66.368"/>
+	<path class="st1" d="M5.018,43.753c-5.429,18.065,14.701,40.049,45.006,49.155c30.305,9.108,59.217,1.862,64.643-16.2"/>
+	<path class="st1" d="M4.808,44.449c5.432-18.063,34.345-25.31,64.65-16.203c30.303,9.106,50.434,31.091,45.002,49.157"/>
+	<path class="st7" d="M85.733,34.497c-0.445,1.261-1.828,1.922-3.088,1.478l0,0c-1.26-0.445-1.92-1.827-1.477-3.087l0,0
+		c0.443-1.26,1.826-1.921,3.086-1.477l0,0C85.515,31.855,86.177,33.237,85.733,34.497L85.733,34.497z"/>
+	<path class="st1" d="M7.907,84.888c8.118,17.025,37.8,19.782,66.361,6.163c28.564-13.618,45.107-38.412,36.992-55.438"/>
+	<path class="st7" d="M65.618,96.452c-0.576,1.636-2.367,2.491-4.002,1.916l0,0c-1.634-0.577-2.492-2.368-1.914-4.003l0,0
+		c0.574-1.634,2.367-2.492,4.002-1.914l0,0C65.339,93.026,66.196,94.817,65.618,96.452L65.618,96.452z"/>
+</g>
+
+
+</svg>

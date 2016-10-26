@@ -1,0 +1,34 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="157.193px" height="156px" viewBox="0 0 157.193 156" style="enable-background:new 0 0 157.193 156;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:#49B6D3;}
+	.st1{fill:none;stroke:#FCFCFC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#49B6D3;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{fill:none;}
+
+</style>
+<g id="Layer_1">
+	<!-- <circle class="st2" cx="78.264" cy="78.179" r="72"/> -->
+	<circle class="st1" cx="78.264" cy="78.179" r="54"/>
+	<path class="st1" d="M104.056,78.419"/>
+	<line class="st1" x1="49.711" y1="65.514" x2="103.246" y2="65.514"/>
+	<circle class="st0" cx="54.401" cy="60.375" r="1.432"/>
+	<circle class="st0" cx="59.998" cy="60.375" r="1.432"/>
+	<circle class="st0" cx="65.6" cy="60.375" r="1.432"/>
+	<path class="st1" d="M101.203,100.586h-28.58H51.119c-0.777,0-1.407-0.629-1.407-1.407v-42c0-0.777,0.63-1.407,1.407-1.407h50.62
+		c0.777,0,1.406,0.63,1.406,1.407v41.516c0,0,0.018,0.663-0.583,1.22C101.846,100.579,101.203,100.586,101.203,100.586z"/>
+	<path class="st1" d="M106.816,86.756"/>
+	<circle class="st2" cx="79.797" cy="81.724" r="8.995"/>
+	<ellipse class="st2" cx="79.797" cy="81.724" rx="3.912" ry="8.916"/>
+	<line class="st2" x1="72.257" y1="86.628" x2="87.336" y2="86.628"/>
+	<line class="st2" x1="71.557" y1="77.498" x2="87.738" y2="77.498"/>
+	<line class="st2" x1="70.801" y1="82.094" x2="88.494" y2="82.094"/>
+	<line class="st2" x1="59.633" y1="77.857" x2="69.424" y2="77.857"/>
+	<line class="st1" x1="62.624" y1="81.723" x2="67.08" y2="81.723"/>
+	<line class="st1" x1="56.305" y1="85.409" x2="69.45" y2="85.409"/>
+	<rect id="_x3C_Slice_x3E__3_" x="-1.193" class="st3" width="157.193" height="156"/>
+</g>
+<g id="Layer_2">
+</g>
+</svg>

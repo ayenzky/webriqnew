@@ -1,0 +1,22 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="157.193px" height="156px" viewBox="0 0 157.193 156" style="enable-background:new 0 0 157.193 156;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:none;stroke:#FCFCFC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#49B6D3;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;}
+</style>
+<g id="Layer_1">
+</g>
+<g id="Layer_2">
+	<!-- <circle class="st1" cx="76.901" cy="78.547" r="72"/> -->
+	<circle class="st0" cx="76.901" cy="78.547" r="54"/>
+	<path class="st0" d="M104.327,98.632c0,1.453-1.18,2.633-2.633,2.633H89.588c-1.453,0-2.631-1.18-2.631-2.633V58.463
+		c0-1.456,1.178-2.634,2.631-2.634h12.106c1.453,0,2.633,1.178,2.633,2.634V98.632z"/>
+	<path class="st0" d="M86.897,98.632c0,1.453-1.18,2.633-2.633,2.633H72.159c-1.453,0-2.633-1.18-2.633-2.633V73.395
+		c0-1.456,1.18-2.633,2.633-2.633h12.105c1.453,0,2.633,1.177,2.633,2.633V98.632z"/>
+	<path class="st1" d="M66.845,98.632c0,1.453-1.179,2.633-2.633,2.633H52.106c-1.454,0-2.632-1.18-2.632-2.633V73.395
+		c0-1.456,1.178-2.633,2.632-2.633h12.105c1.454,0,2.633,1.177,2.633,2.633V98.632z"/>
+	<rect id="_x3C_Slice_x3E__6_" x="-0.193" y="2" class="st2" width="157.193" height="156"/>
+</g>
+</svg>

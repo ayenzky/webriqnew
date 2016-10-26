@@ -6,237 +6,342 @@ block head
 block content
 	section#features_performance.gray-section.section
 		.container.performance.text-left
-			.row
+			.row.text-center
+				.col-md-8.space-auto
+					h1.m-b-sm.heading-1.thin-text Speed, performance and cost
+				.col-xs-3.col-md-2.space-auto
+					span.hr-line
 				.col-md-7.space-auto
-					h1#performance.text-center.heading-1 Speed, Performance And Cost
-					h4.text-center.light-text Lighting fast speeds. On average the Time to First Byte is 10 times less than with a fully optimised Dynamic site. And the most cost-effective way of delivering high-performance websites.
+					h4.light-text Lighting fast speeds. On average the Time to First Byte is 10 times less than with a fully optimised Dynamic site. And the most cost-effective way of delivering high-performance websites.
 			br
 			.row.m-t-xl
-				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
-					.col-sm-12.col-md-2
-						img(src="img/cdn.jpg")
-					.col-sm-12.col-md-10
-						h3.heading-3 Global CDN
-						p Our highest performing Content Delivery Network (CDN) is based on next-gen tech which allows us to provide one of the fastest, most reliable and highly available CDN globally for any of your websites or Web APPS.
-				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
-					.col-sm-12.col-md-2
-						img(src="img/atomicdeploys.jpg")
-					.col-sm-12.col-md-10
-						h3.heading-3 Automatic Deploys
-						p A key part of Continuous Deployment and Integration is the capability to deploy your website or APP quickly, safely and with almost zero impact to production traffic.
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl
+					.col-sm-12.col-md-3
+						img.m-t-md(src="img/globalcdn.svg")
+					.col-sm-12.col-md-9
+						h3.heading-3.thin-text.white Global CDN
+						p.light-text Our highest performing Content Delivery Network (CDN) is based on next-gen tech which allows us to provide one of the fastest, most reliable and highly available CDN globally for any of your websites or Web APPS.
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl
+					.col-sm-12.col-md-3
+						img.m-t-md(src="img/instantcache.svg")
+					.col-sm-12.col-md-9
+						h3.heading-3.thin-text.white Instant Cache Invalidation
+						p.light-text The slow cache invalidation is the main reason that many developers choose to stick with traditional CMS driven dynamic sites. We provide Instant Cache Invalidation. Once your build is uploaded, we flip the switch and it goes live and the changes in your build are instantly pushed to our global CDN.
 			.row
-				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
-					.col-sm-12.col-md-2
-						img(src="img/highavailability.jpg")
-					.col-sm-12.col-md-10
-						h3.heading-3 High Availability
-						p The CDN is setup so that slow or failing nodes are seamlessly removed. Top to bottom, the infrastructure is redundant, to make sure we keep traffic flowing.
-				.col-xs-12.col-sm-6.col-md-6.m-b-xl.p-r-xl
-					.col-sm-12.col-md-2
-						img(src="img/cache.jpg")
-					.col-sm-12.col-md-10
-						h3.heading-3 Instant Cache Invalidation
-						p The slow cache invalidation is the main reason that many developers choose to stick with traditional CMS driven dynamic sites. We provide Instant Cache Invalidation. Once your build is uploaded, we flip the switch and it goes live and the changes in your build are instantly pushed to our global CDN.
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl
+					.col-sm-12.col-md-3
+						img.m-t-md(src="img/autodeploy.svg")
+					.col-sm-12.col-md-9
+						h3.heading-3.thin-text.white Automatic Deploys
+						p.light-text A key part of Continuous Deployment and Integration is the capability to deploy your website or APP quickly, safely and with almost zero impact to production traffic.
+				.col-xs-12.col-sm-6.col-md-6.m-b-xl
+					.col-sm-12.col-md-3
+						img.m-t-md(src="img/hiavailability.svg")
+					.col-sm-12.col-md-9
+						h3.heading-3.thin-text.white High Availability
+						p.light-text The CDN is setup so that slow or failing nodes are seamlessly removed. Top to bottom, the infrastructure is redundant, to make sure we keep traffic flowing.
 
-	section#features_security.gray-section.section
-		.container.security.text-left
-			.row
-				.col-md-8.space-auto
-					h1#security.text-center.heading-1.text-white Built-in Security And Reliability
-					h4.text-center.light-text.text-white Performance and speed without Security is meaningless. SSL, HHTP2 and password protection are standard for any website.
 	section#features_security_body.gray-section.section
 		.container.builtin_security
-			.col-sm-4.col-md-4.left
-				.row.m-b-xl
-					.col-md-3
-						img(src="img/one_click_ssl.svg")
-					.col-md-9
-						h3.heading-3 One-Click SSL
-						p We generate, deploy and manage unique SSL certificates for each site with just one click.
-				.row.m-b-xl
-					.col-md-3
-						img(src="img/http.svg")
-					.col-md-9
-						h3.heading-3 HTTP2
-						p Full support for the next generation web protocol, built for better performance and more efficient asset loading.
-			.col-sm-4.col-md-4.middle
-				.row
-					.col-md-12.text-center
-						img(src="img/tablet.png")
+			.row.text-center
+				.col-md-8.space-auto
+					h1.heading-1.thin-text Built-in Security And Reliability
+				.col-xs-3.col-md-2.space-auto
+					span.hr-line
+				.col-md-7.space-auto
+					h4.light-text Performance and speed without Security is meaningless. SSL, HHTP2 and password protection are standard for any website.
+			.row
+				.col-sm-6.col-md-6.left
+					.row.m-b-xl
+						.col-md-3
+							img(src="img/one_click_ssl.svg")
+						.col-md-9
+							h3.heading-3.thin-text One-Click SSL
+							p.light-text We generate, deploy and manage unique SSL certificates for each site with just one click.
+					.row.m-b-xl
+						.col-md-3
+							img(src="img/http.svg")
+						.col-md-9
+							h3.heading-3.thin-text HTTP2
+							p.light-text Full support for the next generation web protocol, built for better performance and more efficient asset loading.
+					.row.m-b-xl
+						.col-md-3
+							img(src="img/secure_build_environment.svg")
+						.col-md-9
+							h3.heading-3.thin-text Secure Build Environment
+							p.light-text Build environments live only for the duration of the build. Combined with a build cache, we ensure that each build is fast and fully isolated.
+					.row.m-b-xl
+						.col-md-3
+							img(src="img/no_databases_no_servers.svg")
+						.col-md-9
+							h3.heading-3.thin-text No Databases, No Servers
+							p.light-text Your websites have no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past. No single server to be installed, updated or maintained.
+				.col-sm-6.col-md-6.right
+					#modern-tech
+						//- svg#iphonesvg.drawsvg_line.drawsvg(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='533.784px', height='713.514px', viewbox='0 0 533.784 713.514', style='enable-background:new 0 0 533.784 713.514;', xml:space='preserve')
+						//- 	path.st1(d='M15.284,144.388c0,0-8.326-28.638,18.98-42.291L254.711,12.52c0,0,32.967-9.325,48.285,26.64\
+						//- 	c15.319,35.963,213.456,513.156,213.456,513.156s15.984,34.299-18.649,52.281l-212.786,90.91c0,0-28.974,10.654-46.289-16.65\
+						//- 	L15.284,144.388z')
+						//- 	path.st22(d='M20.525,148.347c0,0-8.12-27.932,18.513-41.248l215.006-87.366c0,0,32.152-9.094,47.092,25.982\
+						//- 	c14.941,35.077,208.188,500.491,208.188,500.491s15.589,33.451-18.189,50.99l-207.535,88.666c0,0-28.257,10.391-45.145-16.24\
+						//- 	L20.525,148.347z')
+						//- 	path.st22(d='M16.713,145.582c0,0-8.277-28.477,18.874-42.051l219.194-89.069c0,0,32.779-9.272,48.011,26.488\
+						//- 	c15.231,35.76,212.243,510.24,212.243,510.24s15.894,34.107-18.542,51.986l-211.578,90.393c0,0-28.809,10.594-46.026-16.555\
+						//- 	L16.713,145.582z')
+						//- 	path.st3(d='M160.505,73.809c0,3.587-2.907,6.496-6.495,6.496s-6.496-2.908-6.496-6.496c0-3.587,2.908-6.495,6.496-6.495\
+						//- 	S160.505,70.222,160.505,73.809z')
+						//- 	path.st3(d='M158.74,73.809c0,2.612-2.117,4.73-4.729,4.73c-2.611,0-4.729-2.118-4.729-4.73\
+						//- 	c0-2.612,2.118-4.729,4.729-4.729C156.623,69.08,158.74,71.197,158.74,73.809z')
+						//- 	path.st3(d='M127.215,110.834c0,1.705-1.381,3.085-3.085,3.085s-3.085-1.38-3.085-3.085c0-1.704,1.381-3.084,3.085-3.084\
+						//- 	S127.215,109.13,127.215,110.834z')
+						//- 	path.st3(d='M125.594,110.834c0,0.81-0.654,1.465-1.464,1.465s-1.464-0.655-1.464-1.465c0-0.809,0.654-1.464,1.464-1.464\
+						//- 	S125.594,110.025,125.594,110.834z')
+						//- 	path.st3(d='M183.765,87.687c0.137,0.333-0.021,0.711-0.354,0.848l-41.907,17.22c-0.332,0.137-0.711-0.022-0.848-0.354l0,0\
+						//- 	c-0.137-0.333,0.021-0.711,0.354-0.848l41.907-17.22C183.25,87.196,183.629,87.355,183.765,87.687L183.765,87.687z')
+						//- 	path.st3(d='M397.596,611.325c0,12.197-9.888,22.084-22.085,22.084s-22.086-9.887-22.086-22.084s9.889-22.086,22.086-22.086\
+						//- 	S397.596,599.128,397.596,611.325z')
+						//- 	path.st3(d='M401.494,611.325c0,14.348-11.633,25.982-25.982,25.982s-25.983-11.635-25.983-25.982\
+						//- 	c0-14.352,11.634-25.984,25.983-25.984S401.494,596.974,401.494,611.325z')
+						//- 	path.st3(d='M402.956,611.325c0,15.156-12.288,27.443-27.444,27.443c-15.157,0-27.445-12.287-27.445-27.443\
+						//- 	c0-15.158,12.288-27.445,27.445-27.445C390.667,583.88,402.956,596.167,402.956,611.325z')
+						//- 	path.st22(d='M39.038,175.629L304.059,69.425l190,457.619L230.985,637.308L39.038,175.629z')
+						//- 	rect.st6(x='348.489', y='120.799', transform='matrix(0.9238 -0.383 0.383 0.9238 -28.1256 145.014)', width='3.335', height='44.698')
+						//- 	path.st4(d='M27.313,164.585l-2.586,2.395L23,162.799l2.531-2.526L27.313,164.585z')
+						//- 	path.st6(d='M69.885,279.373c0.391,0.93-0.046,2.001-0.977,2.392l0,0c-0.93,0.391-2.001-0.046-2.393-0.976L52.36,247.104\
+						//- 	c-0.392-0.931,0.046-2.001,0.977-2.393l0,0c0.93-0.391,2,0.047,2.392,0.976L69.885,279.373z')
+						//- 	path.st6(d='M42.407,213.698c0.391,0.93-0.046,2.001-0.977,2.392l0,0c-0.93,0.391-2.001-0.046-2.393-0.976l-9.793-23.561\
+						//- 	c-0.391-0.931,0.047-2.001,0.977-2.393l0,0c0.93-0.391,2.002,0.047,2.393,0.976L42.407,213.698z')
+						//- 	path.st6(d='M92.539,332.718c0.392,0.931-0.046,2.001-0.976,2.392l0,0c-0.931,0.391-2.001-0.045-2.393-0.976L75.013,300.45\
+						//- 	c-0.391-0.931,0.046-2.001,0.977-2.392l0,0c0.93-0.391,2.001,0.046,2.392,0.977L92.539,332.718z')
+						//- 	path.st4(d='M302.936,49.97l3.187-1.123l1.638,3.903l-3.178,1.138L302.936,49.97z')
+						//- 	path.st4(d='M503.957,533.278h3.642l2.465,5.936l-3.57,0.178L503.957,533.278z')
+						//- 	path.st5(d='M59.681,187.775l-1.369,0.526l-1.155-3.004l1.369-0.526L59.681,187.775z')
+						//- 	path.st5(d='M55.9,189.228l-1.37,0.526l-0.746-1.943l1.369-0.526L55.9,189.228z')
+						//- 	path.st5(d='M63.461,186.322l-1.369,0.526l-2.139-5.566l1.369-0.526L63.461,186.322z')
+						//- 	rect.st5(x='64.195', y='176.349', transform='matrix(0.9334 -0.3588 0.3588 0.9334 -60.5878 35.3471)', width='1.467', height='9.086')
+						//- 	rect.st5(x='67.501', y='172.334', transform='matrix(0.9334 -0.3588 0.3588 0.9334 -59.4023 36.3544)', width='1.467', height='11.736')
+						//- 	g
+						//- 		path.st0(d='M167.859,143.555c-1.438,0.501-2.894-0.504-3.764-2.932c-0.864-2.48-0.257-4.203,1.238-4.724\
+						//- 		c1.54-0.537,2.917,0.535,3.733,2.878c0.871,2.504,0.412,4.212-1.197,4.772L167.859,143.555z M167.635,142.769\
+						//- 		c1.01-0.351,1.082-1.71,0.428-3.59c-0.631-1.812-1.498-2.844-2.541-2.481c-0.906,0.315-1.092,1.676-0.449,3.522\
+						//- 		c0.644,1.922,1.635,2.872,2.552,2.553L167.635,142.769z')
+						//- 		path.st0(d='M173.5,133.195l0.229,0.657l-0.871,7.821l-1.019,0.355l0.914-7.621l-0.008-0.023l-3.602,1.254l-0.287-0.827\
+						//- 		L173.5,133.195z')
+						//- 		path.st0(d='M177.877,140.066c-0.385,0.134-0.764-0.077-0.901-0.474c-0.146-0.419,0.035-0.812,0.42-0.946\
+						//- 		c0.407-0.142,0.771,0.062,0.917,0.481c0.138,0.396-0.016,0.793-0.424,0.935L177.877,140.066z M176.497,136.064\
+						//- 		c-0.385,0.134-0.764-0.078-0.9-0.474c-0.146-0.419,0.033-0.812,0.419-0.947c0.407-0.141,0.771,0.062,0.917,0.481\
+						//- 		c0.139,0.396-0.016,0.793-0.424,0.935L176.497,136.064z')
+						//- 		path.st0(d='M179.368,132.194l-0.023,0.008l-1.039,1.137l-0.457-0.692l1.309-1.42l0.85-0.296l2.564,7.362l-0.963,0.336\
+						//- 		L179.368,132.194z')
+						//- 		path.st0(d='M187.381,129.303l-2.81,0.978l0.367,1.968c0.162-0.082,0.313-0.16,0.585-0.254\
+						//- 		c0.577-0.201,1.176-0.27,1.723-0.157c0.688,0.117,1.389,0.597,1.721,1.548c0.501,1.438-0.269,2.913-1.865,3.469\
+						//- 		c-0.805,0.28-1.552,0.286-1.992,0.186l-0.016-0.846c0.369,0.075,1.047,0.092,1.728-0.145c0.929-0.324,1.53-1.219,1.173-2.212\
+						//- 		c-0.339-0.974-1.217-1.417-2.679-0.909c-0.431,0.15-0.747,0.298-1.003,0.438l-0.747-3.677l3.522-1.227L187.381,129.303z')
+						//- 	path.st5(d='M294.39,91.666l-21.163,8.497l-3.524-8.775l21.164-8.497L294.39,91.666z')
+						//- 	path.st5(d='M288.661,92.314l-14.354,5.762l-2.381-5.931l14.354-5.763L288.661,92.314z')
+						//- 	path.st5(d='M295.324,89.639l-1.462,0.587l-2.382-5.931l1.463-0.587L295.324,89.639z')
 
-			.col-sm-4.col-md-4.right
-				.row.m-b-xl
-					.col-md-3
-						img(src="img/secure_build_environment.svg")
-					.col-md-9
-						h3.heading-3 Secure Build Environment
-						p Build environments live only for the duration of the build. Combined with a build cache, we ensure that each build is fast and fully isolated.
-				.row.m-b-xl
-					.col-md-3
-						img(src="img/no_databases_no_servers.svg")
-					.col-md-9
-						h3.heading-3 No Databases, No Servers
-						p Your websites have no movable parts, no database to connect to or scripts that need to be executed and there is no way to inject malware. Malware, outdated scripts, denial of service attacks are of the past. No single server to be installed, updated or maintained.
+						img.modern(src="img/moderntss.svg", style="opacity:0;")
+						.modern-tech-show
+							img.iphonesvg(src="img/iphonetools.svg")
 
 	section#features_automation.gray-section.section
 		.container.automation.text-left
-			.row
+			.row.text-center
 				.col-md-10.space-auto
-					h1#automation.text-center.heading-1 Automation For Ease
-					h4.text-center.light-text We have you completely covered when it comes to automating the entire workflow. The separation of front-end and back-end opens up a lot of possibilities, but has it's challenges.
+					h1.heading-1.thin-text Automation For Ease
+				.col-xs-3.col-md-2.space-auto
+					span.hr-line
+				.col-md-7.space-auto
+					h4.light-text We have you completely covered when it comes to automating the entire workflow. The separation of front-end and back-end opens up a lot of possibilities, but has it's challenges.
 			.row.m-t-xl
 				.col-md-4
 					.lead-item.text-center
 						.lead-image
-							img(src="img/gitintegration.jpg")
+							img(src="img/gitintegrate.png")
 						.lead-content
 							.lead-title
-								h3.heading-3 Git Integration
-							p We pair with Git . With GitHub private repos we let you pull, change and push all code and content to manage your site.
+								h3.heading-3.thin-text Git <br>Integration
+							p.light-text We pair with Git . With GitHub private repos we let you pull, change and push all code and content to manage your site.
 				.col-md-4
 					.lead-item.text-center
 						.lead-image
-							img(src="img/webhook.jpg")
+							img(src="img/webhooks.png")
 						.lead-content
 							.lead-title
-								h3.heading-3 Outbound Webhooks & Integrations
-							p Set up any number of outbound webhooks. Receive email or Slack notifications for new form submissions, new deploys or build failures.
+								h3.heading-3.thin-text Outbound Webhooks<br> & Integrations
+							p.light-text Set up any number of outbound webhooks. Receive email or Slack notifications for new form submissions, new deploys or build failures.
 				.col-md-4
 					.lead-item.text-center
 						.lead-image
-							img(src="img/versioning.jpg")
+							img(src="img/rollbacks.png")
 						.lead-content
 							.lead-title
-								h3.heading-3 Versionning & Rollbacks
-							p Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you’d like is just a matter of clicking the version you want live again.
+								h3.heading-3.thin-text Versionning &<br> Rollbacks
+							p.light-text Each lightweight deploy is treated as an immutable snapshot of the site. Rolling back as far as you’d like is just a matter of clicking the version you want live again.
 
 	section#features_tools.gray-section.section
 		.container.tools.text-left
-			.row
-				h1#tools.text-center.heading-1.semi-bold More Tools To Help You Along
-				h4.text-center.light-text More exciting tools to help you along as site owner, content editor or developer.
+			.row.text-center
+				.col-md-12.space-auto
+					h1.heading-1.thin-text.white More Tools To Help You Along
+				.col-xs-3.col-md-2.space-auto
+					span.hr-line
+				.col-md-6.space-auto
+					h4.light-text.white More exciting tools to help you along as site owner, content editor or developer.
 			.row.m-t-xl
 				#toolsTab
 					.resp-tabs-container.tools
 						div
 							.col-md-5
-								h3.heading-3 Continuous Deployment of Content
-								p In the same way as new code is deployed, so is content. Through a UI friendly Markdown editor with preview mode, you can edit, manage and publish any new or existing content. Content updates are pushed to your Github private repo for immediate deployment on your website.
+								h3.heading-3.light-text Continuous Deployment of Content (CMS)
+								blockqoute
+									p In the same way as new code is deployed, so is content. Through a UI friendly Markdown editor with preview mode, you can edit, manage and publish any new or existing content. Content updates are pushed to your Github private repo for immediate deployment on your website.
 								br
 
 							.col-md-7.text-right
-								img(src="img/continues-deployment.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/continues-deployment.svg")
 						div
 							.col-md-5
-								h3.heading-3 Collaboration for Members
-								p As an account owner you can invite multiple other contributors to your application, be it developers, content writers or content editors.
+								h3.heading-3.light-text Collaboration for Members
+								blockqoute
+									p As an account owner you can invite multiple other contributors to your application, be it developers, content writers or content editors.
 								br
 
 							.col-md-7.text-right
-								img(src="img/collaborative.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/collaborative.svg")
 						div
 							.col-md-5
-								h3.heading-3 Redirect, Rewrite, & Proxy Rules
-								p Use different rules to control how requests are handled. Proxy part of your traffic to your own backend, redirect old pages, or rewrite a page entirely. Or do them all.
+								h3.heading-3.light-text Redirect, Rewrite, & Proxy Rules
+								blockqoute
+									p Use different rules to control how requests are handled. Proxy part of your traffic to your own backend, redirect old pages, or rewrite a page entirely. Or do them all.
 								br
 
 							.col-md-7.text-right
-								img(src="img/rules.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/rules.svg")
 						div
 							.col-md-5
-								h3.heading-3 Multiple Environments Support
-								p Support multiple environments (i.e. preview, staging, production) with a simple argument. Each environment can track a branch, providing isolated environments for previewing, staging or production.
+								h3.heading-3.light-text Multiple Environments Support
+								blockqoute
+									p Support multiple environments (i.e. preview, staging, production) with a simple argument. Each environment can track a branch, providing isolated environments for previewing, staging or production.
 								br
 
 							.col-md-7.text-right
-								img(src="img/multiple-environment.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/multiple-environment.svg")
 						div
 							.col-md-5
-								h3.heading-3 Form Submission Hooks
-								p We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
+								h3.heading-3.light-text Form Submission Hooks
+								blockqoute
+									p We support form submissions for any HTML form on your website and each submission triggers an email, a slack notifications or a webhook.
 								br
 
 							.col-md-7.text-right
-								img(src="img/form-submission.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/form-submission.svg")
 						div
 							.col-md-5
-								h3.heading-3 Google Analytics
-								p As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
+								h3.heading-3.light-text Google Analytics
+								blockqoute
+									p As one of the essential tools in the industry to analyze traffic and behaviours from your website or APP, we have neatly integrated Google analytics for any of your projects at hand.
 								br
 
 							.col-md-7.text-right
-								img(src="img/google-analytics.svg")
+								.tab-lead-content
+									img.bowser(src="img/browserbg.svg")
+									.tab-lead-image
+										img(src="img/google-analytics.svg")
 					ul.resp-tabs-list.tools
 						li
-							span
-								img(src="img/deployment.png")
-							|	Continuous Deployment of Content
+							span.image-tools.hvr-ripple-out
+								img(src="img/continues-deployment-btn.svg")
+							span.tools-name
+								|Continuous Deployment of Content
 						li
-							span
-								img(src="img/collaboration.png")
-							|	Collaboration for Members
+							span.image-tools.hvr-ripple-out
+								img(src="img/collaborative-btn.svg")
+							span.tools-name
+								|Collaboration for Members
 						li
-							span
-								img(src="img/proxyrules.png")
-							|	Redirect, Rewrite, & Proxy Rules
+							span.image-tools.hvr-ripple-out
+								img(src="img/rules-btn.svg")
+							span.tools-name
+								|Redirect, Rewrite, & Proxy Rules
 						li
-							span
-								img(src="img/support.png")
-							|	Multiple Environments Support
+							span.image-tools.hvr-ripple-out
+								img(src="img/multiple-environment-btn.svg")
+							span.tools-name
+								|Multiple Environments Support
 						li
-							span
-								img(src="img/form.png")
-							|	Form Submission Hooks
+							span.image-tools.hvr-ripple-out
+								img(src="img/form-submission-btn.svg")
+							span.tools-name
+								|Form Submission Hooks
 						li
-							span
-								img(src="img/analytics.png")
-							|	Google Analytics
+							span.image-tools.hvr-ripple-out
+								img(src="img/google-analytics-btn.svg")
+							span.tools-name
+								|Google Analytics
 
 
 
 	section#features_languages.section
 		.container.languages.text-left.gray-section
 			.row
-				h3#pages.light-text.text-center Beyond five different world languages, we speak also your language
+				.col-md-6.space-auto.text-center
+					h2.heading-2.thin-text Beyond five different world languages, we speak also your <strong>language</strong>
 				br
 				.col-md-11
 					ul#different_languages
 						li
 							a(href="#")
-								img(src="img/brand_logos/nodejslogo.png")
+								img(src="img/brand_logos/nodejslogo.svg", height="46", width="158")
 						li
 							a(href="#")
-								img(src="img/brand_logos/html5logo.png")
+								img(src="img/brand_logos/html5logo.svg", height="54", width="93")
 						li
 							a(href="#")
-								img(src="img/brand_logos/css3logo.png")
+								img(src="img/brand_logos/css3logo.svg", height="56", width="83")
 						li
 							a(href="#")
-								img(src="img/brand_logos/jslogo.png")
+								img(src="img/brand_logos/jslogo.svg", height="56", width="73")
 						li
 							a(href="#")
-								img(src="img/brand_logos/githublogo.png")
+								img(src="img/brand_logos/githublogo.svg", height="57", width="59")
 						li
 							a(href="#")
-								img(src="img/brand_logos/npmlogo.png")
+								img(src="img/brand_logos/npmlogo.svg", height="46", width="118")
 						li
 							a(href="#")
-								img(src="img/brand_logos/coffescriptlogo.png")
+								img(src="img/brand_logos/coffescriptlogo.svg", height="45", width="185")
 						li
 							a(href="#")
-								img(src="img/brand_logos/puglogo.png")
+								img(src="img/brand_logos/puglogo.svg", height="51", width="149")
 						li
 							a(href="#")
-								img(src="img/brand_logos/markdownlogo.png")
+								img(src="img/brand_logos/markdownlogo.svg", height="45", width="71")
 						li
 							a(href="#")
-								img(src="img/brand_logos/styluslogo.png")
+								img(src="img/brand_logos/styluslogo.svg", height="65", width="69")
 						li
 							a(href="#")
-								img(src="img/brand_logos/slacklogo.png")
+								img(src="img/brand_logos/slacklogo.svg", height="45", width="164")
 						li
 							a(href="#")
-								img(src="img/brand_logos/trello.png")
+								img(src="img/brand_logos/trellologo.svg", height="40", width="137")
 
 
 

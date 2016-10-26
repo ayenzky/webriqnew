@@ -1,0 +1,35 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="157.193px" height="156px" viewBox="0 0 157.193 156" style="enable-background:new 0 0 157.193 156;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:#49B6D3;}
+	.st1{fill:none;stroke:#FCFCFC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#49B6D3;stroke-width:1.5;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FCFCFC;stroke-width:1.5;stroke-miterlimit:10;stroke-dasharray:8.9516,4.4758;}
+	.st4{fill:none;}
+
+</style>
+<!-- <circle class="st2" cx="77.387" cy="78.179" r="72"/> -->
+<circle class="st1" cx="77.387" cy="78.179" r="54"/>
+<path class="st1" d="M90.16,71.373"/>
+<line class="st1" x1="102.281" y1="74.513" x2="98.724" y2="75.438"/>
+<line class="st1" x1="87.43" y1="98.927" x2="88.709" y2="101.981"/>
+<line class="st1" x1="46.806" y1="61.078" x2="89.513" y2="61.078"/>
+<circle class="st0" cx="50.546" cy="56.976" r="1.142"/>
+<circle class="st0" cx="55.013" cy="56.976" r="1.142"/>
+<circle class="st0" cx="59.481" cy="56.976" r="1.142"/>
+<path class="st1" d="M80.082,92.452H47.93c-0.62,0-1.124-0.501-1.124-1.122V54.428c0-0.62,0.502-1.122,1.124-1.122h40.379
+	c0.621,0,1.123,0.502,1.123,1.122V75.22"/>
+<polyline class="st2" points="64.112,79.623 60.508,77.54 56.903,75.459 60.508,73.379 64.112,71.296 "/>
+<g>
+	<g>
+		<path class="st1" d="M93.291,103.042c1.355,0.05,2.689-0.098,3.967-0.421"/>
+		<path class="st3" d="M101.356,100.861c2.982-1.882,5.271-4.873,6.188-8.565c1.176-4.725-0.17-9.486-3.186-12.864"/>
+		<path class="st1" d="M102.746,77.888c-1.02-0.831-2.166-1.528-3.418-2.058l0.924,4.746"/>
+	</g>
+</g>
+<path class="st1" d="M84.76,102.805l3.219-1.005c-6.138-2.752-9.615-9.584-7.936-16.342c1.644-6.611,7.683-10.975,14.229-10.749"/>
+<polyline class="st2" points="70.723,79.623 74.327,77.54 77.931,75.459 74.327,73.379 70.723,71.296 "/>
+<line class="st2" x1="65.77" y1="80.655" x2="68.619" y2="69.943"/>
+<rect id="_x3C_Slice_x3E__1_" class="st4" width="157.193" height="156"/>
+</svg>

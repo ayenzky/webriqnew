@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+
+	.st1{
+		stroke-dasharray: 200;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 2s linear forwards;
+		animation: dash 2s linear forwards;
+	}
+
+	.rotation{
+		-webkit-animation: rotation 2s forwards linear;
+		-moz-animation: rotation 2s forwards linear;
+		-o-animation: rotation 2s forwards linear;
+		animation: rotation 2s  forwards linear;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+	}
+
+	@-webkit-keyframes dash {
+    from {stroke-dashoffset: 200;}
+    to   {stroke-dashoffset: 0;}
+	}
+
+	@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(-200deg);}
+    to   {-webkit-transform: rotate(0deg);}
+	}
+
+
+	.st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st6{fill:#03A9F4;}
+
+
+</style>
+<g id="instant-cache-validation">
+	<circle class="st2" cx="59.269" cy="60.548" r="50.891"/>
+	<g class="rotation">
+	<g>
+		<g>
+			<path class="st2" d="M115.41,66.195c-2.79,28.292-26.654,50.391-55.677,50.391c-17.125,0-32.454-7.694-42.717-19.813
+				c-0.244-0.289-0.486-0.581-0.724-0.875"/>
+			<g>
+				<polygon class="st6" points="18.489,95.013 14.328,93.334 14.954,97.777 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st2" d="M3.785,60.636c0-30.896,25.049-55.949,55.948-55.949c18.283,0,34.52,8.772,44.73,22.335"/>
+			<g>
+				<polygon class="st6" points="102.241,27.811 106.331,29.656 105.885,25.191 				"/>
+			</g>
+		</g>
+	</g>
+	</g>
+	<path class="st1" d="M53.73,78.065c-2.127,8.437,1.438,14.079,2.205,15.164l12.598,5.53c0,0-6.563-8.133-5.569-16.45
+		c1.3-10.892,6.718-18.153,6.718-18.153l-24.34-10.75c0,0-8.031,8.31-10.646,17.812c-1.78,6.479-0.136,12.626-0.136,12.626
+		l17.705,7.775C50.695,83.331,53.73,78.065,53.73,78.065z"/>
+	<polygon class="st1" points="71.539,61.697 46.386,50.498 48.738,45.061 73.893,56.257 	"/>
+	<polygon class="st1" points="61.257,47.296 63.632,48.506 73.022,29.068 70.646,27.853 	"/>
+</g>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="157.193px" height="156px" viewBox="0 0 157.193 156" style="enable-background:new 0 0 157.193 156;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:none;stroke:#FCFCFC;stroke-width:1.5;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#49B6D3;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2{fill:none;}
+
+</style>
+<g id="Layer_2">
+	<!-- <circle class="st1" cx="77.966" cy="78.179" r="72"/> -->
+	<circle class="st0" cx="77.966" cy="78.179" r="54"/>
+	<polyline class="st0" points="88.031,99.61 78.723,104.985 57.293,92.613 57.293,67.866 78.723,55.493 100.152,67.866
+		100.152,84.901 	"/>
+	<polyline class="st0" points="59.26,101.171 50.863,96.324 50.863,87.001 	"/>
+	<polyline class="st0" points="68.007,54.257 78.723,48.07 89.791,54.46 	"/>
+	<polyline class="st0" points="57.293,67.866 78.723,80.239 78.723,99.49 	"/>
+	<path class="st0" d="M91.43,92.25"/>
+	<path class="st0" d="M91.43,72.998"/>
+	<path class="st0" d="M69.998,60.626"/>
+	<line class="st0" x1="78.723" y1="80.239" x2="92.688" y2="71.718"/>
+	<circle class="st1" cx="93.504" cy="91.688" r="9.391"/>
+	<path class="st1" d="M89.85,86.192c1.972-1.311,4.393-1.423,6.4-0.51"/>
+
+		<rect x="100.773" y="100.238" transform="matrix(-0.8329 0.5535 -0.5535 -0.8329 244.4775 134.7569)" class="st1" width="2.237" height="8.11"/>
+	<polyline id="_x3C_Slice_x3E__4_" class="st2" points="-3,0 154.193,0 154.193,156 -3,156 	"/>
+</g>
+</svg>

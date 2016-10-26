@@ -1,4 +1,4 @@
-ul.resp-tabs-list, p {
+ul.resp-tabs-list{
     margin: 0px;
     padding: 0px;
 }
@@ -7,42 +7,47 @@ ul.resp-tabs-list, p {
     font-weight: 300;
     font-size: 16px;
     display: inline-block;
-    background-color:#fff !important;
-    padding: 0px 15px;
-    margin: 0px 5px;
+    background-color:transparent !important;
+    padding: 0px 5px;
+    margin: 0px 10px;
     list-style: none;
     cursor: pointer;
     float: left;
-    width:32.33%;
+    width:175px;
     vertical-align:top;
-    line-height:5;
-    color:#757575;
+    text-align:center;
+    color:#f2f2f2;
 }
 
-.resp-tabs-list li:hover,
-.resp-tabs-list li:hover img{
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    color:#02a8f3;
-}
 
 .resp-tabs-list li span{
-    float:left;
-    width:70px;
+    clear:both;
+    line-height:1.6;
+    display:block;
+    width:100%;
     margin-right:10px;
-}
-
-.resp-tabs-list li span img{
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
 }
 
 .resp-tabs-container {
     padding: 0px;
-    background-color: #fff;
+    background-color: transparent !important;
     clear: left;
+
 }
 
+
+
+.resp-tabs-container .resp-accordion{
+    background-color: transparent !important;
+    border-color:#fff !important;
+}
+
+
+.resp-tabs-container .resp-accordion span.tools-name{
+    font-weight:100;
+    font-size:18px;
+    color:#fff;
+}
 h2.resp-accordion {
     cursor: pointer;
     padding: 5px;
@@ -54,13 +59,7 @@ h2.resp-accordion {
     /*padding: 15px;*/
 }
 
-.resp-tabs-list li.resp-tab-active,
-.resp-tabs-list li.resp-tab-active img {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    color:#02a8f3;
 
-}
 
 .resp-content-active, .resp-accordion-active {
     display: block;
@@ -136,10 +135,11 @@ border-right: 1px #FFF solid !important;
     width: 0;
     height: 0;
     float: right;
-    margin-top: 3px;
+    margin-top: 69px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 12px solid #c1c1c1;
+    border-top: 12px solid #ffffff;
+
 }
 
 h2.resp-tab-active span.resp-arrow {
@@ -176,7 +176,7 @@ h2.resp-tab-active {
 }
 
 h2.resp-accordion:first-child {
-    border-top: 1px solid #c1c1c1;/* !important;*/
+    border-top: 1px solid #fff;
 }
 
 /*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
