@@ -113,13 +113,30 @@
 */
 
 
+@media only screen and (max-width:1024px){
+  #featured .slider .slider-heading{
+    font-size: 36px;
+  }
+  body .heading-1{
+    font-size:44px;
+  }
+  #free-account .heading-1{
+    font-size:54px;
+  }
+}
+
+
+
 @media only screen and (max-width:800px){
+  #featured .slider .slider-heading{
+    font-size: 36px;
+  }
   .slider-background .slider .lang{
     width:280px;
     left:25px;
   }
   .slider-background .slider .lang img{
-    /* padding:4px; */
+     padding:4px;
   }
   .slider-background .demo-buttons{
     left:75px;

@@ -18,7 +18,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
   margin-bottom: 50px;
   position: relative;
   text-align: left;
-  padding-top: 80px;
+  padding-top: 25px;
 }
 .slider .hexa {
   position: absolute;
@@ -284,7 +284,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
   height: 50px;
 }
 
-.demo-buttons p, .demo-buttons a{
+.demo-buttons p, .demo-buttons a,  .animate-earth-small, .animate-earth-large{
   opacity: 0;
   transform: translateY(50px);
   -webkit-transform: translateY(50px);

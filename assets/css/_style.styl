@@ -168,8 +168,11 @@ h1
 
 .navbar-default
   background-color transparent
-  border-color transparent
-  transition all 0.3s ease-in-out 0s
+  border-color none
+  box-shadow none
+  -webkit-box-shadow none
+  outline none
+
   &.navbar-scroll
     // background-color #fff
     // border-color #fff
@@ -748,22 +751,22 @@ li
 
 
 .page-blog #main-featured
-  background: url("../img/slider-background-v2.jpg") center right
+  background: url("/img/slider-background-v2.jpg") center right
   padding-top: 120px
 
 #main-featured
-  background url('../img/slider-background-v2.jpg') center right
+  background url('/img/slider-background-v2.jpg') center right
   padding-top 120px
   h1
     font-size 50px !important
     color: #fff
 #main-featured2
-  background url('../img/cms-header-bg.jpg') center right
+  background url('/img/cms-header-bg.jpg') center right
   h1
     font-size 50px !important
     color: #fff
 #main-featured.get-certified
-  background: url("../img/get-background.jpg") center right
+  background: url("/img/get-background.jpg") center right
 
 
 #main-featured2.cms-static-website-sec
@@ -1629,11 +1632,13 @@ fieldset[disabled] .btn-primary.active
     .navbar
       padding-top 0
       padding-bottom 5px
-      border-bottom 1px solid #e7eaec
       border-radius 0
       padding-left 0px
       padding-right 0px
       border none
+      outline none
+      box-shadow none
+      -webkit-box-shadow none
   .nav
     & > li
       & > a
@@ -2045,12 +2050,13 @@ fieldset[disabled] .btn-primary.active
   background #7c7f89 url(../img/automationbg.jpg) no-repeat center center
   background-size cover
   position relative
+  padding 100px 0px
   .row
     .lead-item
       padding 30px 25px
       .lead-image
-        width 145px
-        height 145px
+        width 190px
+        height 178px
         margin 0 auto 20px auto
     .hr-line
       border-color #ffffff
@@ -2060,6 +2066,63 @@ fieldset[disabled] .btn-primary.active
       color #ffffff
     h4, p
       color #d0d0d0
+
+#featured::before,
+#features_performance::before,
+#features_performance::after,
+#features_security_body::before,
+#features_security_body::after,
+#features_automation::before,
+#features_automation::after
+  content: "";
+  position:absolute;
+  right:0px;
+  left:0px;
+  margin:0px auto;
+  background: url(/img/dotte-lines.svg) no-repeat;
+  width:20px;
+
+
+#featured::before
+  background-position: center top;
+  bottom:0px;
+  height:30px;
+
+
+#features_performance::before
+  top:0px;
+  height:50px;
+  background-position: center bottom;
+
+
+#features_performance::after
+  bottom:0px;
+  height:30px;
+  background-position: center top;
+
+
+#features_security_body::before
+  top:0px;
+  height:50px;
+  background-position:center bottom;
+
+
+#features_security_body::after
+  bottom:0px;
+  height:30px;
+  background-position: center top;
+
+
+#features_automation::before
+  top:0px;
+  height:50px;
+  background-position:center bottom;
+
+
+#features_automation::after
+  bottom:40px;
+  height:80px;
+  background-position:center top;
 
 
 
@@ -2112,12 +2175,12 @@ fieldset[disabled] .btn-primary.active
   background: #02b1ff url(../img/toolsbg.jpg) no-repeat center top
   background-size cover
   blockqoute
-    padding: 10px 15px
-    margin: 0 0 20px
-    border-left: 1px solid #fff
+    padding: 10px 25px 10px 20px
+    margin: 20px 0 20px
+    border-left: 2px solid #fff
     display:block
     p
-      color:#f9f9f9
+      color:#ffffff
       font-weight:300
   .hr-line
     border-color #8acaff
@@ -2127,7 +2190,11 @@ fieldset[disabled] .btn-primary.active
   #toolsTab
     .tab-lead-content
       position relative
-      overflow hidden
+      background  url(../img/shadow.png) no-repeat center bottom
+      background-size 100%
+      padding-bottom 40px
+      padding-left 20px
+      padding-right 20px
       .tab-lead-image
         position absolute
         top 19%
@@ -2168,9 +2235,14 @@ fieldset[disabled] .btn-primary.active
   overflow hidden
   .container
     h1.heading-1
-      margin-bottom 0px
-    .svg-earth-pattern img
-      margin-top 80px
+      margin-bottom 15px
+      margin-top 0px
+    .svg-earth-pattern
+      padding-top 0px
+      img
+        margin-top 80px
+    .lang
+      margin-top 50px
 
 
 #featured
@@ -2656,7 +2728,14 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 @media only screen and (max-width:768px)
   #features_security_body
     .container
-      .left, .right
+      .left
+        width 100%
+        .row
+          width 50%
+          float left
+          margin-right 0px
+          margin-left 0px
+      .right
         width 100%
 
   .free-cms-sec
@@ -2692,6 +2771,11 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
   #features_security_body
     .container
       text-align center
+      .left
+        .row
+          float:none
+          width:auto
+
 
 
 @media only screen and (max-width:480px)
