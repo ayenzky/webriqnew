@@ -2898,7 +2898,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .hvr-ripple-out:hover:before,
 .hvr-ripple-out:focus:before,
-.hvr-ripple-out:active:before
+.hvr-ripple-out:active:before,
+.resp-tab-active .hvr-ripple-out::before
 {
     animation-name: hvr-ripple-out;
     animation-iteration-count: infinite;

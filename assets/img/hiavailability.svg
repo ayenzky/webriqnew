@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
 <style type="text/css">
@@ -8,8 +5,15 @@
 	.st1, .st2{
 		stroke-dasharray: 400;
 		stroke-dashoffset: 0;
-		-webkit-animation: dash 3s linear forwards;
-		animation: dash 3s linear forwards;
+		-webkit-animation: dash 2s linear forwards;
+		animation: dash 2s linear forwards;
+	}
+
+	.st22{
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		-webkit-animation: dash_2 2s linear 0.5s reverse forwards;
+		animation: dash_2 2s linear 0.5s reverse forwards;
 	}
 
 
@@ -17,8 +21,14 @@
 	  	from{stroke-dashoffset: 400;}
 	  	to{stroke-dashoffset: 0;}
   }
+
+  @-webkit-keyframes dash_2{
+	  	from{stroke-dashoffset: 0;}
+	  	to{stroke-dashoffset: 50;}
+  }
+
 	.st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2, .st22{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
 
 
 </style>
@@ -28,8 +38,8 @@
 	<circle class="st1" cx="59.683" cy="55.217" r="47.153"/>
 	<g class="rotation">
 	<circle class="st2" cx="59.683" cy="55.216" r="3.526"/>
-	<line class="st2" x1="83.33" y1="31.576" x2="62.12" y2="52.789"/>
-	<line class="st2" x1="55.429" y1="55.218" x2="30.952" y2="55.218"/>
+	<line class="st22" x1="83.33" y1="31.576" x2="62.12" y2="52.789"/>
+	<line class="st22" x1="55.429" y1="55.218" x2="30.952" y2="55.218"/>
 	</g>
 	<line class="st1" x1="15.42" y1="55.218" x2="19.906" y2="55.218"/>
 	<line class="st1" x1="99.386" y1="55.218" x2="103.873" y2="55.218"/>

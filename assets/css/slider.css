@@ -7,7 +7,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
   font-family: 'Roboto', sans-serif;
 }
 .slider-background {
-  background: url(../img/homebg4.jpg) no-repeat center top;
+  background: url(../img/slider-background-v2.jpg) no-repeat center top;
   background-size:  cover
 }
 .slider {
@@ -73,8 +73,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
   stroke-width: 4px;
   z-index: -1;
 }
-#svg_logo path, #svg_menu path,
-#free_account path, #free_demo path {
+#svg_logo path, #svg_menu path{
   stroke-width: 1.5px;
   stroke: #48c1f9;
 }
@@ -176,8 +175,9 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 .slider .slider-subheading {
   position: relative;
   font-weight: 300;
-    color: #fff;
-    display: inline-block;
+  color: #fff;
+  display: inline-block;
+  margin:0px;
 }
 .slider .slider-heading svg {
     position: absolute;
@@ -195,7 +195,7 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
   padding-top: 10px;
 }
 .slider .slider-buttons {
-  margin-top: 45px;
+  margin-top: 30px;
 }
 .slider .slider-buttons #free_demo_link{
   background-color: transparent;
@@ -250,11 +250,11 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
     position: relative !important;
 }
 
-#svg_horizontal_line {
+#free-account.in-view #svg_horizontal_line {
   position: absolute;
-    left: 0;
-    top: 45px;
-    max-width: 100%;
+  left: 0;
+  top: 160px;
+  max-width: 100%;
 }
 #svg_horizontal_line path {
   stroke: #fff;
@@ -287,52 +287,18 @@ body, p, h1, h2, h3, h4, h5, td, li, td {
 .demo-buttons p, .demo-buttons a{
   opacity: 0;
   transform: translateY(50px);
+  -webkit-transform: translateY(50px);
 }
 
-@media only screen and (max-width:800px){
-  .slider .lang{
-    width:280px;
-    left:25px;
-  }
-  .slider .lang img{
-    padding:4px;
-  }
-  .demo-buttons{
-    left:75px;
-    bottom:135px;
-  }
-
+.svg-earth-pattern {
+  padding-top: 55px;
+}
+.svg-earth-pattern img {
+  position: absolute;
+  margin-top: 110px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 
-@media only screen and (max-width:768px){
-  .slider .lang{
-    width:256px;
-    top:135px;
-  }
-  .slider .lang img{
-    padding:2px;
-  }
-  .demo-buttons{
-    bottom:165px;
-  }
-
-}
-
-@media only screen and (max-width: 767px){
-  .phone{
-    display:none;
-  }
-  .slider{
-    margin-bottom:0px;
-    padding-top: 0px;
-    height: 600px;
-  }
-
-
-}
-
-@media only screen and (max-width: 640px){
-  .slider .slider-heading{
-    font-size: 36px;
-  }
-}

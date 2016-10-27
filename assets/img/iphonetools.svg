@@ -6,23 +6,23 @@
 	.st1{
 		stroke-dasharray: 2000;
 		stroke-dashoffset: 0;
-		-webkit-animation: dash 2s linear forwards;
-		animation: dash 2s linear forwards;
+		-webkit-animation: dash 1s linear forwards;
+		animation: dash 1s linear forwards;
 
 	}
 
 	.st3{
 		stroke-dasharray: 400;
 		stroke-dashoffset: 400;
-		-webkit-animation: dash_4 2s linear 5s forwards;
-		animation: dash_4 2s linear 5s forwards;
+		-webkit-animation: dash_4 2s linear 2s forwards;
+		animation: dash_4 2s linear 2s forwards;
 	}
 
 	.st4{
 		stroke-dasharray: 50;
 		stroke-dashoffset: 50;
-		-webkit-animation: dash_5 3s linear 4s forwards;
-		animation: dash_5 3s linear 4s forwards;
+		-webkit-animation: dash_5 1s linear 1.8s forwards;
+		animation: dash_5 1s linear 1.8s forwards;
 	}
 
 	.st2{
@@ -35,15 +35,15 @@
 
 	.st0{
 		fill: transparent !important;
-		-webkit-animation: time 2s linear 6s forwards;
-		animation: time 2s linear 6s forwards;
+		-webkit-animation: time 1.5s linear 2.2s forwards;
+		animation: time 1.5s linear 2.2s forwards;
 
 	}
 	.st5{
 		stroke-dasharray: 200;
 		stroke-dashoffset: 200;
-		-webkit-animation: dash_6 2s linear 7s forwards;
-		animation: dash_6 2s linear 7s forwards;
+		-webkit-animation: dash_6 2s linear 2.5s forwards;
+		animation: dash_6 2s linear 2.5s forwards;
 	}
 
 	.st6{
@@ -58,8 +58,8 @@
 	.st22{
 		stroke-dasharray: 2000;
 		stroke-dashoffset: 2000;
-		-webkit-animation: dash_2 2s linear 3s forwards;
-		animation: dash_2 2s linear 3s forwards;
+		-webkit-animation: dash_2 1s linear 1s forwards;
+		animation: dash_2 1s linear 1s forwards;
 
 	}
 

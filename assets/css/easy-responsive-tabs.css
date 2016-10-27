@@ -9,11 +9,11 @@ ul.resp-tabs-list{
     display: inline-block;
     background-color:transparent !important;
     padding: 0px 5px;
-    margin: 0px 10px;
+    margin: 0px 5px;
     list-style: none;
     cursor: pointer;
     float: left;
-    width:175px;
+    width:180px;
     vertical-align:top;
     text-align:center;
     color:#f2f2f2;
@@ -45,7 +45,7 @@ ul.resp-tabs-list{
 
 .resp-tabs-container .resp-accordion span.tools-name{
     font-weight:100;
-    font-size:18px;
+    font-size: 16px;
     color:#fff;
 }
 h2.resp-accordion {
@@ -131,22 +131,33 @@ margin-bottom: 4px !important;
 border-right: 1px #FFF solid !important;
 }
 
-.resp-arrow {
+.resp-arrow::before {
     width: 0;
     height: 0;
     float: right;
-    margin-top: 69px;
-    border-left: 6px solid transparent;
+    margin-right:25px;
+    margin-top: 60px;
+   /*border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 12px solid #ffffff;
-
+    border-top: 12px solid #ffffff; */
+    content: "\f0fe";
+    font-family:FontAwesome;
+    font-size:30px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    color:#fff;
 }
 
 h2.resp-tab-active span.resp-arrow {
-    border: none;
+    /*border: none;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-bottom: 12px solid #9B9797;
+    border-bottom: 12px solid #ffffff; */
+}
+
+h2.resp-tab-active span.resp-arrow::before{
+    content: "\f146";
 }
 
 /*-----------Accordion styles-----------*/

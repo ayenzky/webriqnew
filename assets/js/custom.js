@@ -57,16 +57,16 @@ $(document).ready(function () {
 
 	// $(".bg").interactive_bg();
 
-	var movementStrength = 25;
-	var height = movementStrength / $(window).height();
-	var width = movementStrength / $(window).width();
-	$(".slider").mousemove(function(e){
-			  var pageX = e.pageX - ($(window).width() / 2);
-			  var pageY = e.pageY - ($(window).height() / 2);
-			  var newvalueX = width * pageX * -1 - 25;
-			  var newvalueY = height * pageY * -1 - 50;
-			  $('.slider').css("background-position", newvalueX+"px     "+newvalueY+"px");
-	});
+	// var movementStrength = 25;
+	// var height = movementStrength / $(window).height();
+	// var width = movementStrength / $(window).width();
+	// $(".slider").mousemove(function(e){
+	// 		  var pageX = e.pageX - ($(window).width() / 2);
+	// 		  var pageY = e.pageY - ($(window).height() / 2);
+	// 		  var newvalueX = width * pageX * -1 - 25;
+	// 		  var newvalueY = height * pageY * -1 - 50;
+	// 		  $('.slider').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	// });
 
 	$('#toolsTab').easyResponsiveTabs({
 		type: 'default', //Types: default, vertical, accordion
@@ -109,10 +109,14 @@ setTimeout(function(){
 
 
 // Install Cookies
+setTimeout(function(){
+
 document.addEventListener('DOMContentLoaded', function(event) {
 	cookieChoices.showCookieConsentBar('Cookies help us deliver our services. By using our services, you agree to our use of cookies.',
   'Got it', 'learn more', '/cookies');
 });
+
+}, 120000);
 
 
 // Activate WOW.js plugin for animation on scroll
@@ -202,11 +206,14 @@ $('.section').on('classChange', function(e){
 	TweenMax.staggerFromTo('#features_performance.in-view .row .m-b-xl img', 1, {opacity:0, ease:Linear.easeInOut,}, {opacity: 1, ease:Linear.easeInOut}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0}, {opacity: 1}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech', 2, {opacity: 0},{opacity:1}, 0.2);
-	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .iphonesvg', 2, {opacity: 1, delay:1},{opacity:0, delay:7}, 0.2);
-	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .modern', 2, {opacity: 0}, {opacity: 1, delay:7}, 0.2);
-
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .iphonesvg', 2, {opacity: 1, delay:1},{opacity:0, delay:4}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .modern', 1, {opacity: 0}, {opacity: 1, delay:3}, 0.2);
 	TweenMax.staggerTo('#features_automation.in-view .col-md-4', 1, {opacity:1}, 0.2);
 	TweenMax.staggerTo('#features_tools.in-view .resp-tab-content .text-right',1, {opacity:1}, 0,2);
+	TweenMax.staggerFromTo('#free-account.in-view .lang', 1, {opacity:0}, {opacity: 1}, 0.2);
+
+
+
 
 
 
@@ -229,7 +236,9 @@ $('.section').on('classChange', function(e){
 
 
 
-var b = $('body');
+var b = $('body'),
+		aes = b.find('.animate-earth-small'),
+		ael = b.find('.animate-earth-large');
 
 var sliderScene = b.find('svg.drawsvg').drawsvg({
 	duration: 1800,
@@ -242,7 +251,11 @@ var sliderScene = b.find('svg.drawsvg').drawsvg({
 		});
 		TweenMax.to(".demo-buttons p", 0.75, {y: "0px", delay: 1.4, opacity: 1})
 		TweenMax.to(".demo-buttons a", 0.75, {y: "0px", delay: 1.5, opacity: 1})
-		$(b).find('.slider, #free-account').css({"background-image": "url('../img/globe.png')"})
+		TweenMax.to(aes, 2.2, {opacity: 1});
+		TweenMax.to(ael, 2.5, {opacity: 1});
+		TweenMax.to(aes, 90, {ease: Power0.easeNone, rotation: "+=360", transformOrigin: 'center center', repeat:-1, force3D: true })
+		TweenMax.to(ael, 95, {ease: Power0.easeNone, rotation: "-=360", transformOrigin: 'center center', repeat:-1, force3D: true })
+		// $(b).find('#free-account').css({"background-image": "url('../img/globe.png')"})
 	}
 });
 
@@ -274,5 +287,5 @@ TweenMax.staggerFrom(".lang .third_batch", 0.5,{
 
 
 
-TweenMax.staggerFrom( '#react, #css3, #html5, #js, #pug, #git, #github, #netlify', 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
+// TweenMax.staggerFrom( '#react, #css3, #html5, #js, #pug, #git, #github, #netlify', 2, {scale:0.5, opacity:0, delay:1, ease:Elastic.easeOut, force3D:true}, 0.2);
 

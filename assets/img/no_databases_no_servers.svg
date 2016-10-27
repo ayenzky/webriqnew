@@ -1,6 +1,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="116px" height="116px" viewBox="0 0 350 350" enable-background="new 0 0 350 350" xml:space="preserve">
 
-<defs>
+<!-- <defs>
 <style>
 
 path, polyline, circle, rect, line{
@@ -25,7 +25,7 @@ path, polyline, circle, rect, line{
 
 </style>
 
-</defs>
+</defs> -->
 
 <circle display="none" fill="none" stroke="#03a9f4" stroke-width="3" stroke-miterlimit="10" cx="176.313" cy="175.637" r="150.971"/>
 <rect x="54" y="72" fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" width="173" height="75"/>
