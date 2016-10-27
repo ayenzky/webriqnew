@@ -123,6 +123,9 @@
   #free-account .heading-1{
     font-size:54px;
   }
+  .partners .row{
+    margin-bottom: 25px !important;
+  }
 }
 
 
@@ -175,6 +178,12 @@
   }
   .svg-earth-pattern img.animate-earth-large {
     width: 500px;
+  }
+  .partners .row .col-sm-6{
+    margin-bottom: 25px !important;
+  }
+  .partners .row .col-sm-6 h3 {
+    margin-top: 0px;
   }
 }
 @media (min-width: 768px) {
