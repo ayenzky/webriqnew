@@ -30,16 +30,7 @@ module.exports =
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
 
-    roots_rss_generator(
-      folder: "posts"
-      output: "feed.xml"
-      maxcount: 15
-      settings:
-        title: "WebriQ | CMS for Static Pages and Shops"
-        feed_url: "https://www.webriq.com/feed.xml"
-        description: "CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages"
-        site_url: "https://www.webriq.com"
-      )
+
   ]
 
   stylus:

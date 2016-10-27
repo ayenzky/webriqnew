@@ -41,6 +41,7 @@ $(document).ready(function () {
 	//     link: "/cookies",
 	//     expiryDays: 180
 	// });
+	$("nav").navigation();
 
 	$("nav").on("open.navigation", function() {
 		$("#nav-icon1").addClass('open');
@@ -53,7 +54,7 @@ $(document).ready(function () {
 		$(".nav.navbar-nav").addClass('show-down');
 	});
 
-	$("nav").navigation();
+
 
 	// $(".bg").interactive_bg();
 
