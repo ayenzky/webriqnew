@@ -25,6 +25,12 @@ $(document).ready(function () {
 		}
 	});
 
+	$('body').find('a[href="#"]').click(function(e){
+
+		return false;
+
+	});
+
 	// Page scrolling feature
 	// $('a.page-scroll').bind('click', function(event) {
 	//     var link = $(this);
@@ -80,11 +86,11 @@ $(document).ready(function () {
 
 });
 
-$('.services p').expander({
-		slicePoint: 110,
-		expandText: 'more',
-		userCollapseText: 'less'
-});
+// $('.services p').expander({
+// 		slicePoint: 110,
+// 		expandText: 'more',
+// 		userCollapseText: 'less'
+// });
 
 // Popup
 $('[data-toggle="popover"]').popover();

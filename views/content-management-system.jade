@@ -3,21 +3,24 @@ extend main2
 block head
 	title WebriQ - Content Management System
 
-block content 
+block content
 
 	.container
 		section#features_main.col-md-12.free-cms-sec
 			.row
-				.col-sm-12.header-ttle
+				.col-sm-12.header-ttle.space-auto
 					h2 WebriQpages
-					h3 CMS System for Static Websites
+				.col-xs-3.col-md-2.space-auto
+					span.hr-line
+				.col-md-12.space-auto.text-center
+					h4 CMS System for Static Websites
 
 				.col-sm-12.webriq-pages-sec1
 					.col-md-4.col-sm-12.img-left
 						img.desc-desk(src='img/webriqpage-img1.jpg', style='display:none;')
 						img.desc-moble(src='img/webfact-mobile2.png')
 
-					.col-md-8.col-sm-12.det-right.services 
+					.col-md-8.col-sm-12.det-right.services
 						.row.det-right1
 							.col-md-6.col-sm-6.col-xs-6
 								.col-md-12
@@ -34,7 +37,7 @@ block content
 							.col-md-6.col-sm-6.col-xs-6
 								.col-md-12
 									i.fa.fa-lock(aria-hidden='true')
-									h1 SSL security							
+									h1 SSL security
 									p SSL is the standard security technology for establishing an encrypted link between a web server and a browser. This link ensures that all data passed between the web server and browsers remain private and integral.
 							.col-md-6.col-sm-6.col-xs-6
 								.col-md-12
@@ -46,13 +49,13 @@ block content
 	section#site-wizard-sect.site-wiz-sec
 		.container
 			.col-sm-12.header-ttle2
-				h2 
-					span WebriQ 
+				h2
+					span WebriQ
 					| site creation wizard
 				h3 Start creating your first static website now!
 				.btn-sitewizard
-					a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn(href='https://app.webriq.com/auth/register', role='button') Create Free Account
+					a.btn.btn-lg.btn-primary.btn-rounded.btn-inverted.create-btn.hvr-ripple-out.slider_buttons(href='https://app.webriq.com/auth/register', role='button') Free Account
 				.img-wizard
 					img.desc-moble(src='img/site-creation-animate2.gif')
-				
+
 

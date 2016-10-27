@@ -4,6 +4,7 @@ body
   color #212121
   font-family: $roboto !important
   line-height:1.6
+  font-size 15px
 
 body.page-blog
   background-color: darken(white, 4%)
@@ -16,12 +17,17 @@ p
   &.text-color
     color #212121
 
+
 a
   &.navy-link
     color #039be5
     text-decoration none
     &:hover
       color #17a185
+
+a[href="#"]:hover
+  cursor default
+
 
 section
   p
@@ -417,8 +423,9 @@ h1
   font-size 16px
   font-weight 500
 .terms-of-use h4
-  margin 25px 0
-  font-weight 500
+  margin: 25px 0 5px
+  font-weight: 300
+  font-size: 24px
 
 .partners
   h3
@@ -460,12 +467,12 @@ h1
 
   .title
     sup
-      top:0px
+      top:4px
       display: inline-block
       width: 45px
       height: 45px
       font-size: 24px
-      font-weight: 600
+      font-weight: 300
       text-align: center
       line-height: 45px
       border-radius: 45px
@@ -667,11 +674,11 @@ li
 
   .about-us
     li
-      margin 18px 0
+      margin 10px 0
       max-width 360px
     .fa
       font-size 0px
-      margin-right 15px
+      margin-right 10px
       width 25px
       height 30px
       text-align center
@@ -771,7 +778,7 @@ li
   .svg-earth-pattern
     padding-top 0px
 #main-featured2
-  background url('/img/cms-header-bg.jpg') center right
+  background url('/img/slider-background-v2.jpg') center right
   h1
     font-size 50px !important
     color: #fff
@@ -780,8 +787,9 @@ li
 
 
 #main-featured2.cms-static-website-sec
-  padding:150px 0px 180px !important
+  padding:100px 0px 130px !important
   position:relative
+  overflow hidden
 
 #main-featured2.cms-static-website-sec .det-cms-header h1
   margin:0px !important
@@ -791,8 +799,6 @@ li
   color:#fff
   font-weight:100
 
-#main-featured2.cms-static-website-sec .det-cms-header a
-  padding:15px 50px !important
 
 .mouse-icon
   border: 2px solid #fff
@@ -827,19 +833,15 @@ li
 .free-cms-sec
   .header-ttle
     text-align center
-    padding 60px 0px 10px
+    padding 60px 0px 0px
     h2
-      font-size 40px
+      font-size 54px
       color #4c484d
-    h3
-      font-size 22px
       font-weight 100
-      &:after
-        content ''
-        display block
-        border-bottom solid 1px #24bbed
-        width 50px
-        margin 50px auto 60px
+  .text-center
+    h4
+      font-weight 300
+
   .webriq-pages-sec1
     padding 15px 0px 50px
     .fa
@@ -852,7 +854,7 @@ li
       h1
         font-size 24px
         padding-top 10px
-        font-weight 400
+        font-weight 300
         color #515151
       .det-right2
         padding 30px 0px
@@ -863,8 +865,8 @@ li
           border-radius 50%
           color #45d4ff
       p
-        font-size 16px
-        font-weight 100
+        font-size 15px
+        font-weight 300
         color #7b7b7b
         line-height 1.4em
       a
@@ -894,7 +896,7 @@ li
     a
       font-size 16px
       color #fff
-      padding 15px 50px
+      padding 12px 55px
 
 .btn-sitewizard
   margin 50px 0px
@@ -1975,7 +1977,7 @@ fieldset[disabled] .btn-primary.active
     box-shadow 0 1px 2px rgba(0, 0, 0, 0.1)
   .entry-header
     background #03a9f4
-    padding 12px 35px 12px 25px
+    padding 10px 35px 8px 25px
     h3
       color #fff !important
       font-weight 300
@@ -2158,6 +2160,8 @@ fieldset[disabled] .btn-primary.active
   background-size cover
   position relative
   .container
+    .row:first-child
+      margin-bottom: 50px
     .row
       .hr-line
         border-color #1d1e23
@@ -2177,6 +2181,10 @@ fieldset[disabled] .btn-primary.active
           img
             margin: -1px 8px 0 8px
             max-width: 94.5%
+      .left
+        img
+          margin-top -10px
+          width 150px
 
 
 
@@ -2271,8 +2279,8 @@ fieldset[disabled] .btn-primary.active
 
 
 #footer
-  padding-top 15px
-  padding-bottom 20px
+  padding-top 20px
+  padding-bottom 10px
   .footer-credits
     p
       font-size 13px
