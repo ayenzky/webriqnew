@@ -85,7 +85,7 @@ $('.section').on('classChange', function(e){
 	TweenMax.staggerFromTo('#features_performance.in-view .row .m-b-xl svg', 0.2, {opacity:0}, {opacity: 1}, 0.1);
 	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0}, {opacity: 1}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech', 2, {opacity: 0},{opacity:1}, 0.2);
-	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .iphonesvg', 2, {opacity: 1, delay:1},{opacity:0, delay:4}, 0.2);
+	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech svg', 2, {opacity: 1, delay:1},{opacity:0, delay:4}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .modern', 1, {opacity: 0}, {opacity: 1, delay:3}, 0.2);
 	TweenMax.staggerTo('#features_automation.in-view .col-md-4', 1, {opacity:1}, 0.2);
 	TweenMax.staggerTo('#features_tools.in-view .resp-tab-content .text-right',1, {opacity:1}, 0,2);

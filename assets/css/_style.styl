@@ -2022,6 +2022,7 @@ fieldset[disabled] .btn-primary.active
 #features_tools .resp-tab-content .text-right,
 #features_performance .row .m-b-xl svg,
 #features_security_body .container .right #phone,
+#features_security_body .container .right svg,
 #features_security_body .container .right img,
 #free-account .lang
   opacity 0
@@ -2186,7 +2187,7 @@ fieldset[disabled] .btn-primary.active
           width 100%
           position  absolute
           top  -12px
-          img
+          svg
             margin: -1px 8px 0 8px
             max-width: 94.5%
       .left
@@ -2718,15 +2719,20 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
       span
         margin-right 0px
 
+  body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -65px
 
 
 
 @media only screen and (max-width:980px)
- .resp-tabs-list.tools
-   li
-    width 30%
-    margin 10px
-    padding 0px 15px
+  .resp-tabs-list.tools
+    li
+      width 30%
+      margin 10px
+      padding 0px 15px
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -80px
+
 
 @media only screen and (max-width:800px)
   #features_security_body
@@ -2736,6 +2742,9 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 
       .middle
         display none
+   html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -134px
+
 
 
 @media only screen and (max-width:767px)
@@ -2748,6 +2757,11 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
       margin-top 50px
   #contact .container .row .pull-right
     float left !important
+  #features_security_body .container .right
+    clear both
+
+   html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top-12px
 
 
 @media only screen and (max-width:768px)
@@ -2777,6 +2791,9 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
   #site-wizard-sect
     padding 40px 0px 20px !important
 
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -12px
+
 @media only screen and (max-width:640px)
   .free-cms-sec
     .img-left
@@ -2800,7 +2817,12 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
         .row
           float:none
           width:auto
+  body #features_security_body .container .row #modern-tech .modern-tech-show
+    right 5px
 
+@media only screen and (max-width: 600px)
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -17px
 
 
 @media only screen and (max-width:480px)
@@ -2809,4 +2831,17 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
     text-align center
   .contact .quicklinks li:nth-child(6) ul
     position relative
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -90px
+
+@media only screen and (max-width: 360px)
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -165px
+
+
+@media only screen and (max-width: 320px)
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
+    top -185px
+
+
 
