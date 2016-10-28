@@ -398,3 +398,58 @@ body, p, h1, h2, h3, h4, h5, td, li, td
   stroke-miterlimit:10
 #instant-cache-validation .st6
     fill:#03A9F4
+
+
+#features_performance.in-view #atomic .st1
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+  -webkit-animation: atomic_dash 5s linear forwards;
+  animation: atomic_dash 5s linear forwards;
+#features_performance.in-view #atomic .st6
+  -webkit-animation: atomic_arrow 2s ease-in forwards;
+  animation: atomic_arrow 2s ease-in forwards;
+
+@-webkit-keyframes atomic_arrow{
+  from{fill:transparent;}
+  to{fill:#03A9F4;}
+}
+@-webkit-keyframes atomic_dash{
+  from{stroke-dashoffset: 800;}
+  to{stroke-dashoffset: 0;}
+}
+#atomic .st0{display:none;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st2{display:inline;fill:#03A9F4;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st3{display:inline;fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st4{display:inline;}
+#atomic .st5{display:inline;fill:#03A9F4;}
+#atomic .st6{fill:#03A9F4;}
+#atomic .st7{display:none;}
+#atomic .st8{display:inline;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+
+
+#features_performance.in-view #high-availability .st1, #features_performance.in-view #high-availability .st2
+  stroke-dasharray: 400
+  stroke-dashoffset: 0
+  -webkit-animation: high_dash 2s linear forwards
+  animation: high_dash 2s linear forwards
+
+#features_performance.in-view #high-availability .st22
+  stroke-dasharray: 50
+  stroke-dashoffset: 50
+  -webkit-animation: high_dash_2 2s linear 0.5s reverse forwards
+  animation: high_dash_2 2s linear 0.5s reverse forwards
+
+
+  @-webkit-keyframes high_dash{
+    from{stroke-dashoffset: 400;}
+    to{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes high_dash_2{
+    from{stroke-dashoffset: 0;}
+    to{stroke-dashoffset: 50;}
+  }
+
+#high-availability .st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#high-availability .st2, #high-availability .st22{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
