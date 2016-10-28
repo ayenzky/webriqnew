@@ -2221,6 +2221,8 @@ fieldset[disabled] .btn-primary.active
       padding-bottom 40px
       padding-left 20px
       padding-right 20px
+      svg
+        max-width 100%
       .tab-lead-image
         position absolute
         top 19%
@@ -2721,6 +2723,9 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
 
   body #features_security_body .container .row #modern-tech .modern-tech-show
     top -65px
+  #features_tools #toolsTab .tab-lead-content
+    text-align center
+    padding-bottom 60px
 
 
 
@@ -2760,8 +2765,12 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
   #features_security_body .container .right
     clear both
 
-   html body #features_security_body .container .row #modern-tech .modern-tech-show
+  html body #features_security_body .container .row #modern-tech .modern-tech-show
     top-12px
+  .resp-tabs-container .resp-accordion span.tools-name
+    font-size 24px
+  #features_performance .container
+    text-align center
 
 
 @media only screen and (max-width:768px)
@@ -2819,6 +2828,8 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
           width:auto
   body #features_security_body .container .row #modern-tech .modern-tech-show
     right 5px
+  #features_tools #toolsTab .tab-lead-content
+    padding-bottom 40px
 
 @media only screen and (max-width: 600px)
   html body #features_security_body .container .row #modern-tech .modern-tech-show
@@ -2833,10 +2844,23 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
     position relative
   html body #features_security_body .container .row #modern-tech .modern-tech-show
     top -90px
+  .resp-tabs-container .resp-accordion span.tools-name
+    font-size 15px
+    font-weight 300
 
 @media only screen and (max-width: 360px)
   html body #features_security_body .container .row #modern-tech .modern-tech-show
     top -165px
+  #features_tools #toolsTab .tab-lead-content .tab-lead-image
+    top 15%
+  #features_tools #toolsTab .tab-lead-content
+    padding-bottom 25px
+  .resp-tabs-container .resp-accordion span.tools-name
+    clear both
+    display block
+
+  .resp-tabs-container .resp-accordion
+    text-align center
 
 
 @media only screen and (max-width: 320px)

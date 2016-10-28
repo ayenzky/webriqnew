@@ -577,3 +577,60 @@ body, p, h1, h2, h3, h4, h5, td, li, td
 #iphonetool .st0{fill:#494949;}
 #iphonetool .st1{fill:none;stroke:#494949;stroke-width:2;stroke-miterlimit:10;}
 #iphonetool .st2, #iphonetool .st22, #iphonetool .st3, #iphonetool .st4, #iphonetool .st5, #iphonetool .st6{fill:none;stroke:#494949;stroke-miterlimit:10;}
+
+
+#features_tools.in-view #browser .st6
+  opacity:0
+  fill:#FF8A80
+  -webkit-animation: browser_blink 1s linear 1.5s infinite alternate
+  animation: browser_blink 1s linear 1.5s infinite alternate
+
+#features_tools.in-view #browser .st5
+  fill:#FDD835
+  opacity:0
+  -webkit-animation: browser_blink 1s linear 2s infinite alternate
+  animation: browser_blink 1s linear 2s infinite alternate
+#features_tools.in-view #browser .st14
+  fill:#78909C
+  opacity:0
+  -webkit-animation: browser_blink 1s linear 3s infinite alternate
+  animation: browser_blink 1s linear 3s infinite alternate
+
+#features_tools.in-view #browser .rotation
+  -webkit-animation: browser_rotation 4s reverse linear
+  -moz-animation: browser_rotation 4s reverse linear
+  -o-animation: browser_rotation 4s reverse linear
+  animation: browser_rotation 4s reverse linear
+  transform-origin: 50% 50%
+  -webkit-transform-origin: 50% 50%
+  -moz-transform-origin: 50% 50%
+
+@-webkit-keyframes browser_rotation{
+  from {-webkit-transform: rotate(360deg);}
+  to   {-webkit-transform: rotate(0deg);}
+
+}
+
+@-webkit-keyframes browser_blink {
+    0%{opacity:0;}
+    50%{opacity:0.5;}
+    100%{opacity:1;}
+}
+
+
+
+#browser .st0{fill:#8C9194;}
+#browser .st1{fill:#F2F2F2;}
+#browser .st2{fill:#F9F9F9;}
+#browser .st3{fill:#969696;}
+#browser .st4{fill:none;stroke:#969696;stroke-width:3;stroke-miterlimit:10;}
+#browser .st5{fill:#FDD835;}
+#browser .st6{fill:#FF8A80;}
+#browser .st7{fill:none;}
+#browser .st8{display:none;fill:#4F5051;}
+#browser .st9{fill:#CECECE;}
+#browser .st10{display:inline;fill:#03A9F4;}
+#browser .st11{fill:#359B19;}
+#browser .st12{fill:none;stroke:#969696;stroke-width:2;stroke-miterlimit:10;}
+#browser .st13{display:none;}
+#browser .st14{fill:#78909C;}
