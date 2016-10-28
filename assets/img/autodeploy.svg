@@ -21,13 +21,8 @@
   	to{fill:#03A9F4;}
   }
 	@-webkit-keyframes dash{
-
-  	from{
-  		stroke-dashoffset: 800;
-  	}
-  	to{
-  		stroke-dashoffset: 0;
-  	}
+  	from{stroke-dashoffset: 800;}
+  	to{stroke-dashoffset: 0;}
   }
 
 	.st0{display:none;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
