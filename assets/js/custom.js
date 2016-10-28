@@ -82,7 +82,7 @@ $(window).on('scroll', function() {
 
 $('.section').on('classChange', function(e){
 
-	TweenMax.staggerFromTo('#features_performance.in-view .row .m-b-xl img', 1, {opacity:0, ease:Linear.easeInOut,}, {opacity: 1, ease:Linear.easeInOut}, 0.2);
+	TweenMax.staggerFromTo('#features_performance.in-view .row .m-b-xl img', 1, {opacity:0}, {opacity: 1, delay:2}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .left .m-b-xl', 1, {opacity:0}, {opacity: 1}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech', 2, {opacity: 0},{opacity:1}, 0.2);
 	TweenMax.staggerFromTo('#features_security_body.in-view .right #modern-tech .iphonesvg', 2, {opacity: 1, delay:1},{opacity:0, delay:4}, 0.2);
