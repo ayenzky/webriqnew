@@ -1,0 +1,32 @@
+//- .navbar-wrapper
+//- 	.navbar.navbar-default.navbar-fixed-top
+//- 		.col-md-12
+//- 			//- button.navbar-toggle(type='button', data-toggle='offcanvas', data-target='#myNavmenu', data-canvas='body')
+//- 			//- 	span.icon-bar
+//- 			//- 	span.icon-bar
+//- 			//- 	span.icon-bar
+//- 			h4#handle Navigation
+//- 			a.navbar-brand(href='/')
+//- 				h4 WebriQ
+//- 				img(src= records.site.sitedata[0].logo)
+//- 		//- #navbar.navbar-collapse.collapse
+nav(class="nav_offscreen js-navigation",  data-navigation-handle=".nav_handle_push_right", data-navigation-content=".main-wrapper", data-navigation-options='{"type":"push","gravity":"right","maxWidth":"10000px"}')
+	ul.nav.navbar-nav.show-down
+		li
+			a.page-scroll(href='#page-top') Home
+		//- li
+		//- 	a.page-scroll(href='#pages') Pages
+		li
+			a.page-scroll(href='/pricing') Prices
+		li
+			a.page-scroll(href='/partners') Partners
+		li
+			a(href='/blog') Blog
+		li
+			a(href='http://app.webriq.com/help/page/demo/howto') Demo
+		li
+			a.page-scroll(href='http://app.webriq.com/auth/login', class='login') <i class='glyph-icon flaticon-lock64'></i> Login
+
+
+
+
