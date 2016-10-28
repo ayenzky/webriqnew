@@ -1,0 +1,84 @@
+@keyframes hvr-ripple-out
+{
+    100%
+    {
+        top: -12px;
+        right: -12px;
+        bottom: -12px;
+        left: -12px;
+
+        opacity: 0;
+    }
+}
+.hvr-ripple-out
+    position relative
+    display inline-block
+    transform translateZ(0)
+    vertical-align middle
+    box-shadow 0 0 1px rgba(0, 0, 0, 0)
+    -webkit-backface-visibility hidden
+    backface-visibility hidden
+    -moz-osx-font-smoothing grayscale
+
+.hvr-ripple-out
+    &:before
+        position absolute
+        top 0
+        right 0
+        bottom 0
+        left 0
+        content ''
+        animation-duration 1s
+        opacity 0
+        border #ffffff solid 2px
+        border-radius 35px
+    &.white
+        &:before
+            border-color #fff
+
+.hvr-ripple-out:hover:before,
+.hvr-ripple-out:focus:before,
+.hvr-ripple-out:active:before,
+.resp-tab-active .hvr-ripple-out::before,
+.slider .slider-buttons .hvr-ripple-out:before,
+.cms-static-website-sec .hvr-ripple-out:before
+    animation-name hvr-ripple-out
+    animation-iteration-count infinite
+    opacity 1
+
+.hvr-float-shadow
+    position relative
+    display inline-block
+    transition-duration .75s
+    transition-property transform
+    transform translateZ(0)
+    vertical-align middle
+    box-shadow 0 0 1px rgba(0, 0, 0, 0)
+    -webkit-backface-visibility hidden
+    backface-visibility hidden
+    -moz-osx-font-smoothing grayscale
+    &:before
+        position absolute
+        z-index -1
+        top 100%
+        left 5%
+        width 90%
+        height 10px
+        content ''
+        transition-duration .75s
+        transition-property transform, opacity
+        pointer-events none
+        opacity 0
+        background radial-gradient(ellipse at center, rgba(0, 0, 0, .35) 0%, rgba(0, 0, 0, 0) 80%)
+
+.hvr-float-shadow:hover,
+.hvr-float-shadow:focus,
+.hvr-float-shadow:active
+    transform translateY(-15px)
+
+.hvr-float-shadow:hover:before,
+.hvr-float-shadow:focus:before,
+.hvr-float-shadow:active:before
+    transform translateY(5px)
+    opacity 1
+
