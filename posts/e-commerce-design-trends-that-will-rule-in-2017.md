@@ -36,9 +36,9 @@ Here are some stores who are doing it right:
 
 ![ Storyville Coffee company & Blackberry](  /img/uploads/storyville-coffee-company_blackberry.jpg  )
 
-![Pottermore](  /img/uploads/pottermore.png  )
+<center>![Pottermore](  /img/uploads/pottermore.png  )</center>
 
-#####  **“Not an online store, but the perfect example anyway”**
+#####  <center>**“Not an online store, but the perfect example anyway”**</center>
 
 ### 4. Multi-channel done right 
 
@@ -52,11 +52,11 @@ Basically: Even if Internet of Things hasn’t started to worry you yet, you sho
 
 ### 5. Pop-Up Marketing
 
-![Popup Reebok Crossfit](  /img/uploads/register.jpg)
+![Popup Reebok Crossfit](  /img/21.jpg)
 
 ##### "Reebok does popups nicely."
  
-![Popup Reebok Crossfit](  /img/uploads/register.jpg)
+![Popup Reebok Crossfit](  /img/21.jpg)
 
 ##### "Visual confusion, bad popup, but good trigger (activates once you've read the content)."
 
