@@ -402,7 +402,7 @@ h1
 
 .services
   .row > div
-    margin-top 35px
+    margin-top 55px
   padding-bottom 25px
   h3
     font-size 18px
@@ -411,9 +411,11 @@ h1
     color #424242
   .col-sm-4
     p
-      padding-right 25px
+      // padding-right 25px
     .read-more a
       color $gray
+  .text-right, .text-left
+    margin-bottom: 55px
 
 #features_main .partners
   .glyph-icon:before
@@ -869,6 +871,8 @@ li
         font-weight 300
         color #7b7b7b
         line-height 1.4em
+        padding-right 35px
+        padding-left 35px
       a
         font-size 16px
         font-weight 100
@@ -2163,7 +2167,12 @@ fieldset[disabled] .btn-primary.active
     color #03a9f4
   h4, p
     color #707172
-
+  #features_main
+    svg
+      width auto !important
+      height auto !important
+    svg#phone
+      left: auto !important
 #features_security
 
   background-color #03a9f4
