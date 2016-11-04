@@ -4,7 +4,7 @@ author: Lucy Barret
 banner: /img/uploads/vimeo_duckfield_burberry.jpg
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
-date: 2016-11-04T00:00:00+08:00
+date: 2016-02-01T00:00:00+08:00
 categories: ""
 ---
 
