@@ -164,6 +164,7 @@ TweenMax.staggerFrom(".lang .third_batch", 0.5,{
 	.5)
 
 
+
 TweenMax.staggerTo('.nav.show-down li a', 0.1, {opacity:0, y:30},0.1)
 TweenMax.staggerTo('.left-footer-nav.show-down ul li', 0.1, {y:-100, scale:0.5, opacity:0},0.1)
 TweenMax.staggerTo('.left-footer-nav.show-down .terms-cookies', 0.1, {y:-10, opacity:0},0.1)
