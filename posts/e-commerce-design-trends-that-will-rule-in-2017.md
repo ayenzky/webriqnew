@@ -54,11 +54,11 @@ Basically: Even if Internet of Things hasn’t started to worry you yet, you sho
 
 ![Popup Reebok Crossfit](  /img/21.jpg)
 
-##### "Reebok does popups nicely."
+##### <center>"Reebok does popups nicely."</center>
  
 ![Popup Reebok Crossfit](  /img/21.jpg)
 
-##### "Visual confusion, bad popup, but good trigger (activates once you've read the content)."
+##### <center>"Visual confusion, bad popup, but good trigger (activates once you've read the content)."</center>
 
 God this one is catching on _really_fast, to everyone’s general annoyance. Every single online store I’ve visited lately showed me a pop-up before I even got a look at the products. No, sellers, I will not subscribe or register my email address with you (Well, not now that I know how desperate you are anyway).
 
@@ -66,17 +66,17 @@ Pop-up/interruption marketing to increase social shares or generate leads is gai
 
 Try not to go for more than ONE popup per page; you can decide when to show it.
 
-## Bonus Takeaway
+### Bonus Takeaway
 
 This is for the content people: Stock photos are dying out. Get ready to get creative with photography (Knolling, blur shots, anything else really), but make sure it’s your own so you get to get extra points for being a unique snowflake.
 
-## The Upshot
+### The Upshot
 
 I’m not a fortune-teller, but my belief that these ‘trends’ will persist in the coming year is backed by the current opinions in web designer community. 
 
 You’re free to treat these as hogwash. Or share your own opinions for added enlightenment in the comments section below.
 
-## _Bonne 2017!_
+### _Bonne 2017!_
 
 <hr>
 **Author Bio:** Lucy Barret, a talented blogger and WordPress developer, currently employed at HireWPGeeks Ltd. She is an expert of
