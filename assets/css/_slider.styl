@@ -1,0 +1,1806 @@
+body, p, h1, h2, h3, h4, h5, td, li, td
+    font-family 'Roboto', sans-serif
+
+.slider-background
+    background url(../img/slider-background-v2.jpg) no-repeat center top
+    background-size cover
+
+.slider
+    background-repeat no-repeat
+    background-position center top
+    width 100%
+    height 750px
+    margin-bottom 50px
+    position relative
+    text-align left
+    padding-top 25px
+    .hexa
+        position absolute
+        max-width 100%
+        z-index 1
+        &.right
+            bottom 35px
+            right 0px
+        &.left
+            bottom 55px
+            left 15px
+            width 350px
+            max-width 60%
+    .lang
+        width 300px
+        position absolute
+        left 30px
+        top 155px
+        z-index 2
+        text-align left
+        img
+            padding 7px
+    .slider-heading
+        position relative
+        font-weight 100
+        font-size 60px
+        color #fff
+        margin-top 200px
+        margin-bottom 10px
+        svg
+            position absolute
+            top 4px
+            margin-left -16px
+            path
+                stroke-width 2px
+    .slider-subheading
+        position relative
+        font-weight 300
+        color #fff
+        display inline-block
+        margin 0px
+        svg
+            position absolute
+            top 15px
+        .sub-heading-text
+            padding-top 10px
+    .slider-buttons
+        margin-top 30px
+        #free_demo_link
+            background-color transparent
+            position relative
+            display inline-block
+            path
+                background-color transparent
+
+#hexas_gsap
+    position absolute
+    top 10%
+    left 40%
+
+#svg_logo, #svg_menu,
+#free_account, #free_demo, #phone
+    position absolute
+    max-width 100%
+    font-family 'Roboto', sans-serif
+
+#free_demo_link
+    &:hover
+        .demo_account_text
+            background #ffffff !important
+            border-color #ffffff
+            color #333
+    &.demo_account_text
+        width 170px
+        text-align center
+        color #fff
+        padding-top 8px
+        padding-bottom 8px
+        border 2px solid #fff
+        font-weight 300
+
+#svg_logo
+    margin-left -10px
+
+#svg_menu
+    max-width 59px
+    margin-top -17px
+    stroke-width 4px
+    z-index -1
+    path
+        stroke-width 2px !important
+
+#svg_logo path, #svg_menu path
+    stroke-width 1.5px
+    stroke #48c1f9
+
+.stroke_white,
+#free_demo path
+    stroke #aedcf2 !important
+
+#free_account_link
+    color #fff
+    position relative
+    text-decoration none
+    font-family 'Roboto', sans-serif
+    display inline-block
+    text-align center
+
+.hided
+    opacity 0
+
+.showed
+    opacity 1
+
+.drawsvg
+    -webkit-transition opacity 1.25s ease-in-out
+    -moz-transition opacity 1.25s ease-in-out
+    -ms-transition opacity 1.25s ease-in-out
+    -o-transition opacity 1.25s ease-in-out
+    transition opacity 1.25s ease-in-out
+
+.drawsvg_line
+    position absolute
+    max-width 100%
+    z-index 10
+    top 0
+    left 50%
+    -webkit-transform translateX(-50%)
+    transform translateX(-50%)
+
+.slider_buttons
+    display inline-block !important
+    padding 12px 55px
+    width 260px
+    border-radius 25px
+    border-color #039be5
+    color #4c4c4c
+    font-size 15px
+    font-weight 500
+    z-index 9
+
+.demo-buttons
+    color #fff
+    position absolute
+    bottom 115px
+    left 95px
+
+.free_account_text
+    background #ffffff
+    border 2px solid #ffffff
+
+#free_acct_link,
+.demo_account_text.showed
+    border 2px solid #fff
+
+.demo_account_text
+    background transparent
+
+.slider-separator
+    position relative
+    margin-top 5px
+    .svg_separators
+        margin 0px auto 5px auto
+
+#demo_account_text
+    .btn-primary
+        &.btn-inverted
+            border-color #fff
+
+.nav-line-white
+    position relative
+    width 250px
+    margin 10px auto
+    .text-or
+        font-style italic
+        color #fff
+        font-weight 300
+        &::before
+            content ""
+            border-top 1px solid #fff
+            position absolute
+            left 0
+            top 10px
+            padding 0 50px
+            border-color #039be5
+        &::after
+            content ""
+            border-top 1px solid #cdcdcd
+            position absolute
+            right 0
+            top 10px
+            padding 0 50px
+            border-color #81d4fa
+
+.navbar-brand
+    position relative !important
+
+#free-account
+    &.in-view
+        #svg_horizontal_line
+            position absolute
+            left 0
+            top 160px
+            max-width 100%
+
+#svg_horizontal_line
+    path
+        stroke #fff
+        stroke-width 2px
+
+.security
+    background #ede3ee
+    padding 80px 50px
+    text-align right
+
+.phone
+    text-align right
+    position relative
+    height 650px
+    img
+        &.drawsvg
+            position absolute
+            left 0px
+            top 0px
+
+#phone
+    left 0
+
+.section_header
+    height 50px
+
+.demo-buttons p, .demo-buttons a,  .animate-earth-small, .animate-earth-large
+    opacity 0
+    transform translateY(50px)
+    -webkit-transform translateY(50px)
+
+.svg-earth-pattern
+    padding-top 55px
+    img
+        position absolute
+        margin-top 110px
+        left 50%
+        top 40%
+        transform translate(-50%, -50%)
+        -webkit-transform translate(-50%, -50%)
+
+#features_performance.in-view #global-cdn .st1
+
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  -webkit-animation: dash 4s linear 1s forwards;
+  animation: dash 4s linear 1s forwards;
+
+
+#features_performance.in-view #global-cdn .st11
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 0;
+  -webkit-animation: dash_2 4s linear forwards;
+  animation: dash_2 4s linear forwards;
+
+
+#features_performance.in-view #global-cdn .st7
+  -webkit-transform:scale(0);
+  transform:scale(0);
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -webkit-animation: circ 1s ease-in-out 1.4s forwards;
+  animation: circ 1s ease-in-out 1.4s forwards;
+
+
+@-webkit-keyframes circ {
+  0% {-webkit-transform:scale(0.3);}
+  50% {-webkit-transform:scale(1.5);}
+  100% {-webkit-transform:scale(1);}
+}
+
+
+@-webkit-keyframes dash{
+    from{stroke-dashoffset: 1000;}
+    to{stroke-dashoffset: 0;}
+}
+
+@-webkit-keyframes dash_2{
+    from{stroke-dashoffset: 2000;}
+    to{stroke-dashoffset: 0;}
+}
+
+
+@-moz-keyframes circ {
+  0% {-moz-transform:scale(0.3);}
+  50% {-moz-transform:scale(1.5);}
+  100% {-moz-transform:scale(1);}
+}
+
+
+@-moz-keyframes dash{
+    from{stroke-dashoffset: 1000;}
+    to{stroke-dashoffset: 0;}
+}
+
+@-moz-keyframes dash_2{
+    from{stroke-dashoffset: 2000;}
+    to{stroke-dashoffset: 0;}
+}
+
+#global-cdn .st0
+  display:none;
+  fill:none;
+  stroke:#03A9F4;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+#global-cdn .st1, #global-cdn .st11
+  fill:none;
+  stroke:#03A9F4;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+#global-cdn .st2
+  display:inline;
+  fill:none;
+  stroke:#FFFFFF;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+#global-cdn .st3
+  display:inline;
+#global-cdn .st4
+  display:inline;
+  fill:#03A9F4;
+#global-cdn .st5
+  fill:#03A9F4;
+#global-cdn .st6
+  display:none;
+#global-cdn .st7
+  fill:#03A9F4;
+  stroke:#03A9F4;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+#global-cdn .st8
+  display:inline;
+  fill:none;
+  stroke:#03A9F4;
+  stroke-width:1.5;
+  stroke-miterlimit:10;
+
+
+#features_performance.in-view #instant-cache-validation .st1{
+    stroke-dasharray: 200;
+    stroke-dashoffset: 0;
+    -webkit-animation: cache_dash 2s linear forwards;
+    animation: cache_dash 2s linear forwards;
+  }
+
+#features_performance.in-view #instant-cache-validation .rotation{
+  -webkit-animation: cache_rotation 2s forwards linear;
+  -moz-animation: cache_rotation 2s forwards linear;
+  -o-animation: cache_rotation 2s forwards linear;
+  animation: cache_rotation 2s  forwards linear;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes cache_dash {
+  from {stroke-dashoffset: 200;}
+  to   {stroke-dashoffset: 0;}
+}
+
+@-webkit-keyframes cache_rotation {
+  from {-webkit-transform: rotate(-200deg);}
+  to   {-webkit-transform: rotate(0deg);}
+}
+
+
+#instant-cache-validation .st1
+  fill:none
+  stroke:#03A9F4
+  stroke-width:1.5
+  stroke-miterlimit:10
+#instant-cache-validation .st2
+  fill:none
+  stroke:#03A9F4
+  stroke-width:1.5
+  stroke-miterlimit:10
+#instant-cache-validation .st6
+    fill:#03A9F4
+
+
+#features_performance.in-view #atomic .st1
+  stroke-dasharray: 800;
+  stroke-dashoffset: 0;
+  -webkit-animation: atomic_dash 5s linear forwards;
+  animation: atomic_dash 5s linear forwards;
+#features_performance.in-view #atomic .st6
+  -webkit-animation: atomic_arrow 2s ease-in forwards;
+  animation: atomic_arrow 2s ease-in forwards;
+
+@-webkit-keyframes atomic_arrow{
+  from{fill:transparent;}
+  to{fill:#03A9F4;}
+}
+@-webkit-keyframes atomic_dash{
+  from{stroke-dashoffset: 800;}
+  to{stroke-dashoffset: 0;}
+}
+
+#atomic .st0{display:none;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st2{display:inline;fill:#03A9F4;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st3{display:inline;fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+#atomic .st4{display:inline;}
+#atomic .st5{display:inline;fill:#03A9F4;}
+#atomic .st6{fill:#03A9F4;}
+#atomic .st7{display:none;}
+#atomic .st8{display:inline;fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+
+
+#features_performance.in-view #high-availability .st1, #features_performance.in-view #high-availability .st2
+  stroke-dasharray: 400
+  stroke-dashoffset: 0
+  -webkit-animation: high_dash 2s linear forwards
+  animation: high_dash 2s linear forwards
+
+#features_performance.in-view #high-availability .st22
+  stroke-dasharray: 50
+  stroke-dashoffset: 50
+  -webkit-animation: high_dash_2 2s linear 0.5s reverse forwards
+  animation: high_dash_2 2s linear 0.5s reverse forwards
+
+
+@-webkit-keyframes high_dash{
+  from{stroke-dashoffset: 400;}
+  to{stroke-dashoffset: 0;}
+}
+
+@-webkit-keyframes high_dash_2{
+  from{stroke-dashoffset: 0;}
+  to{stroke-dashoffset: 50;}
+}
+
+#high-availability .st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+#high-availability .st2, #high-availability .st22{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+
+
+#features_security_body.in-view #iphonetool .st1{
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -webkit-animation: iphone_dash 1s linear forwards;
+    animation: iphone_dash 1s linear forwards;
+  }
+
+#features_security_body.in-view #iphonetool .st3{
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: iphone_dash_4 2s linear 2s forwards;
+  animation: iphone_dash_4 2s linear 2s forwards;
+}
+
+#features_security_body.in-view #iphonetool .st4{
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  -webkit-animation: iphone_dash_5 1s linear 1.8s forwards;
+  animation: iphone_dash_5 1s linear 1.8s forwards;
+}
+
+#features_security_body.in-view #iphonetool .st2{
+  stroke-dasharray: 400;
+  stroke-dashoffset: 0;
+  -webkit-animation: iphone_dash_3 2s linear forwards;
+  animation: iphone_dash_3 2s linear forwards;
+
+}
+
+#features_security_body.in-view #iphonetool .st0{
+  fill: transparent !important;
+  -webkit-animation: iphone_time 1.5s linear 2.2s forwards;
+  animation: iphone_time 1.5s linear 2.2s forwards;
+
+}
+#features_security_body.in-view #iphonetool .st5{
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  -webkit-animation: iphone_dash_6 2s linear 2.5s forwards;
+  animation: iphone_dash_6 2s linear 2.5s forwards;
+}
+
+#features_security_body.in-view #iphonetool .st6{
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  -webkit-animation: iphone_dash_7 2s linear 2s forwards;
+  animation: iphone_dash_7 2s linear 2s forwards;
+}
+
+
+
+#features_security_body.in-view #iphonetool .st22{
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  -webkit-animation: iphone_dash_2 1s linear 1s forwards;
+  animation: iphone_dash_2 1s linear 1s forwards;
+
+}
+
+@-webkit-keyframes iphone_dash{
+
+  0%{stroke-dashoffset: 2000;}
+  50%{stroke-dashoffset: 1000;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes iphone_dash_2{
+
+  0%{stroke-dashoffset: 2000;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+  @-webkit-keyframes iphone_dash_3{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes iphone_dash_4{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes iphone_dash_5{
+
+  0%{stroke-dashoffset: 50;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes iphone_dash_7{
+
+  0%{stroke-dashoffset: 400;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+
+
+@-webkit-keyframes iphone_dash_6{
+
+  0%{stroke-dashoffset: 200;}
+  100%{stroke-dashoffset: 0;}
+
+}
+
+@-webkit-keyframes iphone_time{
+
+  0%{fill:transparent;}
+  100%{fill:#494949;}
+
+}
+
+#iphonetool .st0{fill:#494949;}
+#iphonetool .st1{fill:none;stroke:#494949;stroke-width:2;stroke-miterlimit:10;}
+#iphonetool .st2, #iphonetool .st22, #iphonetool .st3, #iphonetool .st4, #iphonetool .st5, #iphonetool .st6{fill:none;stroke:#494949;stroke-miterlimit:10;}
+
+
+#features_tools.in-view #browser .st6
+  opacity:0
+  fill:#FF8A80
+  -webkit-animation: browser_blink 1s linear 1.5s infinite alternate
+  animation: browser_blink 1s linear 1.5s infinite alternate
+
+#features_tools.in-view #browser .st5
+  fill:#FDD835
+  opacity:0
+  -webkit-animation: browser_blink 1s linear 2s infinite alternate
+  animation: browser_blink 1s linear 2s infinite alternate
+#features_tools.in-view #browser .st14
+  fill:#78909C
+  opacity:0
+  -webkit-animation: browser_blink 1s linear 3s infinite alternate
+  animation: browser_blink 1s linear 3s infinite alternate
+
+#features_tools.in-view #browser .rotation
+  -webkit-animation: browser_rotation 4s reverse linear
+  -o-animation: browser_rotation 4s reverse linear
+  animation: browser_rotation 4s reverse linear
+  transform-origin: 50% 50%
+  -webkit-transform-origin: 50% 50%
+
+@-webkit-keyframes browser_rotation{
+  from {-webkit-transform: rotate(360deg);}
+  to   {-webkit-transform: rotate(0deg);}
+
+}
+
+@-webkit-keyframes browser_blink {
+    0%{opacity:0;}
+    50%{opacity:0.5;}
+    100%{opacity:1;}
+}
+
+
+#browser .st0{fill:#8C9194;}
+#browser .st1{fill:#F2F2F2;}
+#browser .st2{fill:#F9F9F9;}
+#browser .st3{fill:#969696;}
+#browser .st4{fill:none;stroke:#969696;stroke-width:3;stroke-miterlimit:10;}
+#browser .st5{fill:#FDD835;}
+#browser .st6{fill:#FF8A80;}
+#browser .st7{fill:none;}
+#browser .st8{display:none;fill:#4F5051;}
+#browser .st9{fill:#CECECE;}
+#browser .st10{display:inline;fill:#03A9F4;}
+#browser .st11{fill:#359B19;}
+#browser .st12{fill:none;stroke:#969696;stroke-width:2;stroke-miterlimit:10;}
+#browser .st13{display:none;}
+#browser .st14{fill:#78909C;}
+
+#features_tools.in-view
+  .resp-tab-content-active
+    #google-analytics
+      path, circle, line, polyline, rect
+        stroke-dasharray: 2000;
+        stroke-dashoffset: 0;
+        -webkit-animation: ga_dash 4s linear forwards;
+        animation: ga_dash 4s linear forwards;
+
+      .st6
+        -webkit-animation: ga_fill-orange 2s ease-in forwards;
+        animation: ga_fill-orange 2s ease-in forwards;
+
+      .st2
+        -webkit-animation: ga_fill-blue 4s ease-in forwards;
+        animation: ga_fill-blue 4s ease-in forwards;
+
+
+      .st4
+        -webkit-animation: ga_fill-green 3s ease-in forwards;
+        animation: ga_ill-green 3s ease-in forwards;
+
+      .st7
+        -webkit-animation: ga_fill-yellow 1s ease-in forwards;
+        animation: ga_fill-yellow 1s ease-in forwards;
+
+      .user
+        -webkit-transform:scale(0.3);
+        transform:scale(0.3);
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: 50% 50%;
+        -webkit-animation: ga_user 1s ease-in forwards;
+        animation: ga_user 1s ease-in forwards;
+
+      .rotate
+        -webkit-animation: ga_rotation 4s forwards linear;
+        -moz-animation: none;
+        -o-animation: ga_rotation 4s forwards linear;
+        animation: ga_rotation 4s  forwards linear;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -moz-transform-origin: none;
+
+      .st0
+        fill:#7C4DFF;
+      .st1
+        fill:none;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+      .st2
+        fill:#80D8FF;
+      .st3
+        fill:#1DE9B6;
+      .st4
+        fill:#B9F6CA;
+      .st5
+        fill:none;
+        stroke:#FF6E40;
+        stroke-width:2;
+        troke-miterlimit:10;
+      .st6
+        fill:#FF6E40;
+      .st7
+        fill:#FFFF8D;
+      .st8
+        fill:#FAFAFA;
+        stroke:#CFD8DC;
+        stroke-width:2;
+        stroke-miterlimit:10;
+      .st9
+        fill:#FAFAFA;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+      .st10
+        fill:#A7FFEB;
+        stroke:#FFFFFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+      .st11
+        fill:none;
+        stroke:#7C4DFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+
+  @-webkit-keyframes ga_user {
+    from {-webkit-transform:scale(0.3);}
+    to   {-webkit-transform:scale(1);}
+  }
+
+  @-webkit-keyframes ga_rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+  }
+
+  @-webkit-keyframes ga_fill-yellow{
+    from{opacity:0;}
+    to{opacity:1;}
+  }
+
+  @-webkit-keyframes ga_fill-green{
+    from{opacity:0;}
+    to{opacity:1;}
+  }
+
+  @-webkit-keyframes ga_fill-blue{
+    from{opacity:0;}
+    to{opacity:1;}
+  }
+
+  @-webkit-keyframes ga_fill-orange{
+    from{opacity:0;}
+    to{opacity:1;}
+  }
+
+  @-webkit-keyframes ga_dash{
+    from{stroke-dashoffset: 2000;}
+    to{stroke-dashoffset: 0;}
+  }
+
+
+#features_tools.in-view
+  .resp-tab-content-active
+    #deployment
+      .st13, .st11
+        stroke-dasharray: 1500;
+        stroke-dashoffset: 0;
+        -webkit-animation: deployment_lines 4s linear forwards;
+        animation: deployment_lines 4s linear forwards;
+
+      .rotate
+        -webkit-animation: deployment_rotation 4s reverse linear;
+        -moz-animation: deployment_rotation 4s reverse linear;
+        -o-animation: deployment_rotation 4s reverse linear;
+        animation: deployment_rotation 4s  reverse linear;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+
+      .st6
+        stroke-dasharray: 50;
+        stroke-dashoffset: 0;
+        -webkit-animation: deployment_dash 4s linear forwards;
+        animation: deployment_dash 4s linear forwards;
+
+      .st5
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: deployment_shades 4s linear forwards;
+        animation: deployment_shades 4s linear forwards;
+
+      .st7
+        -webkit-animation: deployment_code 6s linear forwards;
+        animation: deployment_code 6s linear forwards;
+
+      .st1, .st10, .st14, .st18, .st15
+        animation-delay: 1s;
+        -webkit-animation-delay:1s;
+        -webkit-animation: deployment_dots 4s ease-in forwards;
+        animation: deployment_dots 4s ease-in forwards;
+
+      .st9, .st2
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: deployment_line 4s linear forwards;
+        animation: deployment_line 4s linear forwards;
+
+      .st0
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st1
+        fill:#EEEEEE;
+
+      .st2
+        fill:#EEEEEE;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st3
+        fill:none;
+        stroke:#F5F5F5;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st4
+        fill:#EEEEEE;
+        stroke:#FFFFFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st5
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st6
+        fill:none;
+        stroke:#BDBDBD;
+        stroke-width:2;
+        stroke-miterlimit:10;
+        stroke-dasharray:10,7;
+
+      .st7
+        fill:#FFFFFF;
+
+      .st8
+        fill:#1DE9B6;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st9
+        fill:#EEEEEE;
+        stroke:#C4C4C4;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st10
+        fill:#02A8F3;
+        stroke:#02A8F3;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st11
+        fill:#FFFFFF;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st12
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st13
+        fill:#FAFAFA;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st14
+        fill:#FF8A80;
+        stroke:#FF8A80;
+        stroke-miterlimit:10;
+
+      .st15
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:0.5;
+        stroke-miterlimit:10;
+
+      .st16
+        fill:#78909C;
+
+      .st17
+        fill:#DBDBDB;
+
+      .st18
+        fill:#FDD835;
+        stroke:#FDD835;
+        stroke-miterlimit:10;
+
+
+
+  @-webkit-keyframes deployment_line {
+    from {stroke-dashoffset: 800}
+    to   {stroke-dashoffset: 0}
+  }
+
+
+  @-webkit-keyframes deployment_dots {
+    from {opacity:0;}
+    to   {opacity:1;}
+  }
+
+
+  @-webkit-keyframes deployment_rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(200deg);}
+  }
+
+  @-webkit-keyframes deployment_circle{
+    0%{stroke-dashoffset: 800;}
+    100%{ stroke-dashoffset: 0; fill: #1DE9B6;}
+
+  }
+
+  @-webkit-keyframes deployment_lines{
+    0%{ stroke-dashoffset: 1500;}
+    100%{stroke-dashoffset: 0;}
+
+  }
+
+  @-webkit-keyframes deployment_revline{
+    0%{stroke-dashoffset: 100;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes deployment_forline{
+    0%{stroke-dashoffset: 1500;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes deployment_dash{
+    0%{stroke-dashoffset: 50;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes deployment_shades{
+    0%{stroke-dashoffset: 800;fill:transparent;}
+    100%{stroke-dashoffset: 0;fill:#78909C;}
+  }
+
+  @-webkit-keyframes deployment_code{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+
+#features_tools.in-view
+  .resp-tab-content-active
+    #collaboration
+      .st10
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_lines 4s linear forwards;
+        animation: col_lines 4s linear forwards;
+
+      .st13
+        stroke-dasharray: 50;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_circ 4s linear forwards;
+        animation: col_circ 4s linear forwards;
+
+      .st5
+        stroke-dasharray: 50;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_circ2 4s linear forwards;
+        animation: col_circ2 4s linear forwards;
+
+      .st7
+        stroke-dasharray: 200;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_circ3 2s linear forwards;
+        animation: col_circ3 2s linear forwards;
+
+      .st11, .st17, .st12
+        -webkit-animation: col_circ4 2s ease-in forwards;
+        animation: col_circ4 2s ease-in forwards;
+
+      .st3
+        stroke-dasharray: 50;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_check 2.5s linear forwards;
+        animation: col_check 2.5s linear forwards;
+
+      .st4
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_shades 3s linear forwards;
+        animation: col_shades 3s linear forwards;
+
+
+      .st2, .st9, .st14, .st0, .st8, .st15
+        stroke-dasharray: 50;
+        stroke-dashoffset: 0;
+        -webkit-animation: col_horizontal 4s linear forwards;
+        animation: col_horizontal 4s linear forwards;
+
+      .st16
+        -webkit-animation: col_dot_1 4s ease-in forwards;
+        animation: col_dot_1 4s ease-in forwards;
+
+      .st6
+        -webkit-animation: col_dot_2 4s ease-in forwards;
+        animation: col_dot_2 4s ease-in forwards;
+
+
+      .st0
+        fill:none;
+        stroke:#D6D6D6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st1
+        fill:none;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st2
+        fill:none;
+        stroke:#BBBBBB;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st3
+        fill:none;
+        stroke:#FCFCFC;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st4
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st5
+        fill:#7C4DFF;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st6
+        fill:#FF8A80;
+
+      .st7
+        fill:#1DE9B6;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st8
+        fill:none;
+        stroke:#82B1FF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st9
+        fill:none;
+        stroke:#FF8A80;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st10
+        fill:#FAFAFA;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st11
+        fill:#FF8A80;
+        stroke:#FF8A80;
+        stroke-miterlimit:10;
+
+      .st12
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:0.5;
+        stroke-miterlimit:10;
+
+      .st13
+        fill:#1DE9B6;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st14
+        fill:#02A8F3;
+        stroke:#64FFDA;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st15
+        fill:none;
+        stroke:#FF8A80;
+        stroke-width:2;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-dasharray:1,5;
+
+      .st16
+        fill:#78909C;
+
+      .st17
+        fill:#FDD835;
+        stroke:#FDD835;
+        stroke-miterlimit:10;
+
+
+  @-webkit-keyframes col_dot_1{
+    0%{fill:transparent;}
+    100%{fill:#78909C;}
+  }
+
+  @-webkit-keyframes col_dot_2{
+    0%{fill:transparent;}
+    100%{fill:#FF8A80;}
+  }
+
+  @-webkit-keyframes col_check{
+    0%{stroke-dashoffset: 50;}
+    100%{stroke-dashoffset: 0;}
+
+  }
+
+  @-webkit-keyframes col_horizontal{
+    0%{stroke-dashoffset: 50;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes col_circ4{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+  @-webkit-keyframes col_circ3{
+    0%{stroke-dashoffset: 200; fill: transparent;}
+    100%{stroke-dashoffset: 0; fill: #1DE9B6;}
+  }
+
+
+  @-webkit-keyframes col_circ2{
+    0%{stroke-dashoffset: 50; fill: transparent;}
+    100%{stroke-dashoffset: 0; fill: #7C4DFF;}
+  }
+
+  @-webkit-keyframes col_circ{
+    0%{stroke-dashoffset: 50; fill: transparent;}
+    100%{stroke-dashoffset: 0; fill: #1DE9B6;}
+  }
+
+  @-webkit-keyframes col_lines{
+    0%{stroke-dashoffset: 800;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes col_shades{
+    0%{stroke-dashoffset: 800; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill: #78909C;}
+  }
+
+#features_tools.in-view
+  .resp-tab-content-active
+    #rules
+      .st11
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_draw 4s linear forwards;
+        animation: rules_draw 4s linear forwards;
+
+      .st7
+        -webkit-animation: rules_shades 4s linear forwards;
+        animation: rules_shades 4s linear forwards;
+
+      .st17, .st4
+        opacity:0;
+        -webkit-animation: rules_text 8s linear forwards;
+        animation: rules_text 8s linear forwards;
+
+      .st0
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_dash 4s linear forwards;
+        animation: rules_dash 4s linear forwards;
+
+      .st1
+        stroke-dasharray: 500;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_cloudR 4s linear forwards;
+        animation: rules_cloudR 4s linear forwards;
+
+      .st5
+        stroke-dasharray: 500;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_cloudL 4s linear forwards;
+        animation: rules_cloudL 4s linear forwards;
+
+      .st14, .st6
+        stroke-dasharray: 60;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_share 4s linear forwards;
+        animation: rules_share 4s linear forwards;
+
+      .st12, .st18, .st13
+        opacity:0;
+        -webkit-animation: rules_dots 4s ease-in forwards;
+        animation: rules_dots 4s ease-in forwards;
+
+      .st10
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_keyc 4s linear forwards;
+        animation: rules_keyc 4s linear forwards;
+
+      .st8
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_key 5s linear forwards;
+        animation: rules_key 5s linear forwards;
+
+      .st15
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_cycle 4s linear forwards;
+        animation: rules_cycle 4s linear forwards;
+
+      .st16
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: rules_cycler 5s linear forwards;
+        animation: rules_cycler 5s linear forwards;
+
+      .st9
+        -webkit-animation: rules_arrow 6s ease-out forwards;
+        animation: rules_arrow 6s ease-out forwards;
+
+      .st0
+        fill-rule:evenodd;
+        clip-rule:evenodd;
+        fill:none;
+        stroke:#FF6E40;
+        stroke-width:2;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-dasharray:1,5;
+
+      .st1
+        fill-rule:evenodd;
+        clip-rule:evenodd;
+        fill:#40C4FF;
+        stroke:#40C4FF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st2
+        fill:none;
+        stroke:#FCFCFC;
+        stroke-width:5;
+        stroke-miterlimit:10;
+
+      .st3
+        fill:none;
+        stroke:#03A9F4;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st4
+        fill:#EEEEEE;
+
+      .st5
+        fill-rule:evenodd;
+        clip-rule:evenodd;
+        fill:#02A8F3;
+        stroke:#02A8F3;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st6
+        fill:none;
+        stroke:#FCFCFC;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st7
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st8
+        fill:#64FFDA;
+        stroke:#64FFDA;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st9
+        fill:#FCFCFC;
+
+      .st10
+        fill:#1DE9B6;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st11
+        fill:#FAFAFA;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st12
+        fill:#FF8A80;
+        stroke:#FF8A80;
+        stroke-miterlimit:10;
+
+      .st13
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:0.5;
+        stroke-miterlimit:10;
+
+      .st14
+        fill:none;
+        stroke:#FCFCFC;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st15
+        fill:#FFD740;
+        stroke:#FFD740;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st16
+        fill:#FFE57F;
+        stroke:#FFE57F;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st17
+        fill:#78909C;
+
+      .st18
+        fill:#FDD835;
+        stroke:#FDD835;
+        stroke-miterlimit:10;
+
+    #multiple-environment
+      .st15, .st21, .st9, .st19, line
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        -webkit-animation: multiple_dash 4s linear forwards;
+        animation: dash 4s linear forwards;
+
+      .st9
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        -webkit-animation: multiple_circle 1s linear forwards;
+        animation: multiple_circle 1s linear forwards;
+
+      .st19
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
+        -webkit-animation: multiple_circle-2 2s linear forwards;
+        animation: multiple_circle-2 2s linear forwards;
+
+
+      .st14, .st16, .st1, .st22, .st17
+        stroke-dasharray: 800;
+        stroke-dashoffset: 0;
+        -webkit-animation: multiple_circle-3 2s linear forwards;
+        animation: multiple_circle-3 2s linear forwards;
+
+      .st4, .st3
+        -webkit-animation: multiple_rec 2s linear forwards;
+        animation: multiple_rec 2s linear forwards;
+
+      .st18
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: multiple_dashed 2s linear forwards;
+        animation: multiple_dashed 2s linear forwards;
+
+
+      .st0
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st1
+        fill:#B0BEC5;
+
+      .st2
+        fill:none;
+        stroke:#64FFDA;
+        stroke-miterlimit:10;
+
+      .st3
+        fill:#1DE9B6;
+
+      .st4
+        fill:#EEEEEE;
+
+      .st5
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-miterlimit:10;
+
+      .st6
+        fill:#EEEEEE;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st7
+        fill:none;
+        stroke:#F5F5F5;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st8
+        fill:#EEEEEE;
+        stroke:#FFFFFF;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st9
+        fill:#7C4DFF;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st10
+        fill:#FFFFFF;
+
+      .st11
+        fill:#EEEEEE;
+        stroke:#B0BEC5;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st12
+        fill:#EEEEEE;
+        stroke:#C4C4C4;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st13
+        fill:#FF8A80;
+        stroke:#FFCDD2;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st14
+        fill:#02A8F3;
+        stroke:#02A8F3;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st15
+        fill:#FAFAFA;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st16
+        fill:#FF8A80;
+        stroke:#FF8A80;
+        stroke-miterlimit:10;
+
+      .st17
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:0.5;
+        stroke-miterlimit:10;
+
+      .st18
+        fill:none;
+        stroke:#BBBBBB;
+        stroke-width:2;
+        stroke-miterlimit:10;
+        stroke-dasharray:5,5;
+
+      .st19
+        fill:#1DE9B6;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st20
+        fill:#A7FFEB;
+
+      .st21
+        fill:#EDEDED;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st22
+        fill:#FDD835;
+        stroke:#FDD835;
+        stroke-miterlimit:10;
+
+      .st23
+        fill:#EDEDED;
+        stroke:#EDEDED;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+    #form-webhook
+      .st1, .st9, .st17
+        -webkit-animation: webhook_form 1s ease-in forwards;
+        animation: webhook_form 1s ease-in forwards;
+
+      .st11, .st6
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: webhook_inputs 2s ease-in forwards;
+        animation: webhook_inputs 2s ease-in forwards;
+
+      polyline.st8
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: webhook_check 2s linear forwards;
+        animation: webhook_check 2s linear forwards;
+
+      .st12, .st0, .st7, .st15
+        -webkit-animation: webhook_checkbg 1s linear forwards;
+        animation: webhook_checkbg 1s linear forwards;
+
+      .rotate
+        -webkit-animation: webhook_rotation 4s forwards linear;
+        -moz-animation: webhook_rotation 4s forwards linear;
+        -o-animation: webhook_rotation 4s forwards linear;
+        animation: webhook_rotation 4s forwards linear;
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+
+      .st20
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: webhook_dash 10s linear forwards;
+        animation: webhook_dash 10s linear forwards;
+
+
+      .st2, .st13, .st4, .envelope
+        transform-origin: 50% 50%;
+        -webkit-transform-origin: 50% 50%;
+        -webkit-transform:scale(0.5);
+        transform:scale(0.5);
+        -webkit-animation: webhook_circ 1s linear forwards;
+        animation: webhook_circ 1s linear forwards;
+
+      .st22
+        stroke-dasharray: 100;
+        stroke-dashoffset: 0;
+        -webkit-animation: webhook_dash 10s linear forwards;
+        animation: webhook_dash 10s linear forwards;
+
+      .st0
+        fill:#536DFE;
+        stroke:#536DFE;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st1
+        fill:#EEEEEE;
+        stroke:#EEEEEE;
+        stroke-miterlimit:10;
+
+      .st2
+        fill:#18FFFF;
+
+      .st3
+        fill:#B0BEC5;
+
+      .st4
+        fill:#EA80FC;
+
+      .st5
+        fill:#ECEFF1;
+
+      .st6
+        fill:none;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st7
+        fill:#FF4081;
+        stroke:#FF4081;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st8
+        fill:none;
+        stroke:#FCFCFC;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st9
+        fill:#78909C;
+        stroke:#78909C;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st10
+        fill:#FCFCFC;
+
+      .st11
+        fill:#FFFFFF;
+
+      .st12
+        fill:#1DE9B6;
+        stroke:#1DE9B6;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st13
+        fill:#69F0AE;
+
+      .st14
+        fill:#CFD8DC;
+
+      .st15
+        fill:#02A8F3;
+        stroke:#02A8F3;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st16
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-width:4;
+        stroke-miterlimit:10;
+
+      .st17
+        fill:#FF8A80;
+        stroke:#FF8A80;
+        stroke-miterlimit:10;
+
+      .st18
+        fill:#FFD740;
+        stroke:#FFD740;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st19
+        fill:#FFE57F;
+        stroke:#FFE57F;
+        stroke-width:2;
+        stroke-miterlimit:10;
+
+      .st20
+        fill:none;
+        stroke:#FF8A80;
+        stroke-width:2;
+        stroke-linecap:round;
+        stroke-miterlimit:10;
+        stroke-dasharray:1,5;
+
+      .st21
+        fill:#78909C;
+
+      .st22
+        fill:none;
+        stroke:#FFFFFF;
+        stroke-width:3;
+        stroke-miterlimit:10;
+
+
+  @-webkit-keyframes webhook_circ{
+    0%{transform:scale(0.5);}
+    100%{transform:scale(1);}
+  }
+
+  @-webkit-keyframes webhook_form{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+  @-webkit-keyframes webhook_inputs{
+    0%{stroke-dashoffset: 100;fill: transparent;}
+    100%{stroke-dashoffset: 0;fill: #ffffff;}
+  }
+
+  @-webkit-keyframes webhook_checkbg{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+  @-webkit-keyframes webhook_rotation{
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(200deg);}
+  }
+
+  @-webkit-keyframes webhook_check{
+    from{stroke-dashoffset: 100;}
+    to{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes webhook_dash{
+    from{stroke-dashoffset: 100;}
+    to{stroke-dashoffset: 0;}
+  }
+
+
+
+  @-webkit-keyframes multiple_dash{
+    0%{stroke-dashoffset: 1000;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes multiple_dashed{
+    0%{stroke-dashoffset: 100;}
+    100%{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes multiple_circle{
+    0%{stroke-dashoffset: 1000;fill: transparent;}
+    100%{stroke-dashoffset: 0;fill: #7C4DFF;}
+  }
+
+  @-webkit-keyframes multiple_circle-2{
+    0%{stroke-dashoffset: 1000;fill: transparent;}
+    100%{stroke-dashoffset: 0;fill: #1DE9B6;}
+  }
+  @-webkit-keyframes multiple_circle-3{
+    0%{stroke-dashoffset: 800; opacity:0;}
+    100%{stroke-dashoffset: 0; opacity:1;}
+  }
+
+  @-webkit-keyframes multiple_rec{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+
+
+
+  @-webkit-keyframes rules_arrow{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  @-webkit-keyframes rules_cycle{
+    0%{stroke-dashoffset: 800; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#FFD740;}
+  }
+  @-webkit-keyframes rules_cycler{
+    0%{stroke-dashoffset: 800; fill: transparent;}
+    100%{stroke-dashoffset: 0; fill: #FFE57F;}
+  }
+  @-webkit-keyframes rules_keyc{
+    0%{stroke-dashoffset: 800; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#1DE9B6;}
+  }
+  @-webkit-keyframes rules_key{
+    0%{stroke-dashoffset: 800; fill: transparent;}
+    100%{stroke-dashoffset: 0; fill: #64FFDA}
+  }
+  @-webkit-keyframes rules_share{
+    0%{stroke-dashoffset: 50;}
+    100%{stroke-dashoffset: 0;}
+  }
+  @-webkit-keyframes rules_cloudL{
+    0%{stroke-dashoffset: 500; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#02A8F3;}
+  }
+  @-webkit-keyframes rules_cloudR{
+    0%{stroke-dashoffset: 500; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#40C4FF;}
+  }
+  @-webkit-keyframes rules_dots{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  @-webkit-keyframes rules_dash{
+    0%{stroke-dashoffset: 100;}
+    100%{stroke-dashoffset: 0;}
+  }
+  @-webkit-keyframes rules_text{
+    0%{opacity:0;}
+    100%{opacity:1;}
+  }
+  @-webkit-keyframes rules_draw{
+    0%{stroke-dashoffset: 800; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#FAFAFA;}
+  }
+  @-webkit-keyframes rules_shades{
+    0%{stroke-dashoffset: 800; fill:transparent;}
+    100%{stroke-dashoffset: 0; fill:#78909C;}
+  }

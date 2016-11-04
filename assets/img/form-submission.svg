@@ -1,0 +1,254 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="650px" height="350px" viewBox="0 0 650 350" style="enable-background:new 0 0 650 350;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+
+	.st1, .st9, .st17{
+		-webkit-animation: form 1s ease-in forwards;
+    animation: form 1s ease-in forwards;
+	}
+
+	.st11, .st6{
+		stroke-dasharray: 100;
+		stroke-dashoffset: 0;
+		-webkit-animation: inputs 2s ease-in forwards;
+    animation: inputs 2s ease-in forwards;
+	}
+
+	polyline.st8{
+		stroke-dasharray: 100;
+		stroke-dashoffset: 0;
+		-webkit-animation: check 2s linear forwards;
+    animation: check 2s linear forwards;
+	}
+
+	.st12, .st0, .st7, .st15{
+		-webkit-animation: checkbg 1s linear forwards;
+    animation: checkbg 1s linear forwards;
+
+	}
+
+	.rotate{
+		-webkit-animation: rotation 4s forwards linear;
+    -moz-animation: rotation 4s forwards linear;
+    -o-animation: rotation 4s forwards linear;
+    animation: rotation 4s forwards linear;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+	}
+
+	.st20{
+		stroke-dasharray: 100;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 10s linear forwards;
+		animation: dash 10s linear forwards;
+
+	}
+
+	.st2, .st13, .st4, .envelope{
+	  transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+		-webkit-transform:scale(0.5);
+		transform:scale(0.5);
+		-webkit-animation: circ 1s linear forwards;
+		animation: circ 1s linear forwards;
+	}
+
+	.st22{
+		stroke-dasharray: 100;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 10s linear forwards;
+		animation: dash 10s linear forwards;
+	}
+
+	@-webkit-keyframes circ{
+		0%{transform:scale(0.5);}
+		100%{transform:scale(1);}
+	}
+
+	@-webkit-keyframes form{
+
+		0%{
+			opacity:0;
+
+		}
+		100%{
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes inputs{
+		0%{
+			stroke-dashoffset: 100;
+			fill: transparent;
+
+		}
+		100%{
+			stroke-dashoffset: 0;
+			fill: #ffffff;
+		}
+
+	}
+
+	@-webkit-keyframes checkbg{
+		0%{
+			opacity:0;
+
+		}
+		100%{
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes rotation{
+		from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(200deg);}
+
+	}
+
+	@-webkit-keyframes check{
+		from{stroke-dashoffset: 100;}
+		to{stroke-dashoffset: 0;}
+	}
+
+	@-webkit-keyframes dash{
+		from{
+			stroke-dashoffset: 100;
+
+		}
+		to{
+			stroke-dashoffset: 0;
+		}
+
+	}
+
+	.st0{fill:#536DFE;stroke:#536DFE;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:#EEEEEE;stroke:#EEEEEE;stroke-miterlimit:10;}
+	.st2{fill:#18FFFF;}
+	.st3{fill:#B0BEC5;}
+	.st4{fill:#EA80FC;}
+	.st5{fill:#ECEFF1;}
+	.st6{fill:none;stroke:#78909C;stroke-width:2;stroke-miterlimit:10;}
+	.st7{fill:#FF4081;stroke:#FF4081;stroke-width:2;stroke-miterlimit:10;}
+	.st8{fill:none;stroke:#FCFCFC;stroke-width:4;stroke-miterlimit:10;}
+	.st9{fill:#78909C;stroke:#78909C;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#FCFCFC;}
+	.st11{fill:#FFFFFF;}
+	.st12{fill:#1DE9B6;stroke:#1DE9B6;stroke-width:2;stroke-miterlimit:10;}
+	.st13{fill:#69F0AE;}
+	.st14{fill:#CFD8DC;}
+	.st15{fill:#02A8F3;stroke:#02A8F3;stroke-width:2;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st17{fill:#FF8A80;stroke:#FF8A80;stroke-miterlimit:10;}
+	.st18{fill:#FFD740;stroke:#FFD740;stroke-width:2;stroke-miterlimit:10;}
+	.st19{fill:#FFE57F;stroke:#FFE57F;stroke-width:2;stroke-miterlimit:10;}
+	.st20{fill:none;stroke:#FF8A80;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:1,5;}
+	.st21{fill:#78909C;}
+	.st22{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+]]>
+</style>
+<g id="form-webhook">
+	<path class="st1" d="M253.357,263.126c0,2.162-1.985,3.916-4.432,3.916H69.902c-2.446,0-4.431-1.754-4.431-3.916V84.604
+		c0-2.162,1.985-3.915,4.431-3.915h179.023c2.447,0,4.432,1.753,4.432,3.915V263.126z"/>
+	<path class="st9" d="M252.035,113.194c0,0-1.957,0-4.37,0H71.162c-2.412,0-4.369,0-4.369,0V81.372c0-0.377,1.957-0.684,4.369-0.684
+		h176.503c2.413,0,4.37,0.307,4.37,0.684V113.194z"/>
+	<line class="st20" x1="310.079" y1="177.411" x2="256.035" y2="177.411"/>
+	<path class="st15" d="M122.555,247.124c0,1.543-1.938,2.791-4.33,2.791h-31.39c-2.392,0-4.33-1.248-4.33-2.791v-0.322
+		c0-1.541,1.938-2.789,4.33-2.789h31.39c2.392,0,4.33,1.248,4.33,2.789V247.124z"/>
+	<circle class="st18" cx="345.913" cy="174.97" r="30.686"/>
+	<path class="st19" d="M345.916,144.284c16.945,0,30.684,13.738,30.684,30.686s-13.738,30.688-30.684,30.688V144.284z"/>
+	<g class="rotate">
+	<g>
+		<g>
+			<path class="st8" d="M366.105,174.771c0,11.152-9.039,20.191-20.191,20.191c-3.669,0-7.108-0.979-10.073-2.688"/>
+			<g>
+				<polygon class="st10" points="341.241,188.604 329.465,186.483 333.516,197.742 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M325.721,174.771c0-11.152,9.041-20.193,20.193-20.193c4.242,0,8.179,1.308,11.428,3.543"/>
+			<g>
+				<polygon class="st10" points="351.674,161.339 363.242,164.397 360.108,152.849 				"/>
+			</g>
+		</g>
+	</g>
+	</g>
+	<rect x="81.321" y="135.093" class="st11" width="156.775" height="12.43"/>
+	<line class="st6" x1="81.321" y1="129.767" x2="111.901" y2="129.767"/>
+	<rect x="81.321" y="164.981" class="st11" width="156.775" height="12.43"/>
+	<line class="st6" x1="81.321" y1="159.655" x2="111.901" y2="159.655"/>
+	<rect x="81.321" y="192.032" class="st11" width="156.775" height="45.453"/>
+	<line class="st6" x1="81.321" y1="186.704" x2="111.901" y2="186.704"/>
+	<circle class="st17" cx="235.602" cy="96.429" r="3.495"/>
+	<circle class="st12" cx="66.793" cy="93.812" r="26.11"/>
+	<polyline class="st8" points="52.855,93.978 61.01,102.13 77.649,85.493 	"/>
+	<circle class="st13" cx="535.742" cy="252.073" r="62.823"/>
+	<g class="envelope">
+	<path class="st21" d="M574.975,275.292c0.021,1.453-1.236,2.65-2.805,2.67l-70.09,0.893c-1.566,0.02-2.855-1.143-2.873-2.598
+		l-0.447-35.008c-0.018-1.453,35.109-23.563,36.678-23.582l1.826-0.023c1.568-0.02,37.248,21.186,37.266,22.641L574.975,275.292z"/>
+
+		<rect x="521.993" y="217.718" transform="matrix(-0.0128 -0.9999 0.9999 -0.0128 288.1023 795.6586)" class="st3" width="29.682" height="75.776"/>
+	<path class="st14" d="M573.639,277.388c-0.477,0.348-1.066,0.568-1.721,0.576l-70.086,0.895c-1.57,0.02-2.857-1.145-2.875-2.598
+		l-0.447-35.008L573.639,277.388z"/>
+	<circle class="st12" cx="535.708" cy="243.059" r="12.479"/>
+	<path class="st5" d="M500.348,278.321c0.484,0.338,1.08,0.541,1.732,0.533l70.09-0.893c1.568-0.02,2.826-1.217,2.805-2.67
+		l-0.445-35.008L500.348,278.321z"/>
+	</g>
+	<g>
+		<g>
+			<line class="st16" x1="535.828" y1="234.353" x2="535.707" y2="243.154"/>
+			<g>
+				<polygon class="st11" points="529.748,241.32 535.588,251.765 541.714,241.486 				"/>
+			</g>
+		</g>
+	</g>
+	<circle class="st2" cx="460.475" cy="70.627" r="34.395"/>
+	<g class="envelope">
+	<path class="st21" d="M481.955,83.339c0.012,0.796-0.678,1.451-1.537,1.461l-38.373,0.489c-0.857,0.011-1.564-0.626-1.574-1.423
+		L440.227,64.7c-0.01-0.795,19.223-12.9,20.082-12.91l0.998-0.014c0.859-0.011,20.395,11.6,20.404,12.396L481.955,83.339z"/>
+
+		<rect x="452.947" y="51.817" transform="matrix(-0.0127 -0.9999 0.9999 -0.0127 394.3914 534.5198)" class="st3" width="16.251" height="41.488"/>
+	<path class="st14" d="M481.223,84.487c-0.26,0.189-0.584,0.311-0.941,0.314l-38.373,0.49c-0.859,0.011-1.563-0.627-1.574-1.423
+		l-0.244-19.167L481.223,84.487z"/>
+	<circle class="st0" cx="460.456" cy="65.691" r="6.832"/>
+	<path class="st5" d="M441.096,84.997c0.266,0.186,0.592,0.297,0.949,0.292l38.373-0.489c0.859-0.01,1.549-0.665,1.537-1.461
+		l-0.244-19.167L441.096,84.997z"/>
+	</g>
+	<g>
+		<g>
+			<line class="st22" x1="460.521" y1="60.925" x2="460.45" y2="66.153"/>
+			<g>
+				<polygon class="st11" points="457.471,65.236 460.391,70.458 463.453,65.318 				"/>
+			</g>
+		</g>
+	</g>
+	<circle class="st4" cx="587.191" cy="109.863" r="34.395"/>
+	<g class="envelope">
+	<path class="st21" d="M608.67,122.575c0.012,0.795-0.676,1.45-1.535,1.461l-38.373,0.488c-0.857,0.012-1.564-0.625-1.574-1.422
+		l-0.244-19.166c-0.01-0.795,19.221-12.9,20.08-12.911l1-0.013c0.859-0.012,20.393,11.6,20.404,12.395L608.67,122.575z"/>
+
+		<rect x="579.663" y="91.054" transform="matrix(-0.0127 -0.9999 0.9999 -0.0127 483.4887 700.9615)" class="st3" width="16.25" height="41.486"/>
+	<path class="st14" d="M607.939,123.723c-0.262,0.19-0.584,0.312-0.941,0.315l-38.373,0.489c-0.859,0.011-1.564-0.627-1.574-1.423
+		l-0.244-19.166L607.939,123.723z"/>
+	<circle class="st7" cx="587.172" cy="104.926" r="6.833"/>
+	<path class="st5" d="M567.813,124.233c0.266,0.185,0.59,0.297,0.949,0.291l38.373-0.488c0.859-0.011,1.547-0.666,1.535-1.461
+		l-0.242-19.168L567.813,124.233z"/>
+	</g>
+	<g>
+		<g>
+			<line class="st22" x1="587.238" y1="100.16" x2="587.165" y2="105.388"/>
+			<g>
+				<polygon class="st11" points="584.187,104.471 587.105,109.693 590.169,104.554 				"/>
+			</g>
+		</g>
+	</g>
+	<path class="st20" d="M344.482,137.907c0,0,8.811-67.28,77.596-67.28"/>
+	<path class="st20" d="M345.916,205.657c0,0,5.582,54.398,121.373,54.398"/>
+	<path class="st20" d="M381.078,173.866h156.584c0,0,49.529-2.07,49.529-32.07"/>
+</g>
+</svg>

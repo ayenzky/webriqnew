@@ -1,0 +1,173 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="650px" height="350px" viewBox="0 0 650 350" style="enable-background:new 0 0 650 350;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+
+	path, circle, line, polyline, rect{
+		stroke-dasharray: 2000;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 4s linear forwards;
+		animation: dash 4s linear forwards;
+
+	}
+
+	.st6{
+		-webkit-animation: fill-orange 2s ease-in forwards;
+    animation: fill-orange 2s ease-in forwards;
+	}
+
+	.st2{
+
+		-webkit-animation: fill-blue 4s ease-in forwards;
+    animation: fill-blue 4s ease-in forwards;
+
+	}
+
+	.st4{
+
+		-webkit-animation: fill-green 3s ease-in forwards;
+    animation: fill-green 3s ease-in forwards;
+
+	}
+
+	.st7{
+
+		-webkit-animation: fill-yellow 1s ease-in forwards;
+    animation: fill-yellow 1s ease-in forwards;
+
+	}
+	.user{
+		-webkit-transform:scale(0.3);
+		transform:scale(0.3);
+		transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -webkit-animation: user 1s ease-in forwards;
+		animation: user 1s ease-in forwards;
+	}
+	.rotate{
+
+		-webkit-animation: rotation 4s forwards linear;
+		-moz-animation: rotation 4s forwards linear;
+		-o-animation: rotation 4s forwards linear;
+		animation: rotation 4s  forwards linear;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+	}
+
+	@-webkit-keyframes user {
+    from {-webkit-transform:scale(0.3);}
+    to   {-webkit-transform:scale(1);}
+	}
+
+	@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(360deg);}
+	}
+
+	@-webkit-keyframes fill-yellow{
+
+		from{
+			opacity:0;
+		}
+		to{
+
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes fill-green{
+
+		from{
+			opacity:0;
+		}
+		to{
+
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes fill-blue{
+
+		from{
+			opacity:0;
+		}
+		to{
+
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes fill-orange{
+
+		from{
+			opacity:0;
+		}
+		to{
+
+			opacity:1;
+		}
+
+	}
+
+	@-webkit-keyframes dash{
+
+  	from{
+  		stroke-dashoffset: 2000;
+  	}
+  	to{
+  		stroke-dashoffset: 0;
+  	}
+
+
+	}
+	.st0{fill:#7C4DFF;}
+	.st1{fill:none;stroke:#1DE9B6;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#80D8FF;}
+	.st3{fill:#1DE9B6;}
+	.st4{fill:#B9F6CA;}
+	.st5{fill:none;stroke:#FF6E40;stroke-width:2;stroke-miterlimit:10;}
+	.st6{fill:#FF6E40;}
+	.st7{fill:#FFFF8D;}
+	.st8{fill:#FAFAFA;stroke:#CFD8DC;stroke-width:2;stroke-miterlimit:10;}
+	.st9{fill:#FAFAFA;stroke:#78909C;stroke-width:2;stroke-miterlimit:10;}
+	.st10{fill:#A7FFEB;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#7C4DFF;stroke-width:2;stroke-miterlimit:10;}
+]]>
+</style>
+<g id="google-analytics">
+	<path class="st9" d="M366.508,323.727c0.453-0.453,0.572-1.071,0.264-1.378l-49.11-49.111c-0.308-0.307-0.924-0.188-1.378,0.266
+		l-47.072,47.072c-0.453,0.453-0.572,1.07-0.264,1.378"/>
+	<path class="st9" d="M515.07,290.25c0,2.422-1.939,4.386-4.332,4.386h-381.76c-2.39,0-4.33-1.964-4.33-4.386V39.079
+		c0-2.422,1.94-4.384,4.33-4.384h381.76c2.393,0,4.332,1.962,4.332,4.384V290.25z"/>
+	<g class="user">
+	<circle class="st3" cx="90.877" cy="192.729" r="62.444"/>
+	<circle class="st10" cx="90.877" cy="191.729" r="24.353"/>
+	<path class="st10" d="M90.876,255.174c15.508,0,29.685-5.666,40.604-15.025c-11.089-14.419-25.227-23.066-40.629-23.066
+		c-15.394,0-29.526,8.633-40.611,23.038C61.163,249.496,75.352,255.174,90.876,255.174z"/>
+	</g>
+	<line class="st8" x1="167.38" y1="64.634" x2="167.38" y2="261.968"/>
+	<polyline class="st5" points="167.38,261.968 230.724,204.598 253.403,213.479 280.066,185.316 296.022,204.598 326.674,182.233
+		347.608,194.938 408.667,140.763 	"/>
+	<polyline class="st1" points="167.38,261.968 230.724,156.86 253.403,165.742 280.066,137.579 296.022,130.66 324.93,119.58
+		347.608,130.283 408.667,93.025 	"/>
+	<rect x="431" y="231" class="st0" width="10" height="30.968"/>
+	<rect x="448" y="189.587" class="st6" width="10" height="72.381"/>
+	<rect x="465.433" y="155.773" class="st3" width="10" height="106.194"/>
+	<polyline class="st11" points="403.434,197.024 337.141,208.871 263.871,236.128 173.809,259.75 	"/>
+	<circle class="st3" cx="171.332" cy="259.75" r="9"/>
+	<g class="rotate">
+	<circle class="st7" cx="550.765" cy="210.441" r="62.838"/>
+	<path class="st4" d="M613.545,207.705l-62.779,2.736l40.838,47.736c13.33-11.413,21.846-28.304,21.998-47.229
+		C613.61,209.861,613.591,208.78,613.545,207.705z"/>
+	<path class="st2" d="M490.264,227.41c7.355,26.268,31.351,45.636,59.994,45.867c17.382,0.141,33.17-6.791,44.639-18.105
+		l-44.131-44.73L490.264,227.41z"/>
+	<path class="st6" d="M550.766,210.441l62.813-0.87c-0.353-26.081-16.61-48.367-39.58-57.514L550.766,210.441z"/>
+	</g>
+	<line class="st8" x1="171.332" y1="259.75" x2="405" y2="259.75"/>
+</g>
+</svg>

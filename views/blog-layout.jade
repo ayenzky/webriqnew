@@ -18,18 +18,22 @@ html
 
 	body.page-blog
 
-		include ./layouts/main-header
+		include ./layouts/main-navbar
 
-		include ./layouts/_main-slider
+		.main-wrapper
 
-		.container#main
-			.row
-				.col-md-12
-					block content
+			include ./layouts/main-header
 
-		include ./layouts/main-footer
+			include ./layouts/_main-slider
 
-		include ./layouts/mailchimp
+			.container#main
+				.row
+					.col-md-12
+						block content
+
+			include ./layouts/main-footer
+
+			include ./layouts/mailchimp
 
 		include ./layouts/_layout-footer
 

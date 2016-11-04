@@ -1,0 +1,46 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="116px" height="116px" viewBox="0 0 350 350" enable-background="new 0 0 350 350" xml:space="preserve">
+
+<!-- <defs>
+<style>
+
+path, polyline, circle, rect, line{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 4s linear forwards;
+    animation: dash 4s linear forwards;
+
+  }
+
+  @-webkit-keyframes dash{
+
+    0%{
+      stroke-dashoffset: 1000;
+
+    }
+    100%{
+      stroke-dashoffset: 0;
+
+    }
+  }
+
+</style>
+
+</defs> -->
+
+<circle display="none" fill="none" stroke="#03a9f4" stroke-width="3" stroke-miterlimit="10" cx="176.313" cy="175.637" r="150.971"/>
+<rect x="54" y="72" fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" width="173" height="75"/>
+<polyline fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" points="187,221 54,221 54,146 227,146 227,165.5"/>
+<polyline fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" points="227,276.5 227,295 54,295 54,220 187,220"/>
+<path fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" d="M100,109.5c0,6.627-5.373,12-12,12l0,0
+	c-6.627,0-12-5.373-12-12l0,0c0-6.627,5.373-12,12-12l0,0C94.627,97.5,100,102.873,100,109.5L100,109.5z"/>
+<path fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" d="M100,183.5c0,6.627-5.373,12-12,12l0,0
+	c-6.627,0-12-5.373-12-12l0,0c0-6.627,5.373-12,12-12l0,0C94.627,171.5,100,176.873,100,183.5L100,183.5z"/>
+<path fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" d="M100,257.5c0,6.627-5.373,12-12,12l0,0
+	c-6.627,0-12-5.373-12-12l0,0c0-6.627,5.373-12,12-12l0,0C94.627,245.5,100,250.873,100,257.5L100,257.5z"/>
+<circle fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" cx="241" cy="221" r="55.5"/>
+<line fill="#03a9f4" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" x1="213" y1="195.5" x2="265.75" y2="248.25"/>
+<line fill="#03a9f4" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" x1="265.75" y1="195.5" x2="213" y2="248.25"/>
+<rect x="44" y="89" fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" width="10" height="38"/>
+<rect x="44" y="163" fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" width="10" height="38"/>
+<rect x="44" y="238.5" fill="none" stroke="#03a9f4" stroke-width="4" stroke-miterlimit="10" width="10" height="38"/>
+</svg>

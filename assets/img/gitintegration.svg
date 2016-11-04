@@ -1,0 +1,86 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="350px" height="350px" viewBox="0 0 350 350" enable-background="new 0 0 350 350" xml:space="preserve">
+
+<defs>
+	<style>
+
+		#circle1{
+      -webkit-animation: fill 4s ease forwards;
+      animation: fill 4s ease forwards;
+
+
+    }
+
+    #circle2{
+       -webkit-animation: filll 20s linear forwards;
+      animation: filll 20s linear forwards;
+    }
+
+		line, path, circle{
+			stroke-dasharray: 800;
+			stroke-dashoffset: 0;
+			-webkit-animation: dash 4s linear forwards;
+			animation: dash 4s linear forwards;
+
+		}
+
+	 @keyframes fill {
+      0% {
+          fill: #ffffff;
+      }
+      100% {
+          fill: #E2F4FE;
+      }
+  }
+
+  	 @keyframes filll {
+      0% {
+          fill: #ffffff;
+      }
+      100% {
+          fill: #F2F2F2;
+      }
+  }
+
+ @keyframes dash {
+      0% {
+          stroke-dashoffset: 800;
+      }
+      100% {
+          stroke-dashoffset: 0;
+      }
+  }
+
+	</style>
+
+</defs>
+
+<circle id="circle1" fill="#E2F4FE" cx="176.313" cy="175.637" r="150.971"/>
+<circle id="circle2" fill="#F2F2F2" cx="175.98" cy="169.304" r="118.753"/>
+<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M55.22,180.637
+	c-3.338-34.869,8.344-70.905,35.048-97.608c47.473-47.472,124.44-47.472,171.91,0c33.427,33.425,43.316,81.473,29.673,123.552"/>
+<g>
+	<g>
+		<path fill="none" stroke="#78909C" stroke-width="4" stroke-miterlimit="10" d="M207.789,286.395
+			c-3.227,0.864-6.479,1.594-9.754,2.188"/>
+		<path fill="none" stroke="#78909C" stroke-width="4" stroke-miterlimit="10" stroke-dasharray="20.1401,10.0701" d="
+			M188.066,289.969c-34.928,3.399-71.047-8.275-97.799-35.029c-9.396-9.396-16.932-19.945-22.607-31.194"/>
+		<path fill="none" stroke="#78909C" stroke-width="4" stroke-miterlimit="10" d="M65.481,219.193
+			c-1.381-3.049-2.63-6.142-3.747-9.271"/>
+	</g>
+</g>
+<path fill="#77909C" d="M252.255,224.225l12.266-12.266c9.032-9.032,23.676-9.032,32.707,0l0,0c9.032,9.031,9.032,23.674,0,32.707
+	l-12.265,12.266L252.255,224.225z"/>
+<path fill="#77909C" d="M233.926,241.553l-12.265,12.266c-9.032,9.033-9.032,23.677,0,32.707l0,0c9.029,9.033,23.674,9.033,32.706,0l12.266-12.265L233.926,241.553z">
+	 <animateColor attributeName="fill" attributeType="XML"
+        from="black" to="red" dur="6s" repeatCount="indefinite"/>
+</path>
+<line fill="none" stroke="#78909C" stroke-width="4" stroke-miterlimit="10" x1="258.299" y1="231.316" x2="248.314" y2="241.303"/>
+<line fill="none" stroke="#78909C" stroke-width="4" stroke-miterlimit="10" x1="270.391" y1="257.878" x2="260.979" y2="267.29"/>
+<circle fill="none" stroke="#F36C3F" stroke-width="4" stroke-miterlimit="10" cx="164.179" cy="223.427" r="14.307"/>
+<circle fill="none" stroke="#F36C3F" stroke-width="4" stroke-miterlimit="10" cx="164.179" cy="115.231" r="14.307"/>
+<circle fill="none" stroke="#F36C3F" stroke-width="4" stroke-miterlimit="10" cx="215.49" cy="141.309" r="14.307"/>
+<line fill="none" stroke="#F36C3F" stroke-width="4" stroke-miterlimit="10" x1="164.179" y1="209.12" x2="164.179" y2="128.779"/>
+<path fill="none" stroke="#F36C3F" stroke-width="4" stroke-miterlimit="10" d="M164.179,196.595c0,0,16.332-14.325,31.831-14.5
+	c23.324-0.262,19.076-19.928,19.323-27.5"/>
+</svg>

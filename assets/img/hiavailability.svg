@@ -1,0 +1,52 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="120px" height="120px" viewBox="0 0 120 120" style="enable-background:new 0 0 120 120;" xml:space="preserve">
+<style type="text/css">
+
+	.st1, .st2{
+		stroke-dasharray: 400;
+		stroke-dashoffset: 0;
+		-webkit-animation: dash 2s linear forwards;
+		animation: dash 2s linear forwards;
+	}
+
+	.st22{
+		stroke-dasharray: 50;
+		stroke-dashoffset: 50;
+		-webkit-animation: dash_2 2s linear 0.5s reverse forwards;
+		animation: dash_2 2s linear 0.5s reverse forwards;
+	}
+
+
+	@-webkit-keyframes dash{
+	  	from{stroke-dashoffset: 400;}
+	  	to{stroke-dashoffset: 0;}
+  }
+
+  @-webkit-keyframes dash_2{
+	  	from{stroke-dashoffset: 0;}
+	  	to{stroke-dashoffset: 50;}
+  }
+
+	.st1{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+	.st2, .st22{fill:none;stroke:#03A9F4;stroke-width:1.5;stroke-miterlimit:10;}
+
+
+</style>
+
+<g id="high-availability">
+	<circle class="st1" cx="59.683" cy="55.218" r="52.729"/>
+	<circle class="st1" cx="59.683" cy="55.217" r="47.153"/>
+	<g class="rotation">
+	<circle class="st2" cx="59.683" cy="55.216" r="3.526"/>
+	<line class="st22" x1="83.33" y1="31.576" x2="62.12" y2="52.789"/>
+	<line class="st22" x1="55.429" y1="55.218" x2="30.952" y2="55.218"/>
+	</g>
+	<line class="st1" x1="15.42" y1="55.218" x2="19.906" y2="55.218"/>
+	<line class="st1" x1="99.386" y1="55.218" x2="103.873" y2="55.218"/>
+	<line class="st1" x1="59.616" y1="99.735" x2="59.616" y2="95.248"/>
+	<line class="st1" x1="59.616" y1="15.356" x2="59.616" y2="10.869"/>
+	<path class="st1" d="M86.19,114.619c0,1.499-1.791,2.715-4,2.715H37.418c-2.209,0-4-1.216-4-2.715v-0.227
+		c0-1.499,9.791-3.393,12-3.393H75.19c2.209,0,11,1.894,11,3.393V114.619z"/>
+</g>
+
+</svg>
