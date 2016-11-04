@@ -6,13 +6,21 @@ $(document).ready(function () {
 
 	$("nav").on("open.navigation", function() {
 		$("#nav-icon1").addClass('open');
-		$(".nav.navbar-nav").removeClass('show-down');
-		$(".nav.navbar-nav").addClass('show-up');
+		$(".nav.navbar-nav, .left-footer-nav").removeClass('show-down');
+		$(".nav.navbar-nav, .left-footer-nav").addClass('show-up');
+		TweenMax.staggerTo('.nav.show-up li a', 0.5, {ease:SteppedEase.easeInOut, y:0, opacity:1},0.2)
+		TweenMax.staggerTo('.left-footer-nav.show-up .terms-cookies', 0.4, {delay:1.2, ease:SteppedEase.easeIn, y:0, opacity:1},0.1)
+		TweenMax.staggerTo('.left-footer-nav.show-up ul li', 0.4, {delay:1.3, ease:SteppedEase.easeIn, y:0, scale:1, opacity:1},0.1)
+		TweenMax.staggerTo('.left-footer-nav.show-up .nav-copyright', 0.4, {delay:1.7, ease:SteppedEase.easeIn, y:0, opacity:1},0.1)
 
 	}).on("close.navigation", function() {
 		$("#nav-icon1").removeClass('open');
-		$(".nav.navbar-nav").removeClass('show-up');
-		$(".nav.navbar-nav").addClass('show-down');
+		$(".nav.navbar-nav, .left-footer-nav").removeClass('show-up');
+		$(".nav.navbar-nav, .left-footer-nav").addClass('show-down');
+		TweenMax.staggerTo('.nav.show-down li a', 0.1, {y:30, opacity:0},0.1)
+		TweenMax.staggerTo('.left-footer-nav.show-down .terms-cookies', 0.1, {y:-10, opacity:0},0.1)
+		TweenMax.staggerTo('.left-footer-nav.show-down ul li', 0.1, {y:-100, scale:0.5, opacity:0},0.1)
+		TweenMax.staggerTo('.left-footer-nav.show-down .nav-copyright', 0.1, {y:10, opacity:0},0.1)
 	});
 
 
@@ -79,6 +87,12 @@ $(window).on('scroll', function() {
       return scrolled >= $(this).offset().top-140;
     }).addClass('in-view').trigger('classChange');
 });
+
+
+
+// $(".nav_handle_push_right").click(function(){
+// 	TweenMax.staggerFromTo('.nav.show-up li', 1, {opacity:0, x:400, ease:Bounce.easeIn,	force3D:true},{opacity:1, ease:Bounce.easeIn, force3D:true, x:0},0.1);
+// })
 
 $('.section').on('classChange', function(e){
 
@@ -150,3 +164,7 @@ TweenMax.staggerFrom(".lang .third_batch", 0.5,{
 	.5)
 
 
+TweenMax.staggerTo('.nav.show-down li a', 0.1, {opacity:0, y:30},0.1)
+TweenMax.staggerTo('.left-footer-nav.show-down ul li', 0.1, {y:-100, scale:0.5, opacity:0},0.1)
+TweenMax.staggerTo('.left-footer-nav.show-down .terms-cookies', 0.1, {y:-10, opacity:0},0.1)
+TweenMax.staggerTo('.left-footer-nav.show-down .nav-copyright', 0.1, {y:10, opacity:0},0.1)
