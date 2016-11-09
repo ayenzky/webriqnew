@@ -1,7 +1,7 @@
 ---
 title: E-commerce Design Trends that Will Rule in 2017
 author: Lucy Barret
-banner: /img/uploads/popup-cyberchimps-is-confusing.jpg
+banner: /img/uploads/ecommerce-trends.jpg
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
 date: 2016-01-31T16:00:00.000Z
