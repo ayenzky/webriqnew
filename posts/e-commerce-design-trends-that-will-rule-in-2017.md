@@ -1,10 +1,10 @@
 ---
 title: E-commerce Design Trends that Will Rule in 2017
 author: Lucy Barret
-banner: /img/uploads/vimeo_duckfield_burberry.jpg
+banner: /img/uploads/popup-cyberchimps-is-confusing.jpg
 shortdesc: "Here’s how I sum up this year: We gave a single phrase explanation to all our design and development fads (cough User-Experience cough) and have now arrived at a point where almost every design looks the same as the one before it."
 cmsUserSlug: ""
-date: 2016-02-01T00:00:00+08:00
+date: 2016-01-31T16:00:00.000Z
 categories: ""
 ---
 
@@ -52,11 +52,11 @@ Basically: Even if Internet of Things hasn’t started to worry you yet, you sho
 
 ### 5. Pop-Up Marketing
 
-![Popup Reebok Crossfit](  /img/21.jpg)
+![Popup Reebok Crossfit]( /img/uploads/popup-reebok-crossfit.jpg  )
 
 ##### <center>"Reebok does popups nicely."</center>
  
-![Popup Reebok Crossfit](  /img/21.jpg)
+![Popup Reebok Crossfit]( /img/uploads/popup-cyberchimps-is-confusing.jpg  )
 
 ##### <center>"Visual confusion, bad popup, but good trigger (activates once you've read the content)."</center>
 
