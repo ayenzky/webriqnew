@@ -6,6 +6,7 @@
 		opacity:0;
 		fill:#FF8A80;
 		-webkit-animation:blink 1s linear 1.5s infinite alternate;
+		-moz-animation:blink 1s linear 1.5s infinite alternate;
   	animation:blink 1s linear 1.5s infinite alternate;
 		}
 
@@ -13,12 +14,14 @@
 		fill:#FDD835;
 		opacity:0;
 		-webkit-animation:blink 1s linear 2s infinite alternate;
+		-moz-animation:blink 1s linear 2s infinite alternate;
   	animation:blink 1s linear 2s infinite alternate;
 	}
 	.st14{
 		fill:#78909C;
 		opacity:0;
 		-webkit-animation:blink 1s linear 3s infinite alternate;
+		-moz-animation:blink 1s linear 3s infinite alternate;
   	animation:blink 1s linear 3s infinite alternate;
 	}
 
@@ -35,19 +38,23 @@
 	@-webkit-keyframes rotation{
 		from {-webkit-transform: rotate(360deg);}
     to   {-webkit-transform: rotate(0deg);}
-
 	}
 
-		@-webkit-keyframes "blink" {
-	  	0{
-	    	opacity:0;
-	  	}
-	  	50%{
-				opacity:0.5;
-	  	}
-	  	100%  {
-	   		opacity:1;
-	  	}
+	@-moz-keyframes rotation{
+		from {-moz-transform: rotate(360deg);}
+    to   {-moz-transform: rotate(0deg);}
+	}
+
+	@-webkit-keyframes blink{
+	  	0% 	{opacity:0;}
+	  	50% {opacity:0.5;}
+	  	100%{opacity:1;}
+	}
+
+	@-moz-keyframes blink{
+	  	0% 	{-moz-opacity:0;}
+	  	50% {-moz-opacity:0.5;}
+	  	100%{-moz-opacity:1;}
 	}
 
 

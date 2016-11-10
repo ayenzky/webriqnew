@@ -1600,8 +1600,6 @@ fieldset[disabled] .btn-primary.active
     float:left
     width:100%
 
-  #features_main.get-certified
-    clear:both
 
 @media (max-width: 992px)
   .features-block .col-sm-12 .bubble
@@ -1957,7 +1955,11 @@ fieldset[disabled] .btn-primary.active
     padding 3px
   .title
     font-size 3em
-    font-weight 500
+    font-weight 100
+  h2, h3, h4
+    font-weight 300
+    strong, a
+      font-weight 300
   .info
     color #cfcfcf
     b
@@ -2192,6 +2194,7 @@ fieldset[disabled] .btn-primary.active
       #modern-tech
         position relative
         max-width 560px
+        margin 0 auto
         .modern-tech-show
           width 100%
           position  absolute
@@ -2227,7 +2230,7 @@ fieldset[disabled] .btn-primary.active
       position relative
       background  url(../img/shadow.png) no-repeat center bottom
       background-size 100%
-      padding-bottom 40px
+      padding-bottom 45px
       padding-left 20px
       padding-right 20px
       svg
@@ -2297,6 +2300,34 @@ fieldset[disabled] .btn-primary.active
     &:hover
       background-color #039be5
 
+.fs-navigation-lock
+  .left-footer-nav
+    display block
+
+.left-footer-nav
+  clear:both
+  padding-left:60px
+  padding-top:50px
+  display none
+  p
+    color: #3c3c3c
+    font-size 14px
+    a
+      padding:0px 5px
+      color: #3c3c3c
+  .nav-copyright
+    color: #3c3c3c
+    padding: 0px 6px 0px 5px;
+
+
+  ul.left-social-icons
+    list-style none
+    clear both
+    padding:0px
+    margin-bottom 0px
+    li
+      display inline-block
+      margin 2px
 
 #footer
   padding-top 20px
@@ -2427,8 +2458,10 @@ nav.nav_offscreen .navbar-nav li
 nav.nav_offscreen .navbar-nav li a
   color:#fff
   background-color:transparent !important
-  font-weight: 300
-  text-transform: uppercase
+  font-weight: 400
+  font-size 23px
+  text-transform uppercase
+
 
 
 nav.nav_offscreen .navbar-nav li:hover a
@@ -2440,6 +2473,14 @@ nav.nav_offscreen .navbar-nav
 nav.nav_offscreen.js-navigation
   background-color:#222
 
+.fs-navigation-open.fs-navigation-push-right-content::before
+  content:""
+  top:0px
+  height:100%
+  width:100%
+  position:absolute
+  z-index:2
+  background-color: rgba(3, 169, 244, 0.5)
 
 .fs-light.fs-navigation-handle.fs-navigation-enabled
   height: 40px
@@ -2456,6 +2497,7 @@ nav.nav_offscreen.js-navigation
 
 nav.nav_offscreen .nav
   display:none
+
 
 
 nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigation-open .nav
@@ -2720,163 +2762,6 @@ nav.nav_offscreen.fs-navigation-push-right-nav.fs-navigation-enabled.fs-navigati
   left: 8px
 
 
-@media only screen and (max-width:1024px)
-
-  .resp-tabs-list.tools
-    li
-      width 15%
-      margin 5px
-      padding 5px
-      span
-        margin-right 0px
-
-  body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -65px
-
-
-
-
-@media only screen and (max-width:980px)
-  .resp-tabs-list.tools
-    li
-      width 30%
-      margin 10px
-      padding 0px 15px
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -80px
-
-  #features_tools #toolsTab .tab-lead-content
-    text-align center
-    padding-bottom 60px
-
-
-@media only screen and (max-width:800px)
-  #features_security_body
-    .container
-      .left, .right
-        width 50%
-
-      .middle
-        display none
-   html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -134px
-
-
-
-@media only screen and (max-width:767px)
-  #features_security_body .container .left,
-  #features_security_body .container .right
-    width 100%
-
-  #features_tools
-    h3.heading-3
-      margin-top 50px
-  #contact .container .row .pull-right
-    float left !important
-  #features_security_body .container .right
-    clear both
-
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top-12px
-  .resp-tabs-container .resp-accordion span.tools-name
-    font-size 24px
-  #features_performance .container
-    text-align center
-
-
-@media only screen and (max-width:768px)
-  #features_security_body
-    .container
-      .left
-        width 100%
-        .row
-          width 50%
-          float left
-          margin-right 0px
-          margin-left 0px
-      .right
-        width 100%
-
-  .free-cms-sec
-    .img-left
-      .desc-desk
-        display block !important
-      .desc-moble
-        display none !important
-    .det-right
-      padding 50px 0px
-      .col-md-6
-        .col-md-12
-          text-align center
-  #site-wizard-sect
-    padding 40px 0px 20px !important
-
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -12px
-
-@media only screen and (max-width:640px)
-  .free-cms-sec
-    .img-left
-      .desc-desk
-        display block !important
-      .desc-moble
-        display none !important
-    .det-right
-      padding 50px 0px
-      .col-md-6
-        .col-md-6
-          text-align center
-  #site-wizard-sect
-    padding 40px 0px 20px !important
-
-  #features_performance,
-  #features_security_body
-    .container
-      text-align center
-      .left
-        .row
-          float:none
-          width:auto
-  body #features_security_body .container .row #modern-tech .modern-tech-show
-    right 5px
-  #features_tools #toolsTab .tab-lead-content
-    padding-bottom 40px
-
-@media only screen and (max-width: 600px)
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -17px
-
-
-@media only screen and (max-width:480px)
-  .det-right .col-xs-6
-    min-width 100%
-    text-align center
-  .contact .quicklinks li:nth-child(6) ul
-    position relative
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -90px
-  .resp-tabs-container .resp-accordion span.tools-name
-    font-size 15px
-    font-weight 300
-
-@media only screen and (max-width: 360px)
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -165px
-  #features_tools #toolsTab .tab-lead-content .tab-lead-image
-    top 15%
-  #features_tools #toolsTab .tab-lead-content
-    padding-bottom 25px
-  .resp-tabs-container .resp-accordion span.tools-name
-    clear both
-    display block
-
-  .resp-tabs-container .resp-accordion
-    text-align center
-
-
-@media only screen and (max-width: 320px)
-  html body #features_security_body .container .row #modern-tech .modern-tech-show
-    top -185px
 
 
 
