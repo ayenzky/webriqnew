@@ -3,7 +3,7 @@ title: "New features on our WebriQ CMS system "
 author: Philippe Bodart
 banner: /img/uploads/untitled.png
 shortdesc: We have enriched our CMS system with a new markdown editor and with features that will make it easy for non-technical people to update and manage a Static website.
-updatedDate: 2016-11-15T08:20:13.582Z
+updatedDate: 2016-11-15T08:20:36.771Z
 cmsUserSlug: cms-system
 date: 2016-11-15T00:00:00+08:00
 categories: null
