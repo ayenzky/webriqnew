@@ -3,13 +3,13 @@ title: "New features WebriQ CMS "
 author: Philippe Bodart
 banner: /img/uploads/untitled22.png
 shortdesc: "With a new markdown editor that anyone can use, our CMS system is now ready for non-technical people looking to manage and update their Static website through Github repositories"
-updatedDate: 2016-11-15T08:37:38.728Z
+updatedDate: 2016-11-15T08:38:46.937Z
 cmsUserSlug: ""
 date: 2016-11-14T16:00:00.000Z
 categories: null
 ---
 
-# A new Markdown Editor 
+http://app.webriq.com/help/page/settings/site-analytics# A new Markdown Editor 
 
 A simple, beautiful, and JavaScript Markdown editor, that can be used /uploads/site_phpwebfactories/pages/Untitled.pngby anyone. 
 The WYSIWYG-esque editor allows users who may be less experienced with Markdown to use familiar toolbar buttons and shortcuts. In addition, the syntax is rendered while editing to clearly show the expected result. Headings are larger, emphasized words are italicized, links are underlined, etc. 
@@ -34,4 +34,4 @@ The SimpleMDE implementation on our CMS system has been designed to bridge this 
 
 # Integration of Google Analytics
 
-You can now integrate Google analytics in to our WebriQ APP. More details can be found on Google Analytics - Help
+You can now integrate Google analytics in to our WebriQ APP. More details can be found on [Google Analytics - Help](http://http://app.webriq.com/help/page/settings/site-analytics)
