@@ -1,4 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[WebriQ | CMS for Static Pages and Shops]]></title><description><![CDATA[CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages]]></description><link>https://www.webriq.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 04 Nov 2016 07:58:36 GMT</lastBuildDate><atom:link href="https://www.webriq.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Web Design and development Trends for 2017]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/untitled11.jpg' class='img-responsive'>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[WebriQ | CMS for Static Pages and Shops]]></title><description><![CDATA[CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages]]></description><link>https://www.webriq.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Nov 2016 09:43:25 GMT</lastBuildDate><atom:link href="https://www.webriq.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[New features WebriQ CMS ]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/untitled234.png' class='img-responsive'>
+
+# A new Markdown Editor 
+
+A simple, beautiful, and JavaScript Markdown editor, that can be used by anyone. 
+The WYSIWYG-esque editor allows users who may be less experienced with Markdown to use familiar toolbar buttons and shortcuts. In addition, the syntax is rendered while editing to clearly show the expected result. Headings are larger, emphasized words are italicized, links are underlined, etc. 
+WYSIWYG editors that produce HTML are often complex and buggy. Markdown solves this problem in many ways, plus Markdown can be rendered natively on more platforms than HTML. However, Markdown is not a syntax that an average user will be familiar with, nor is it visually clear while editing. In other words, for an unfamiliar user, the syntax they write will make little sense until they click the preview button. 
+The SimpleMDE implementation on our CMS system has been designed to bridge this gap for non-technical users who are less familiar with or just learning Markdown syntax.
+![](http://phpwebfactories.myresponsive.website//uploads/site_phpwebfactories/pages/Untitled.png)
+# Features of the new markdown editor
+
+* Autosaving – after two minutes of being idle on your browser, your work will be auto saved as a draft article or post
+* Spellchecker – spelling mistakes are highlighted
+* Mobile friendly – a bit difficult to write on a smartphone, but writing and updating your posts through a tablet is surely do-able
+* Multiple preview modes – markdown only, preview only and split markdown/preview 
+* markdown guide 
+
+# Other CMS enhancements
+
+* Draft articles or posts – all drafts wether it is a new post or a change in an existing post can be saved at all time. The drafts are in a separate Github branch for later publishing. 
+* Discard draft – feature to go back to your original published post, discarding all changes made to the post
+* Unpublished – you can un publish existing post. Unpublished posts will be kept in a separate branch for later publishing if required
+* Published – new or existing posts can be published immediately and are put in to the Master branch of your Github account. 
+* Further automation is expected to be on the platform in the latter part of this year, with notably calendar functionality, social media auto posting and integration with cloud based storage systems such as Dropbox and Google Drive. 
+
+# Integration of Google Analytics
+
+You can now integrate Google analytics in to our WebriQ APP. More details can be found on [Google Analytics - Help](http://http://app.webriq.com/help/page/settings/site-analytics)
+]]></description><link>https://www.webriq.com/posts/new-features-webriq-cms-</link><guid isPermaLink="true">https://www.webriq.com/posts/new-features-webriq-cms-</guid><category><![CDATA[posts]]></category><pubDate>Mon, 14 Nov 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/untitled234.png" length="0" type="image/png"/></item><item><title><![CDATA[Is it time to give up on your WordPress site?]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/untitled.png' class='img-responsive'>
+
+Nowadays WordPress has become extremely vulnerable to hacking because it's open source and therefore really well-understood, runs something like 30 percent of all websites, and, given the huge range of third party additions (themes, plugins, etc.), ensuring any given installation is hacker-proof is pretty difficult. "Ah!" you might be muttering, "surely keeping WordPress and your plugins up to date is the answer?" Well, my friend, you might like to think so but it seems this latest wave of hacking WordPress may involve one or more zero day vulnerabilities. The scale and complexity of the WordPress ecosystem makes for what's called a large attack surface.
+
+But given the risks of getting hacked, which range from site defacement, through the theft of sensitive data, to becoming a source of malware to your visitors, you have to ask yourself if you still afford the time and effort to effectively secure your site and, even more importantly, if sensitive data could be exposed, can you afford the risk of remediation and possible litigation? Note that cyber-insurance, which sounds like a good hedge against disaster, may not work unless you can prove that you have exercised “due care,” something that may be tricky given the issues involved.
+
+So, what’s the alternative? The answer could be a “static website” or "flat site"; i.e. a site that isn’t full of of databases and backend code but rather a bunch of static HTML, CSS, and client-side JavaScript that can be locked down and easily checked for unauthorized modifications. 
+
+There are a bunch of tools available to build and manage Static websites, and a good starting reference point is [Static Generators](http://staticgen.com).
+
+At WebriQ we have put together a Modern Technology Stack for developers and content editors that is simplifying the many tasks at hand in building, managing, updating and hosting Static websites. It consist of a Static Web Generator specifically designed for business websites, all the tools to publish the code on Github and all the automation tools to continuously manage and update the website through Github commits. 
+Last but not least, it contains an online Content Management System that deploys content changes almost instantaneously to your website.
+
+Check it out on [WebriQ APP](http://app.webriq.com)
+
+]]></description><link>https://www.webriq.com/posts/static-website-generators</link><guid isPermaLink="true">https://www.webriq.com/posts/static-website-generators</guid><category><![CDATA[posts]]></category><pubDate>Wed, 09 Nov 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/untitled.png" length="0" type="image/png"/></item><item><title><![CDATA[E-commerce Design Trends that Will Rule in 2017]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/ecommerce-trends.jpg' class='img-responsive'>
+
+Is it bad? Not necessarily. The same design concepts being utilized over and over again for the sake of keeping users happy: That’s good intent and sweet results for business owners, even if it means less conceptual diversity for designers and developers.
+
+Now, as far as online store designing goes, here are 5 trends you can expect will be followed by everyone in the year ahead:
+
+### 1. Card Layouts
+
+![Adidas Home page & Sony](  /img/uploads/addidas_sony.jpg)
+
+You can thank Pinterest and every single template that used Masonry for this trend. Showing your products as Cards is something I can actively get behind, given its simplicity (of implementation) and users’ familiarity with the pattern.   
+
+### 2. A Different take on ‘Above the fold’
+
+![Above the fold](  /img/uploads/vimeo_duckfield_burberry.jpg  )
+
+While a lot of us may have realized that the fold is a myth, that doesn’t stop many retailers from cramming all they can on the top half for that first glance. Only, instead of cramming forms up there, we have decided to use ‘above the fold’ area for capturing attention.
+
+With carefully clicked and picked Hero Images, Sliders, Background videos, etc.
+
+The trend is a conversion-friendly trend and it is catching up with e-commerce portals fast.
+
+### 3. Material Design
+
+By the end of 2013, we were at crossroads between flat and skeuomorphic design. We found the perfect solution in the form of Material design, and it is not going anywhere anytime soon. Everyone, including e-commerce stores, will be using the cleanliness and performance of flat with subtle enhancements of realistic design with abandon.
+
+Here are some stores who are doing it right:
+
+![ Storyville Coffee company & Blackberry](  /img/uploads/storyville-coffee-company_blackberry.jpg  )
+
+<center>![Pottermore](  /img/uploads/pottermore.png  )</center>
+
+#####  <center>**“Not an online store, but the perfect example anyway”**</center>
+
+### 4. Multi-channel done right 
+
+As the businesses change, so will the marketing trends and practices. 2017 is where multi-channel marketing and retail will truly take off as publishers and advertisers strive to create impactful, specifically targeted advertisements using advertiser data collected across multiple devices. This will help reduce advertising clutter on all devices.
+
+This is to attract the tech-savvy millennials using a whole range of devices to shop. 
+
+Marketers were doing it through ads (targeted with geo-location) so far, but Facebook began giving out [‘Place Tips’ to businesses](https://www.facebook.com/business/news/place-tips-for-businesses) to digitize real-life experiences (or vice versa? I am not a retailer).
+
+Basically: Even if Internet of Things hasn’t started to worry you yet, you should still prepare yourself to create more inclusive experiences as marketer and get ready to implement them as web developer and designer.
+
+### 5. Pop-Up Marketing
+
+![Popup Reebok Crossfit]( /img/uploads/popup-reebok-crossfit.jpg  )
+
+##### <center>"Reebok does popups nicely."</center>
+ 
+![Popup Reebok Crossfit]( /img/uploads/popup-cyberchimps-is-confusing.jpg  )
+
+##### <center>"Visual confusion, bad popup, but good trigger (activates once you've read the content)."</center>
+
+God this one is catching on _really_fast, to everyone’s general annoyance. Every single online store I’ve visited lately showed me a pop-up before I even got a look at the products. No, sellers, I will not subscribe or register my email address with you (Well, not now that I know how desperate you are anyway).
+
+Pop-up/interruption marketing to increase social shares or generate leads is gaining traction. But I have to say, if you must do it, do it nicely. Make it trigger delayed (page leave, cursor movement, time delayed, etc.), make the transition smooth (not abrupt as if you’re saying ‘Boo!’). 
+
+Try not to go for more than ONE popup per page; you can decide when to show it.
+
+### Bonus Takeaway
+
+This is for the content people: Stock photos are dying out. Get ready to get creative with photography (Knolling, blur shots, anything else really), but make sure it’s your own so you get to get extra points for being a unique snowflake.
+
+### The Upshot
+
+I’m not a fortune-teller, but my belief that these ‘trends’ will persist in the coming year is backed by the current opinions in web designer community. 
+
+You’re free to treat these as hogwash. Or share your own opinions for added enlightenment in the comments section below.
+
+### _Bonne 2017!_
+
+<hr>
+**Author Bio:** Lucy Barret, a talented blogger and WordPress developer, currently employed at HireWPGeeks Ltd. She is an expert of
+[converting HTML to WordPress](http://www.hirewpgeeks.com/services/html-to-wordpress/) theme and has a team of skilled developers to assist her. Follow her company on [Facebook](https://www.facebook.com/hirewpgeeks).]]></description><link>https://www.webriq.com/posts/e-commerce-design-trends-that-will-rule-in-2017</link><guid isPermaLink="true">https://www.webriq.com/posts/e-commerce-design-trends-that-will-rule-in-2017</guid><category><![CDATA[]]></category><pubDate>Mon, 10 Oct 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/ecommerce-trends.jpg" length="0" type="image/jpeg"/></item><item><title><![CDATA[Web Design and development Trends for 2017]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/untitled11.jpg' class='img-responsive'>
 
 ##     **Adopt a mobile-first approach**
 
@@ -648,178 +765,4 @@ Better meaning easier to build. Easier to debug. Easier to change and improve. E
 Static websites are the future. 
 If you want some neat APPS that can enhance your Static website, check out [EAGER](http://eager.io)
 
-        ]]></description><link>https://www.webriq.com/posts/building-static-websites</link><guid isPermaLink="true">https://www.webriq.com/posts/building-static-websites</guid><category><![CDATA[posts]]></category><pubDate>Sat, 23 Apr 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/building-static-websites.jpg" length="0" type="image/jpeg"/></item><item><title><![CDATA[Why using a Static Website]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/why-using-a-static-website.jpg' class='img-responsive'>
-
-Web development has stagnated on a concept in recent years, the idea of a requisite dynamic content management system (such as WordPress or Drupal), but now there is a [resurgence in static websites](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/). For some time we have recognized the value of using static websites and wanted to provide some insight into the practical choices made when evaluating the suitability of the static website approach.
-
- When discussing static websites, most people respond "Why? Why should I make this website static?", but instead the question should be *Why should my website be Dynamic or driven by a database?*
-
- STATIC OR DYNAMIC WEBSITE
-
-The term _static site_ describes a website with pre-existing content and available as plain HTML files. This is in contrast to a _dynamic site_ in which content is generated upon request by a series of backend systems, essentially a database.
-
- All sites have some static content: the images, [the styling](https://en.wikipedia.org/wiki/Style_sheet_(web_development)), etc... For dynamic sites the HTML markup that brings all of it together is not already available for use, rather it is generated at the time it is needed by a browser. In contrast, a static website has this markup pre-generated and immediately ready to be sent to a browser without delay, having already performed the generation step before the site was made available. 
-
- Not taking the performance hit of generating the site content upon request spares the burden of [real-time infrastructure](http://c179631.r31.cf0.rackcdn.com/diagram_scalablewordpress.png), which translates directly to sites exhibiting greater speed and stability [at significantly lower costs](https://aws.amazon.com/s3/pricing/). The absence of this complex infrastructure results in sites that are more secure and scalable. Cloud hosting has made it such that for almost negligible cost a static website will never be unavailable and can scale to meet any perceivable demand. Static site generation was [one of the techniques](https://developmentseed.org/blog/2013/10/24/its-called-jekyll/)used to save the [healthcare.gov website](https://www.healthcare.gov/) when it had trouble scaling in it's initial rollout.
-
- WHEN TO USE A STATIC WEBSITE
-
-As the [LAMP stack](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) , i.e Wordpress and it's lookalikes grew in popularity, its use in creating websites became common and many sites that did not have particular needs to be dynamic were created **dynamic by default**. This is not the best approach.
-
- Imagine you have a website that presents widget information, and you have 1000 widgets in your database. It would be easy to default to creating a dynamic website with a script taking the widget name as input and displaying specific information about that widget when the site was hit. An alternative is to use a static website generator to create the 1000 different pages (one for each widget) and use those to show the widget information. If the widgets ever update, the site may be re-generated to update the content. Now that static website generators have the capability to effortlessly rebuild websites around new content, adding new content to static websites may be configured to as a turnkey operation.
-
- It may require creative thought as to how to turn a website that would be obviously dynamic into a static website. At the same time, never before has there been this many quality tools for adding dynamic _elements_ to otherwise static websites. Now that [the Google Crawler is executing JavaScript](http://searchengineland.com/tested-googlebot-crawls-javascript-heres-learned-220157) as part of content indexing, the traditional major penalty of this approach has been removed.
-
- See the aforementioned article for greater [details on the process of static website generation](http://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/).
-
- Generally you should be striving to make your website as static and compressed as possible, while recognizing there are some good reasons it may not be possible:
-
-INFORMATION UPDATE FREQUENCY
-
-The information you are trying to convey on your website may require real-time generation to display. If you _must_ display content information accurate to the moment the request for the information was made, it would not be possible to pre-generate the content as you would not know what the information actually is at the time of site generation.
-
- This is not to say that generation cannot be frequent if the data changes frequently. If you have a data set such that generating (and deploying) the site takes 60 seconds, and the data changes every 10 minutes. You still have the opportunity to automate site generation every 10 minutes and have a static website that is relatively current to the information it is conveying.
-
- If real-time data is of absolute importance, then something like a microservice utilizing client side JavaScript to retrieve the most current information may be used in conjunction with a static website. Possible with some technical creativity.
-
-PERSONALIZATION
-
-If the page you display is completely customized to your user it would not be possible to pre-generate the pages as you would need authentication and then customization information that is only available at the time of the request. Again, this may be mitigated by using client-side JavaScript to provide some of the personalizing.
-
-EASE-OF-USE
-
-It makes sense to use a WordPress blog or other service if you simply do not have the expertise to use the generating tools. In these cases the value is not provided by the dynamic generation of the website, but the interfaces give by the CMS tools to customize the site, requiring that the site be able to feed from a dynamic infrastructure stack.
-
- MAKING THE DECISION TO GO STATIC
-
-EXAMPLE: THE WORDPRESS SITE
-
-WordPress has become a often requested platform for websites. It is requested due to positive word-of-mouth and adoption rates, but rarely is it analyzed beforehand as the proper approach for a site's needs.
-
- The site requirements were a completely custom design, lots of static text, some data (not altering for the forseeable future), more of a classic corporate home-page, in [single-page website](https://en.wikipedia.org/wiki/Single-page_application) format.
-
- While it is possible to build this site on WordPress, it did not make a lot of sense. We instead suggested a static site, and built it with a tool chain readily available in the [WEBRIQ APP](http://app.webriq.com/auth/register/). The site uses client-side JavaScript UI to retrieve and display own and third-party data, adding a more dynamic feel. The end result was a site that fulfilled the requirements, is editable by anyone who knows Text editing, is lightning fast to deliver and is hosted on a Content Delivery Network, with a 100% uptime.
-
- EXAMPLE: THE CONTENT AGGREGATOR
-
-This looked, initially, like a standard dynamically generated website. The site was a content aggregator, displaying news from a few third party websites, with some extra value-add information.
-
- After analyzing the requirements, we saw opportunities in the nature of the aggregated data
-
-* We only needed to display the top 50 or so items from each site.
-* The sites did not exhibit much data churn within the span of an hour.
- What we saw here was that the overall site itself was static, the data was the only changing portion and that only needed to change on an hourly basis. After some quick prototyping, we found a good static approach. The website itself is statically generated, and the data is generated hourly into a [JSON](https://en.wikipedia.org/wiki/JSON) file which generates a webhook to automatically create a new build for the site. JavaScript is used on the client to display the content in the JSON file and add customization via meta data added as part of the aggregation process. 
-
-###  **TOOLS**
-
-Some of the tools we use in creating static sites:
-
-ROOTS 
-
-Roots is a static site compiler, that generates static html, css, and javascript files. It's very good at helping to build static front-ends. It is sponsored heavily by [**Carrot Creative**](http://carrot.is/), and makes frequent, highly variable builds quicker and easier for freelancers and agencies. It's a truly excellent framework for quickly and easily building small to medium sized front-ends of any kind.
-
-Roots can handle a huge number of compiled languages, and can be used with many tools that help push static sites as far as possible. For example, it can link with an API, pull in your data, and render parts of it into your views on compile. Then it can render the same or other views as javascript templates and you can push any other data from your API into them on the fly at runtime on the client side in reaction to user actions. 
-
-
-GITHUB
-
-Used to host all your HTML, CSS, Javascript and other assets for continuous deployment of your site. Each time your site has been updated with a new page, new content or new style a webhook will automatically start a new deployment process. The update process typically takes around 10 to 20 seconds, and you will be notified when the new build is ready. The repository approach has two other major benefits - you can revert to previous builds if needed and you can invite a series of collaborators to the repository for updating style sheets, pages and/or content. 
-
-STATIC CMS SYSTEM
-
-A JavaScript based CMS for static site generators. It gives non-technical users a simple way to edit and add content to any site built with a static site generator, in this case Roots. 
-The CMS is a single-page app that you pull into the /admin part of your site.
-
-It presents a clean UI for editing content stored in a Git repository. As an example [WebriQ Blog Admin](http://blog.webriq.com/admin) 
-
-You setup a config to describe the content model of your site, and typically tweak the main layout of the CMS a bit to fit your own site.
-
-When a user navigates to /admin she'll be prompted to login with a Github credential, and once authenticated she'll be able to create new content or edit existing content.
-
-Register a [FREE ACCOUNT](http://app.webriq.com/auth/regsiter/) to see all the above tools and much more in action.
-
-
-]]></description><link>https://www.webriq.com/posts/why-using-a-static-website</link><guid isPermaLink="true">https://www.webriq.com/posts/why-using-a-static-website</guid><category><![CDATA[posts]]></category><pubDate>Mon, 11 Apr 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/why-using-a-static-website.jpg" length="0" type="image/jpeg"/></item><item><title><![CDATA[The business case for Static Websites]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/the-business-case-for-static-websites.jpg' class='img-responsive'>
-
-**The current web is a mess. Every week we go to Hackernews and follow a broken link. Not long ago 12 million Drupal sites were infected with malware. 79% of all Wordpress sites are vulnerable to known exploits.**
-
-The emergence of mobile means a lot of slow loading sites with towering bouncerates and loss of business to follow.
-
-We should do better. We must actually. Because we can.
-
-Static websites have always been faster, safer, simpler and cheaper.
-
-It’s just that browsers and hosting services weren’t good enough, so there were too many compromises. Making the slow, vulnerable and expensive traditional “dynamic” sites the best alternative.
-
-But no more. The browser is all grown-up, and CDNs have really seen the light of day.
-
-We want static sites to be as easy to make and to update as possible, while still gaining all the speed that static sites promise to deliver.
-
-Static websites are faster, safer, simpler and cheaper. Here we explain how. Static sites are simple, but today they can do almost anything a traditional (dynamic)site can. 
-
-A traditional (Wordpress or Drupal) site needs to be hosted on a server, and it needs to render every single time a user visits. The difference with a “static” site is that you build it BEFORE you deploy it. So what’s live are only already rendered files. So there are no so-called movable parts live and you get tohost the site on a CDN. (Content Delivery Network). Anything that still needs rendering will be done so by the browser. Pretty cool if you think about it.
-
-This all means a number of things. All of them good if you are going static.
-
-**1. Speed &amp; Performance**. That your site will be served from a CDN instead of a single server means much lower latency and much higher uptime
-
-**2. Security**. As there is no movable parts, no  scripts being executed, there is no wayto inject malware. Malware and the inherent structure of traditional web tech is becoming a major issue.
-
-**3. Simplicity**. Again there are no moving parts. You don’t need to optimize your how fast your code will be rendered, as it’s already rendered when you deploy it. So no need to worry about server updates breaking your site, etc. When it’s live it’s live,and you can go on to doing other things.
-
-**4. Cost**. It’s way way way cheaper to scale. And it all happens automatically. So no having to cover yourself by buying into a larger hosting service than you need, or having your servers cave to traffic spikes. 
-
- **Mostsites would benefit from being “Static”.**
-
-There are two exceptions - sites that absolutely need a database as a back-end and those that need constant updating.
-
-Building a static site takes a while - typically perhaps 10 to 20 seconds - and that’s too long a wait if you are updating lets say every minute.
-
-Have a look at how we have automated the building, management and updating of a typical Portfolio website at [WEBRIQ APP](http://app.webriq.com/auth/register)
-
-
-
-
-
-]]></description><link>https://www.webriq.com/posts/the-business-case-for-static-websites</link><guid isPermaLink="true">https://www.webriq.com/posts/the-business-case-for-static-websites</guid><category><![CDATA[posts]]></category><pubDate>Sun, 10 Apr 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/the-business-case-for-static-websites.jpg" length="0" type="image/jpeg"/></item><item><title><![CDATA[Biggest E-commerce trends to stay afloat in 2016]]></title><description><![CDATA[<img src='https://www.webriq.com/img/uploads/ecommerce-trends-infographic.png' class='img-responsive'>
-
-However,the continuous increase in e-commerce consumption by people has also led torise in the competition for retailers. The best way to stay abreast ofcompetition is to optimize your e-store according to the latest trends. Now,when it comes to e-commerce, several on-going trends are expected to stayafloat in 2016. 
-
-**Beloware some of the biggest trends that will dominate in the e-commerce industry in2016:**
-
-**1.Wider Adoption of Responsive Design**
-
-Nearly 66 percent of user's time spent on e-shops is done using mobile devices. And, 61 percent of consumers abandon an e-commerce site if it isn’t mobile-friendly. Thus, it's imperative that your online shop must be optimized for Smartphones and tablets. Put it simply, having a site adjusted to multiple devices withdifferent screen sizes has become a hard-to-ignore priority than ever before.This clearly suggests that the adoption of responsive design is only going togrow rapidly. 
-
-Despite offering a streamlined viewing experience, responsive design has beenimplemented in only nine percent e-commerce sites. However, realizing thesignificance of responsive design, more and more e-commerce website owners areturning to RWD approach. 
-
-**2.Flat Design: “When Less is More”**
-
-Most e-commerce stores are usually cluttered with stylistic elements like gradients,textures, and drop shadows, to name a few. But using such elements decreases usability. And so, many e-commerce sites owners have started following the “Less is more” motto to make their site user-friendly. Basically, retailers are making use of flat design templates to bring clarity and simplicity to their design. Rather than using stylistic elements, a flat design includes subtle elements, including bold colors, iconography, grid and much more. 
-
-One great example of flat styling is Canopy. You can use this site to get inspiration for applying flat design to an e-shop – that features a clean and minimalistic design with plenty of white space that quickly brings the user focus on the products.
-
-**3. Useof Split Screens Will Increase**
-
-In case you want to give prominence to a few products (ideally two products)simultaneously, on your e-commerce site then you can make use of split screens to fulfill such a need. Besides, helping you promote two of the most important items in your store, split screens also provide another benefit. You can showcase your primary product on the side of the layout, and on the opposite side, you can display additional information about that product. 
-
-For example, [bellroy.com](http://bellroy.com/) (a site that sells wallets and several other accessories) is designed with splitscreens. Below is an image of the site containing a passport sleeve on one sideof the product page, while the right side is used for displaying a travel wallet. 
-
-**4. More Finger-Friendly Interfaces**
-
-As people prefer mobile devices for making purchases online, it's important that your site can enable visitors to interact with a web page in a seamless manner. One best way to achieve such an objective is to make your e-commerce site interfacemore finger-friendly. Well, since consumers have become accustomed to usingfingertips for interacting with a page, apparently they'll possibly would wantto use multi-touch gestures for navigating through your e-commerce site. 
-
-E-commerce website interfaces designed keeping in mind finger friendliness will most likely have two impacts. Firstly, the use of content sliders will reduce. Though such sliders have proved quite useful in showing plenty of informationin small screen displays, but users find it hard to click on the small-sizenext buttons of the content sliders. Secondly, use of larger CTAs will increaseas they help provide an enhanced shopping experience to users.  
-
-**5. Add a Personalized Touch With Custom-Drawn Illustrations**
-
-In today's highly competitive e-commerce industry, site owners resort to several techniques and tactics that could help in making their e-shop look unique and apersonal touch to it. And, one emerging trend that can assist you in accomplishing such a goal is to make use of hand drawn (custom) illustrations.Thus, you should consider adding hand-drawn stickers to your e-commerce siteinstead of the stickers available online. Also, you must think about adding alarge illustrated background. 
-
-For example, [Merrell](http://www.merrell.com/US/en) uses a fully illustrated background that not just add a realistic touch to the layout, but also help deliver the site's message in an interactive yet easy-to-understand manner. Despite using plenty of illustrations, this e-commerce site doesn't compromise on usability.
-
-
- 
-
- 
-
- ]]></description><link>https://www.webriq.com/posts/biggest-e-commerce-trends-to-stay-afloat-in-2016</link><guid isPermaLink="true">https://www.webriq.com/posts/biggest-e-commerce-trends-to-stay-afloat-in-2016</guid><category><![CDATA[posts]]></category><pubDate>Fri, 08 Apr 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/ecommerce-trends-infographic.png" length="0" type="image/png"/></item></channel></rss>
+        ]]></description><link>https://www.webriq.com/posts/building-static-websites</link><guid isPermaLink="true">https://www.webriq.com/posts/building-static-websites</guid><category><![CDATA[posts]]></category><pubDate>Sat, 23 Apr 2016 16:00:00 GMT</pubDate><enclosure url="https://www.webriq.com/img/uploads/building-static-websites.jpg" length="0" type="image/jpeg"/></item></channel></rss>
