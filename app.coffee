@@ -25,6 +25,7 @@ module.exports =
     records(
       characters: { file: "data/characters.json" }
       site: { file: "data/site.json" }
+      files: { file: "data/files.json" }
     ),
     collections(folder: 'posts', layout: 'post'),
     js_pipeline(files: 'assets/js/*.coffee'),
