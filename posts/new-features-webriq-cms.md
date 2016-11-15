@@ -3,7 +3,7 @@ title: "New features WebriQ CMS "
 author: Philippe Bodart
 banner: /img/uploads/untitled22.png
 shortdesc: "With a new markdown editor that anyone can use, our CMS system is now ready for non-technical people looking to manage and update their Static website through Github repositories"
-updatedDate: 2016-11-15T08:36:16.907Z
+updatedDate: 2016-11-15T08:37:38.728Z
 cmsUserSlug: ""
 date: 2016-11-14T16:00:00.000Z
 categories: null
@@ -18,19 +18,19 @@ The SimpleMDE implementation on our CMS system has been designed to bridge this 
 ![](http://phpwebfactories.myresponsive.website//uploads/site_phpwebfactories/pages/Untitled.png)
 # Features of the new markdown editor
 
-Autosaving – after two minutes of being idle on your browser, your work will be auto saved as a draft article or post
-Spellchecker – spelling mistakes are highlighted
-Mobile friendly – a bit difficult to write on a smartphone, but writing and updating your posts through a tablet is surely do-able
-Multiple preview modes – markdown only, preview only and split markdown/preview 
-markdown guide 
+* Autosaving – after two minutes of being idle on your browser, your work will be auto saved as a draft article or post
+* Spellchecker – spelling mistakes are highlighted
+* Mobile friendly – a bit difficult to write on a smartphone, but writing and updating your posts through a tablet is surely do-able
+* Multiple preview modes – markdown only, preview only and split markdown/preview 
+* markdown guide 
 
 # Other CMS enhancements
 
-Draft articles or posts – all drafts wether it is a new post or a change in an existing post can be saved at all time. The drafts are in a separate Github branch for later publishing. 
-Discard draft – feature to go back to your original published post, discarding all changes made to the post
-Unpublished – you can un publish existing post. Unpublished posts will be kept in a separate branch for later publishing if required
-Published – new or existing posts can be published immediately and are put in to the Master branch of your Github account. 
-Further automation is expected to be on the platform in the latter part of this year, with notably calendar functionality, social media auto posting and integration with cloud based storage systems such as Dropbox and Google Drive. 
+* Draft articles or posts – all drafts wether it is a new post or a change in an existing post can be saved at all time. The drafts are in a separate Github branch for later publishing. 
+* Discard draft – feature to go back to your original published post, discarding all changes made to the post
+* Unpublished – you can un publish existing post. Unpublished posts will be kept in a separate branch for later publishing if required
+* Published – new or existing posts can be published immediately and are put in to the Master branch of your Github account. 
+* Further automation is expected to be on the platform in the latter part of this year, with notably calendar functionality, social media auto posting and integration with cloud based storage systems such as Dropbox and Google Drive. 
 
 # Integration of Google Analytics
 
