@@ -3,15 +3,15 @@ title: "New features WebriQ CMS "
 author: Philippe Bodart
 banner: /img/uploads/untitled22.png
 shortdesc: "With a new markdown editor that anyone can use, our CMS system is now ready for non-technical people looking to manage and update their Static website through Github repositories"
-updatedDate: 2016-11-15T08:38:46.937Z
+updatedDate: 2016-11-15T08:39:41.465Z
 cmsUserSlug: ""
 date: 2016-11-14T16:00:00.000Z
 categories: null
 ---
 
-http://app.webriq.com/help/page/settings/site-analytics# A new Markdown Editor 
+# A new Markdown Editor 
 
-A simple, beautiful, and JavaScript Markdown editor, that can be used /uploads/site_phpwebfactories/pages/Untitled.pngby anyone. 
+A simple, beautiful, and JavaScript Markdown editor, that can be used by anyone. 
 The WYSIWYG-esque editor allows users who may be less experienced with Markdown to use familiar toolbar buttons and shortcuts. In addition, the syntax is rendered while editing to clearly show the expected result. Headings are larger, emphasized words are italicized, links are underlined, etc. 
 WYSIWYG editors that produce HTML are often complex and buggy. Markdown solves this problem in many ways, plus Markdown can be rendered natively on more platforms than HTML. However, Markdown is not a syntax that an average user will be familiar with, nor is it visually clear while editing. In other words, for an unfamiliar user, the syntax they write will make little sense until they click the preview button. 
 The SimpleMDE implementation on our CMS system has been designed to bridge this gap for non-technical users who are less familiar with or just learning Markdown syntax.
