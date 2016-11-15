@@ -3,7 +3,7 @@ title: "New features WebriQ CMS "
 author: Philippe Bodart
 banner: /img/uploads/untitled22.png
 shortdesc: "With a new markdown editor that anyone can use, our CMS system is now ready for non-technical people looking to manage and update their Static website through Github repositories"
-updatedDate: 2016-11-15T08:18:30.850Z
+updatedDate: 2016-11-15T08:21:09.936Z
 cmsUserSlug: ""
 date: 2016-11-15T00:00:00+08:00
 categories: null
