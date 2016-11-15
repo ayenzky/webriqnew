@@ -3,7 +3,7 @@ title: Who needs a Wordpress Site
 author: Philippe Bodart
 banner: /img/uploads/flat-1-custom.jpg
 shortdesc: "A couple of years ago the answer was most likely everybody, now the answer is almost nobody. Why is that?"
-updatedDate: 2016-11-14T10:07:13.087Z
+updatedDate: 1969-12-31T16:00:00.000Z
 cmsUserSlug: ""
 date: 2016-03-29T16:00:00.000Z
 categories: "Static Websites, Static CMS System, Flat File CMS System"
