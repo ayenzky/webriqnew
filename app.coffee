@@ -33,7 +33,7 @@ module.exports =
 
     roots_rss_generator(
       folder: "posts"
-      output: "feed.xml"
+      output: "public/feed.xml"
       maxcount: 15
       settings:
         title: "WebriQ | CMS for Static Pages and Shops"
