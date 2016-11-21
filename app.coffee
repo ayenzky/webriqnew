@@ -33,7 +33,7 @@ module.exports =
       url: "https://www.webriq.com",
       folder: "public",
       directory: ["!admin", "!layouts"],
-      file: "public/*.html"
+      file: "**/*.html"
     )
 
     
