@@ -26,9 +26,6 @@ module.exports =
       site: { file: "data/site.json" }
       files: { file: "data/files.json" }
     ),
-    
-
-    
     collections(folder: 'posts', layout: 'post'),
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
@@ -36,7 +33,7 @@ module.exports =
       url: "https://www.webriq.com",
       folder: "public",
       directory: ["!admin", "!layouts"],
-      file: "views/*.html"
+      file: "public/*.html"
     )
 
     
