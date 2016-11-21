@@ -5,8 +5,8 @@ backend:
 production:
   backend:
     name: github-api
-    repo: webriq/webriqpage-webriq # Path to your Github repository
-    branch: master # Branch to update (master by default)
+    repo: ayenzky/webriqnew # Path to your Github repository
+    branch: develop # Branch to update (master by default)
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 public_folder: "assets"
