@@ -36,13 +36,13 @@ $(document).ready(function () {
 });
 
 
-function setRandomInterval(){
-    var counter;
-    var total;
-    counter = Math.floor((Math.random()*(20-15+1)+ 15) );
-    total = counter + "000";
-    return total;
-}
+// function setRandomInterval(){
+//     var counter;
+//     var total;
+//     counter = Math.floor((Math.random()*(20-15+1)+ 15) );
+//     total = counter + "000";
+//     return total;
+// }
 
 
 // Popup
