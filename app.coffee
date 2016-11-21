@@ -33,10 +33,8 @@ module.exports =
       url: "https://www.webriq.com",
       folder: "public",
       directory: ["!admin", "!layouts"],
-      file: "*.html"
+      file: "**/*.html"
     )
-
-
   ]
 
   stylus:
@@ -48,6 +46,3 @@ module.exports =
 
   jade:
     pretty: true
-
-  server:
-   clean_urls: true
