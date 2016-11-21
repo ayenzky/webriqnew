@@ -31,6 +31,13 @@ module.exports =
     js_pipeline(files: 'assets/js/*.coffee'),
     css_pipeline(files: 'assets/css/*.styl'),
 
+    roots_webriq_sitemap (
+      url: "https://www.webriq.com",
+      folder: "public",
+      directory: ["!admin", "!layouts"],
+      file: "**/*.html"
+    ),
+
     roots_rss_generator(
       folder: "posts"
       output: "feed.xml"
@@ -40,14 +47,9 @@ module.exports =
         feed_url: "https://www.webriq.com/feed.xml"
         description: "CMS Static Websites, CMS Static Web Pages, Content Management System Static Websites, Content Management System Static Web Pages, Free CMS Static Pages, Cloud CMS Static Pages"
         site_url: "https://www.webriq.com"
-      ),
+      )
 
-    roots_webriq_sitemap (
-      url: "https://www.webriq.com",
-      folder: "public",
-      directory: ["!admin", "!layouts"],
-      file: "**/*.html"
-    )
+    
 
 
   ]
