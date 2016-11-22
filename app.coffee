@@ -28,14 +28,15 @@ module.exports =
       files: { file: "data/files.json" }
     ),
     collections(folder: 'posts', layout: 'post'),
-    js_pipeline(files: 'assets/js/*.coffee'),
-    css_pipeline(files: 'assets/css/*.styl'),
     roots_webriq_sitemap(
       url: "https://www.webriq.com",
       folder: "public",
       directory: ["!admin", "!layouts"],
       file: "**/*.html"
-    )
+    ),
+    js_pipeline(files: 'assets/js/*.coffee'),
+    css_pipeline(files: 'assets/css/*.styl')
+    
   ]
 
   stylus:
