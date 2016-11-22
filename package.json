@@ -18,7 +18,7 @@
     "roots-records": "^0.5.1",
     "rupture": "0.6.x",
     "stylus": "^0.54.5",
-    "webriq-roots-sitemap-v2": "^1.0.38"
+    "webriq-roots-sitemap-v2": "^1.0.39"
   },
   "engines": {
      "node": "4.5.0"
